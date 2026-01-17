@@ -1,0 +1,1146 @@
+[
+  {
+    "id": 1,
+    "question": "1. Sieci VPN można zbudować wykorzystując: [1/1]",
+    "answers": [
+      {
+        "text": "IDS",
+        "isCorrect": false
+      },
+      {
+        "text": "Wireguard",
+        "isCorrect": true
+      },
+      {
+        "text": "TLS",
+        "isCorrect": true
+      },
+      {
+        "text": "SIEM",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "2. Użytkownik Windows, będący administratorem, po zalogowaniu się do systemu: [1/1]",
+    "answers": [
+      {
+        "text": "otrzyma pełny token uprawnień i zawsze będzie korzystał z pełnego tokenu",
+        "isCorrect": false
+      },
+      {
+        "text": "otrzyma token pełny i ograniczony, zawsze będzie korzystał z pełnego tokenu",
+        "isCorrect": false
+      },
+      {
+        "text": "otrzyma token pełny i ograniczony, będzie mógł korzystać z jednego lub drugiego",
+        "isCorrect": true
+      },
+      {
+        "text": "otrzyma tylko token ograniczony, ale będzie mógł wykorzystać pełny token przy użyciu mechanizmu impersonation <- Tak zgodnie z labami, ktoś mógłby potwierdzić?",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "3. Metoda Diffiego-Hellmana:",
+    "answers": [
+      {
+        "text": "pozwala bezpiecznie składować klucze prywatne użytkowników",
+        "isCorrect": false
+      },
+      {
+        "text": "jest odporna na ataki pasywne",
+        "isCorrect": true
+      },
+      {
+        "text": "jest odporna na ataki aktywne",
+        "isCorrect": false
+      },
+      {
+        "text": "pozwala bezpiecznie dystrybuować klucze publiczne użytkowników",
+        "isCorrect": false
+      },
+      {
+        "text": "wykorzystuje ideę asymetrycznej pary kluczy (prywatny-publiczny)",
+        "isCorrect": true
+      },
+      {
+        "text": "generuje programowo hasła SSO",
+        "isCorrect": false
+      },
+      {
+        "text": "pozwala wygenerować symetryczny klucz sesji",
+        "isCorrect": true
+      },
+      {
+        "text": "realizuje uwierzytelnianie metodą haseł jednorazowych",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "4. Usługa DNSsec: [1/1]",
+    "answers": [
+      {
+        "text": "wykorzystuje IPsec do tunelowania zapytań i odpowiedzi DNS",
+        "isCorrect": false
+      },
+      {
+        "text": "wykorzystuje SSL do tunelowania zapytań i odpowiedzi DNS",
+        "isCorrect": false
+      },
+      {
+        "text": "wymaga podpisanych cyfrowo zapytań DNS",
+        "isCorrect": false
+      },
+      {
+        "text": "stosuje podpisy cyfrowe odpowiedzi DNS",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "5. Które metody uwierzytelniania stosuje protokół HTTP/1.1 [1/1]",
+    "answers": [
+      {
+        "text": "tylko użycie jednokierunkowej funkcji skrótu",
+        "isCorrect": false
+      },
+      {
+        "text": "tylko username-password",
+        "isCorrect": false
+      },
+      {
+        "text": "zarówno username-password jak i użycie funkcji skrótu, ale nie certyfikaty X.509",
+        "isCorrect": true
+      },
+      {
+        "text": "zarówno username-password, funkcją skrótu, jak i certyfikaty X.509",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "6. Które komponenty systemu operacyjnego Windows mogą korzystać ze sprzętowej wirtualizacji celem podniesienia bezpieczeństwa systemu: [1/1]",
+    "answers": [
+      {
+        "text": "Alpine docker containers",
+        "isCorrect": false
+      },
+      {
+        "text": "Defender Application Guard",
+        "isCorrect": true
+      },
+      {
+        "text": "AppContainer",
+        "isCorrect": true
+      },
+      {
+        "text": "Ring - 1 compartmentalization",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "7. Wskaż mechanizmy chroniące m.in. przed atakami przepełnienia bufora: [1/1]",
+    "answers": [
+      {
+        "text": "wykorzystanie Structured Exception Handling i Vectored Exception Handling",
+        "isCorrect": false
+      },
+      {
+        "text": "zapewnienie by segment pamięci z prawem zapisu nie posiadał jednocześnie prawa wykonywania",
+        "isCorrect": true
+      },
+      {
+        "text": "randomizacja alokacji wirtualnej przestrzeni adresowej procesu",
+        "isCorrect": true
+      },
+      {
+        "text": "alokowanie na stosie dodatkowego elementu ramki funkcji wykrywającego modyfikację adresu powrotu",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "8. Mechanizm two-factor authentication (2FA): [1/1]",
+    "answers": [
+      {
+        "text": "wymaga użycia 2 oddzielnych operacji (oraz danych) uwierzytelniających",
+        "isCorrect": true
+      },
+      {
+        "text": "dotyczy złożoności hasła i wymaga by nowe hasło różniło się od dotychczasowego na 2 pozycjach",
+        "isCorrect": false
+      },
+      {
+        "text": "to uwierzytelnianie z zaufaną stroną trzecią",
+        "isCorrect": false
+      },
+      {
+        "text": "to uwierzytelnianie metodą zawołanie-odzew",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "9. System Kerberos oferuje (wybierz wszystkie poprawne możliwości): [1/1]",
+    "answers": [
+      {
+        "text": "kryptograficzne uwierzytelnianie użytkowników w ramach domeny",
+        "isCorrect": true
+      },
+      {
+        "text": "delegowanie uprawnień jednego podmiotu innym podmiotom",
+        "isCorrect": true
+      },
+      {
+        "text": "zastosowanie kryptograficznego weryfikatora w celu ochrony przed atakiem Golden Ticket",
+        "isCorrect": false
+      },
+      {
+        "text": "uwierzytelnianie użytkowników pomiędzy domenami",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "10. Komputer-Twierdza: [1/1]",
+    "answers": [
+      {
+        "text": "dopuszcza komunikację przechodzącą tylko przez usługi proxy",
+        "isCorrect": true
+      },
+      {
+        "text": "to rodzaj zapory sieciowej z filtracją pakietów i modułem IDS",
+        "isCorrect": false
+      },
+      {
+        "text": "jest implementacją zapory typu Application Layer Gateway",
+        "isCorrect": true
+      },
+      {
+        "text": "pełni rolę zaufanej strony trzeciej w domenie Kerberos",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "11. Które komponenty sprzętowe służą (między innymi) do bezpiecznego przechowywania materiału kryptograficznego: [1/1]",
+    "answers": [
+      {
+        "text": "IEEE 1609.2",
+        "isCorrect": false
+      },
+      {
+        "text": "X.509",
+        "isCorrect": false
+      },
+      {
+        "text": "EFS",
+        "isCorrect": false
+      },
+      {
+        "text": "Trusted Platform Module",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "12. Model CAP kontroli dostępu: [1/1]",
+    "answers": [
+      {
+        "text": "jest stosowany w systemach MIC (Mandatory Integrity Control)",
+        "isCorrect": false
+      },
+      {
+        "text": "jest stosowany w systemach RBAC (Role-Based Access Control)",
+        "isCorrect": true
+      },
+      {
+        "text": "uprawnienia dostępu wiąże z podmiotami",
+        "isCorrect": true
+      },
+      {
+        "text": "uprawnienia dostępu wiąże z zasobami",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "13. Model kontroli dostępu MAC zabrania podmiotowi o etykiecie P: [1/1]",
+    "answers": [
+      {
+        "text": "odczytu obiektu o niższej etykiecie niż P",
+        "isCorrect": false
+      },
+      {
+        "text": "zapisu obiektu o wyższej etykiecie niż P",
+        "isCorrect": false
+      },
+      {
+        "text": "odczytu obiektu o wyższej etykiecie niż P",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "14. Wskaż protokoły i standardy dokonujące uwierzytelniania dostępu do sieci, działające między klientem sieci (komputerem) a punktem (serwerem) dostępowym: [1/1]",
+    "answers": [
+      {
+        "text": "IEEE 802.1X",
+        "isCorrect": true
+      },
+      {
+        "text": "TACACS",
+        "isCorrect": false
+      },
+      {
+        "text": "RADIUS5",
+        "isCorrect": false
+      },
+      {
+        "text": "EAP",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "15. Protokół Kerberos: [1/1]",
+    "answers": [
+      {
+        "text": "pozwala osiągnąć obustronne uwierzytelnienie klienta usługi sieciowej i serwera tej usługi",
+        "isCorrect": true
+      },
+      {
+        "text": "realizuje uwierzytelnianie w modelu z zaufaną stroną trzecią",
+        "isCorrect": true
+      },
+      {
+        "text": "realizuje uwierzytelnianie kryptograficzne z wykorzystaniem kluczy symetrycznych",
+        "isCorrect": true
+      },
+      {
+        "text": "realizuje uwierzytelnianie SSO w środowisku domenowym",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "16. Wskaż możliwe prawidłowe reakcje na wykrycie faktu przepełnienia bufora (w segmencie stosu) umożliwiające zachowanie bezpieczeństwa systemu: [1/1]",
+    "answers": [
+      {
+        "text": "ponowne zainicjowanie bufora domyślną wartością",
+        "isCorrect": false
+      },
+      {
+        "text": "usunięcie danych wykraczających poza bufor, zanim zostaną odczytane",
+        "isCorrect": false
+      },
+      {
+        "text": "natychmiastowe przerwanie działania procesu",
+        "isCorrect": true
+      },
+      {
+        "text": "zapisanie zaraz za nadmiernymi danymi “kanarka” ostrzegającego o wystąpieniu przepełniania przy próbie odczytu bufora",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "17. Systemy nadzoru NAC (Network Access Control): [0.5/1]",
+    "answers": [
+      {
+        "text": "dokonują uwierzytelniania stanowisk sieciowych przed dopuszczeniem ich do sieci lokalnej",
+        "isCorrect": true
+      },
+      {
+        "text": "wykrywają pakiety na podstawie analizy behawioralnej i uczenia maszynowego",
+        "isCorrect": false
+      },
+      {
+        "text": "dopuszczają stanowiska do sieci lokalnej po weryfikacji zgodności ich konfiguracji z polityką bezpieczeństwa",
+        "isCorrect": true
+      },
+      {
+        "text": "wykrywają podejrzane pakiety na podstawie sygnatur ataków sieciowych",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "18. Protokół SSL/TLS: [1/1]",
+    "answers": [
+      {
+        "text": "pozwala uwierzytelniać kryptograficznie zarówno klienta, jak i serwer",
+        "isCorrect": true
+      },
+      {
+        "text": "nigdy nie uwierzytelnia klienta, to zadanie wyłącznie protokołu aplikacyjnego, np. HTTP",
+        "isCorrect": false
+      },
+      {
+        "text": "nigdy nie dokonuje uwierzytelniania, zostawiając to zadanie innym protokołom, np. ISAKMP",
+        "isCorrect": false
+      },
+      {
+        "text": "kryptograficznie uwierzytelnia tylko serwer, klienta tylko hasłem",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "19. Wskaż prawdziwe stwierdzenia dotyczące bramy aplikacyjnej Application Layer Gateway: [1/1]",
+    "answers": [
+      {
+        "text": "pośredniczy w komunikacji wyłącznie na poziomie warstwy aplikacyjnej",
+        "isCorrect": true
+      },
+      {
+        "text": "optymalizuje ruch stosując filtrację kontekstową na podstawie tablicy aktywnych połączeń",
+        "isCorrect": false
+      },
+      {
+        "text": "wymaga działającego poprawnie routingu między interfejsami sieciowymi",
+        "isCorrect": false
+      },
+      {
+        "text": "filtruje pakiety na poziomie wszystkich 3 warstw: sieciowej, transportowej i aplikacyjnej",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "20. Które z poniższych algorytmów kryptograficznych mogą w praktyce zostać wykorzystane do zaszyfrowania treści listu e-mail: [1/1]",
+    "answers": [
+      {
+        "text": "AES",
+        "isCorrect": true
+      },
+      {
+        "text": "RSA",
+        "isCorrect": false
+      },
+      {
+        "text": "Twofish",
+        "isCorrect": true
+      },
+      {
+        "text": "Blowfish",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": "21. Technologie umożliwiające ochronę integralności transmitowanych danych to m.in:",
+    "answers": [
+      {
+        "text": "protokół TLS",
+        "isCorrect": true
+      },
+      {
+        "text": "protokół AH",
+        "isCorrect": true
+      },
+      {
+        "text": "protokół ESP",
+        "isCorrect": true
+      },
+      {
+        "text": "SYN cookies",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": "22. Szyfrowanie asymetryczne zapewnia:",
+    "answers": [
+      {
+        "text": "autentyczność pod warunkiem zachowania tajności klucza prywatnego odbiorcy",
+        "isCorrect": false
+      },
+      {
+        "text": "poufność pod warunkiem zachowania tajności klucza prywatnego nadawcy",
+        "isCorrect": false
+      },
+      {
+        "text": "poufność pod warunkiem zachowania tajności klucza prywatnego odbiorcy",
+        "isCorrect": true
+      },
+      {
+        "text": "autentyczność pod warunkiem zachowania tajności klucza prywatnego nadawcy",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": "23. Algorytm Lamporta, leżący u podstaw koncepcji programowej generacji haseł jednorazowych:",
+    "answers": [
+      {
+        "text": "wymaga użycia funkcji jednokierunkowej",
+        "isCorrect": true
+      },
+      {
+        "text": "wymaga rozwiązania problemu rozproszonego konsensusu",
+        "isCorrect": false
+      },
+      {
+        "text": "wymaga wykorzystania kryptografii asymetrycznej",
+        "isCorrect": false
+      },
+      {
+        "text": "wymaga rozwiązania problemu rozproszonego wzajemnego wykluczania",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": "24. Wskaż mechanizmy systemu operacyjnego będące realizacją (choćby częściową) koncepcji piaskownicy:",
+    "answers": [
+      {
+        "text": "Windows AppContainer",
+        "isCorrect": true
+      },
+      {
+        "text": "SSL/TLS",
+        "isCorrect": false
+      },
+      {
+        "text": "click-jacking",
+        "isCorrect": false
+      },
+      {
+        "text": "wirtualizacja systemu operacyjnego",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": "25. Pewna zapora sieciowa filtrująca pakiety realizuje jednocześnie funkcje NAT. Które opisy pasują do takiej zapory:",
+    "answers": [
+      {
+        "text": "filtracja DNAT może być dokonywana dla pakietów przechodzących przez zaporę niezależnie od kierunk u",
+        "isCorrect": false
+      },
+      {
+        "text": "translacja DNAT musi być dokonana przed routingiem pakietu aby pozycje tablicy routingu mogły być prawidłowo dopasowane",
+        "isCorrect": true
+      },
+      {
+        "text": "translacja DNAT musi być dokonana przed filtracją pakietu na interfejsie wejściowym, aby reguły łańcucha wejściowego mogły być prawidłowo dopasowane",
+        "isCorrect": false
+      },
+      {
+        "text": "translacja SNAT musi być dokonana przed filtracją kontekstową na interfejsie wyjściowym, aby pakiet znalazł prawidłowe dopasowanie do tablicy aktywnych połączeń",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": "26. Jakie cechy wirtualizacji są istotne dla bezpieczeństwa systemu?",
+    "answers": [
+      {
+        "text": "procesor utrudnia ucieczkę ze środowiska zwirtualizowanego poprzez ochronę komend hypervisorahipervisora na poziomie Ring -1",
+        "isCorrect": true
+      },
+      {
+        "text": "wirtualizacja systemu operacyjnego daje efekt piaskownicy dla uruchomionych w tym systemie aplikacji",
+        "isCorrect": true
+      },
+      {
+        "text": "hypervisor pośredniczy w wywołaniach funkcji jąda systemu operacyjnego, więc może wychwytywać potencjalnie niebezpieczne zachowania",
+        "isCorrect": true
+      },
+      {
+        "text": "w systemie wirtualnym bezpośredni dostęp do pamięci fizycznej (w tym pamięci urządzeń I/O) nie jest możliwy nawet dla rozkazów Ring 0, co ułatwia izolację maszyn wirtualnych nawet w przypadku przejęcia uprawnień administracyjnych wewnątrz dowolnej z nich",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": "27. Które z poniższych cech dotyczą szyfrowania asymetrycznego: [1/1]",
+    "answers": [
+      {
+        "text": "odporność na kolizje",
+        "isCorrect": false
+      },
+      {
+        "text": "gwarancja autentyczności i niezaprzeczalności komunikacji",
+        "isCorrect": true
+      },
+      {
+        "text": "większa niż dla algorytmów symetrycznych efektywność",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": "28. Które z poniższych cech dotyczą szyfrowania symetrycznego: [1/1]",
+    "answers": [
+      {
+        "text": "odporność na kolizje",
+        "isCorrect": false
+      },
+      {
+        "text": "gwarancja autentyczności i niezaprzeczalności komunikacji",
+        "isCorrect": false
+      },
+      {
+        "text": "większa niż dla algorytmów asymetrycznych efektywność",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": "29. Które z poniższych mechanizmów pozwalają w systemie operacyjnym na chwilowe uzyskanie innych uprawnień dostępu niż posiadane aktualnie przez użytkownika: [0.7/1]",
+    "answers": [
+      {
+        "text": "Windows UAC",
+        "isCorrect": true
+      },
+      {
+        "text": "POSIX ACL",
+        "isCorrect": false
+      },
+      {
+        "text": "sudo",
+        "isCorrect": true
+      },
+      {
+        "text": "POSIX CAP",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": "30. Wskaż cechy mechanizmu AppContainer:",
+    "answers": [
+      {
+        "text": "kontroluje wywołania funkcji jądra systemu operacyjnego",
+        "isCorrect": false
+      },
+      {
+        "text": "jest “lekkim” odpowiednikiem maszyny wirtualnej, z tą różnicą, że nie zawiera zwirtualizowanego systemu operacyjnego, tylko aplikację i potrzebne biblioteki",
+        "isCorrect": false
+      },
+      {
+        "text": "wykorzystuje wirtualizację systemu plików i rejestru systemu Windows",
+        "isCorrect": true
+      },
+      {
+        "text": "jest rodzajem kwarantanny dla potencjalnie zainfekowanych aplikacji, przetrzymywanych tam zanim antywirus otrzyma z chmury ostateczny rezultat analizy behawioralnej podejrzanego kodu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": "31. Wskaż cechy charakterystyczne ataku przez przepełnienie bufora (w segmencie stosu):  [1/1]",
+    "answers": [
+      {
+        "text": "celem przepełnienia jest nadpisanie adresu powrotu w ramce funkcji odłożonej aktualnie na stosie",
+        "isCorrect": true
+      },
+      {
+        "text": "architektura pamięci musi być taka by adresy rosły zgodnie z kierunkiem przyrostu stosu",
+        "isCorrect": false
+      },
+      {
+        "text": "celem przepełnienia jest nadpisanie pamięci jądra i wywołanie błędu obsłużonego przez złośliwy kod",
+        "isCorrect": false
+      },
+      {
+        "text": "przepełnienie bufora można wykryć i odpowiednio zareagować’",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": "32. Zaznacz cechy charakterystyczne metody ARP detekcji podsłuchu w sieci:",
+    "answers": [
+      {
+        "text": "ogłoszenie ARP skierowane pod fałszywy adres IP",
+        "isCorrect": false
+      },
+      {
+        "text": "zapytanie ARP skierowane pod właściwy adres MAC odpytywanej stacji",
+        "isCorrect": false
+      },
+      {
+        "text": "zapytanie ARP skierowane pod rozgłoszeniowy adres MAC",
+        "isCorrect": false
+      },
+      {
+        "text": "zapytanie ARP skierowane pod nierozgłoszeniowy adres MAC",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": "33. Wskaż problemy bezpieczeństwa wynikające z fragmentacji IP:",
+    "answers": [
+      {
+        "text": "fragmentacja jest przyczyną skuteczności ataku SYN flood",
+        "isCorrect": false
+      },
+      {
+        "text": "potencjalna możliwość przepełnienia bufora pamięci przy scalaniu fragmentów",
+        "isCorrect": true
+      },
+      {
+        "text": "utrudniona możliwość filtracji fragmentów przez zapory sieciowe",
+        "isCorrect": true
+      },
+      {
+        "text": "kontrola fragmentacji wymaga użycia ciasteczek SYN cookies",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": "34. Zaznacz prawdziwe stwierdzenia dotyczące protokołu HTTP: [0.5/1]",
+    "answers": [
+      {
+        "text": "HTTP od wersji 1.1 uwierzytelnia nie tylko klienta, ale i serwer",
+        "isCorrect": false
+      },
+      {
+        "text": "Digest Authentication HTTP 1.1 realizuje metodę challenge-response",
+        "isCorrect": true
+      },
+      {
+        "text": "Basic Authentication w HTTP 1.0 przesyła nazwę użytkownika i hasło w postaci niezaszyfrowanej",
+        "isCorrect": true
+      },
+      {
+        "text": "Basic Authentication w HTTP 1.1 przesyła nazwę użytkownika i hasło w postaci zaszyfrowanej",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question": "35. Protokół Kerberos: [1/1]",
+    "answers": [
+      {
+        "text": "realizuje uwierzytelnianie SSO w środowisku domenowym",
+        "isCorrect": true
+      },
+      {
+        "text": "realizuje uwierzytelnianie SSO w środowisku między-domenowym",
+        "isCorrect": true
+      },
+      {
+        "text": "umożliwia uwierzytelnianie i autoryzację klientów usług sieciowych przez scentralizowany mechanizm (serwer KDC)",
+        "isCorrect": true
+      },
+      {
+        "text": "nie wymaga znajomości po stronie uwierzytelniającej żadnych danych wrażliwych klienta (Zero-Proof Knowledge)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": "36. Które z poniższych cech prawidłowo opisują protokół IPsec?",
+    "answers": [
+      {
+        "text": "może działać z uwierzytelnianiem stron dokumentowanym tylko przez ESP",
+        "isCorrect": false
+      },
+      {
+        "text": "może działać w trybie tylko z ochroną integralności przez ESP",
+        "isCorrect": true
+      },
+      {
+        "text": "może działać z uwierzytelnianiem stron dokumentowanym tylko przez AH",
+        "isCorrect": false
+      },
+      {
+        "text": "może działać w trybie tylko z ochroną integralności przez AH",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": "37. Wskaż cechy uprawnień POSIX CAP:  [1/1]",
+    "answers": [
+      {
+        "text": "mogą być przypisywane do użytkowników",
+        "isCorrect": true
+      },
+      {
+        "text": "mogą być przypisywane do procesów",
+        "isCorrect": true
+      },
+      {
+        "text": "podlegają dziedziczeniu przez procesy potomne",
+        "isCorrect": true
+      },
+      {
+        "text": "pozwalają na delegowanie podmiotom wybranych elementarnych uprawnień administracyjnych",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": "38. Które z poniższych algorytmów kryptograficznych mogą zostać wykorzystane w sieci VPN do szyfrowania transmisji przez protokół SSL/TLS lub IPsec:",
+    "answers": [
+      {
+        "text": "RSA",
+        "isCorrect": true
+      },
+      {
+        "text": "ECDH",
+        "isCorrect": false
+      },
+      {
+        "text": "AES",
+        "isCorrect": true
+      },
+      {
+        "text": "DH",
+        "isCorrect": false
+      },
+      {
+        "text": "Krótka odpowiedź: Jeśli pytanie dotyczy algorytmu, który faktycznie szyfruje transmisję (dane), to jest nim AES. Jeśli jednak pytanie dotyczy tego, które algorytmy są częścią pakietu kryptograficznego (cipher suite) używanego do zestawienia bezpiecznego połączenia, to wszystkie cztery mogą zostać wykorzystane w procesie tworzenia tunelu VPN.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": "39. Które z poniższych cech prawidłowo opisują protokół IKE? [1/1]",
+    "answers": [
+      {
+        "text": "umożliwia zmianę kluczy szyfrowania protokołu IPsec ESP",
+        "isCorrect": true
+      },
+      {
+        "text": "uwierzytelnia sesje SA protokołu IPsec",
+        "isCorrect": true
+      },
+      {
+        "text": "negocjuje parametry sesji SA protokołu IPsec",
+        "isCorrect": true
+      },
+      {
+        "text": "umożliwia zmianę kluczy szyfrowania protokołu IPsec AH",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": "40. Tunele OpenVPN: [1/1]",
+    "answers": [
+      {
+        "text": "stosują protokół ESP do szyfrowania ruchu",
+        "isCorrect": false
+      },
+      {
+        "text": "stosują protokół AH do szyfrowania ruchu",
+        "isCorrect": false
+      },
+      {
+        "text": "stosują protokół TLS do szyfrowania ruchu",
+        "isCorrect": true
+      },
+      {
+        "text": "stosują protokół ISAKMP do uwierzytelniania ruchu",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": "41. Które z poniższych słów kluczowych mogą być prawidłowym “celem” w regule iptables dla łańcucha OUTPUT?",
+    "answers": [
+      {
+        "text": "DROP",
+        "isCorrect": true
+      },
+      {
+        "text": "FORWARD",
+        "isCorrect": false
+      },
+      {
+        "text": "XOR",
+        "isCorrect": false
+      },
+      {
+        "text": "ACCEPT",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question": "42.  Polecenie ulimit: [1/1]",
+    "answers": [
+      {
+        "text": "decyduje o tym czy mogą być tworzone zrzuty przestrzeni adresowej (obrazy) procesów",
+        "isCorrect": true
+      },
+      {
+        "text": "podaje bieżące ograniczenia hard i soft, ale pozwala zmienić tylko soft",
+        "isCorrect": false
+      },
+      {
+        "text": "podaje bieżące ograniczenia hard i soft, ale nie pozwala ich zmieniać",
+        "isCorrect": false
+      },
+      {
+        "text": "pozwala zmienić oba rodzaje limitów: i hard, i soft",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": "43. Czym się różni twist od spawn w polityce tcp wrappera (np. w pliku hosts.allow)? [1/1]",
+    "answers": [
+      {
+        "text": "spawn służy do zapisywania wiadomości w logu lub wysyłania poczty, natomiast twist wysyła wiadomość i odmawia dostępu do usługi",
+        "isCorrect": false
+      },
+      {
+        "text": "oba polecenia użyte w hosts.allow kończą się odmową polecenia, ale twist dodatkowo zapisuje informację o tym w logu systemowym",
+        "isCorrect": false
+      },
+      {
+        "text": "twist przekierowuje połączenie do innej, określonej opcją usługi, podczas gdy spawn tworzy nowy proces wykonujący dowolne polecenie",
+        "isCorrect": false
+      },
+      {
+        "text": "spawn tworzy nowy proces wykonujący dane polecenie, natomiast twist wykonuje polecenie w ramach bieżącego procesu",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": "44. Co oznacza udział IPC$ i do czego jest wykorzystywany? [1/1]",
+    "answers": [
+      {
+        "text": "to udział służący w systemie Windows do zdalnego wywołania procedur (RPC)",
+        "isCorrect": true
+      },
+      {
+        "text": "to udział domyślny służący do zdalnej administracji systemem Windows",
+        "isCorrect": false
+      },
+      {
+        "text": "to udział administracyjny obejmujący wszystkie istniejące lokalne dyski",
+        "isCorrect": false
+      },
+      {
+        "text": "to udział kolejek POSIX IPC służący do lokalnej komunikacji między procesami",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question": "45. SSH pozwala:",
+    "answers": [
+      {
+        "text": "uwierzytelniać użytkowników z wykorzystaniem kluczy kryptograficznych",
+        "isCorrect": true
+      },
+      {
+        "text": "uwierzytelniać użytkowników z wykorzystaniem haseł",
+        "isCorrect": true
+      },
+      {
+        "text": "uwierzytelniać komputery (systemy operacyjne) z wykorzystaniem kluczy kryptograficznych",
+        "isCorrect": true
+      },
+      {
+        "text": "udostępnić zasoby serwera lokalnego przez przekierowanie portów z serwera zdalnego",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "question": "46. Które z poniższych cech dotyczą szyfrowania asymetrycznego: [1/1]",
+    "answers": [
+      {
+        "text": "gwarancja autentyczności i niezaprzeczalności komunikacji",
+        "isCorrect": true
+      },
+      {
+        "text": "odporność na kolizje",
+        "isCorrect": false
+      },
+      {
+        "text": "większa niż dla algorytmów symetrycznych efektywność",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question": "47. W których z poniższych przypadków rekalkulowana jest maska uprawnień ACL w systemie Linux:",
+    "answers": [
+      {
+        "text": "gdy podamy opcję -m dla polecenia setfacl",
+        "isCorrect": false
+      },
+      {
+        "text": "przy zmianie uprawnień właściciela przy pomocy polecenia chmod",
+        "isCorrect": false
+      },
+      {
+        "text": "przy każdej zmianie uprawnień poleceniem setfacl, chyba że użyjemy opcji -n",
+        "isCorrect": true
+      },
+      {
+        "text": "przy dowolnej zmianie uprawnień danej kategorii praw (np. maska dla grupy modyfikowana jest przy modyfikacji praw dotyczących grupy)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question": "48. Domyślne udziały administracyjne w systemie Windows:",
+    "answers": [
+      {
+        "text": "dostępne są tylko dla administratora",
+        "isCorrect": false
+      },
+      {
+        "text": "są tworzone automatycznie przy instalacji systemu",
+        "isCorrect": true
+      },
+      {
+        "text": "nie mogą być usunięte",
+        "isCorrect": false
+      },
+      {
+        "text": "mogą być usunięte",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": "49. Aby użytkownik L na komputerze HL mógł logować się bez podawania hasła na komputer HR na konto R należy:",
+    "answers": [
+      {
+        "text": "skopiować klucz prywatny użytkownika R z komputera HR do pliku ~/.ssh/authorized_keys na koncie L na komputerze HL",
+        "isCorrect": false
+      },
+      {
+        "text": "skopiować klucz publiczny użytkownika L z komputera HL do pliku ~/.ssh/authorized_keys na koncie R na komputerze HR",
+        "isCorrect": true
+      },
+      {
+        "text": "skopiować klucz publiczny użytkownika R z komputera HR do pliku ~/.ssh/authorized_keys na koncie L na komputerze HL",
+        "isCorrect": false
+      },
+      {
+        "text": "skopiować klucz prywatny użytkownika L z komputera HL do pliku ~/.ssh/authorized_keys na koncie R na komputerze HR",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": "50. Model kontroli dostępu MIC zabrania podmiotowi o etykiecie P:",
+    "answers": [
+      {
+        "text": "zapisu obiektu o wyższej etykiecie niż P [0.5/1]",
+        "isCorrect": true
+      },
+      {
+        "text": "odczytu obiektu o niższej etykiecie niż P [?]",
+        "isCorrect": true
+      },
+      {
+        "text": "zapisu obiektu o niższej etykiecie niż P",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question": "51. Wykorzystanie TCP Wrappera do ochrony określonej usługi jest możliwe:",
+    "answers": [
+      {
+        "text": "jeśli program serwera usługi korzysta z biblioteki libwrap.so i sam czyta politykę TCP Wrappera",
+        "isCorrect": true
+      },
+      {
+        "text": "automatycznie po definicji polityki (host_access), bowiem TCP Wrapper jest zintegrowany z systemem operacyjnym",
+        "isCorrect": false
+      },
+      {
+        "text": "w przypadku przekazania nawiązywanego przez klienta usługi połączenia do demona TCP Wrappera zamiast do serwera obsługującego tę usługę",
+        "isCorrect": false
+      },
+      {
+        "text": "dopiero po skonfigurowaniu iptables do przekierowania ruchu na port nasłuchującego superserwera xinetd",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question": "52. Strumień ADS:",
+    "answers": [
+      {
+        "text": "jest częścią nagłówka pliku dołączaną zawsze przez system Windows podczas operacji pakowania do archiwum lub udostępniania w sieci",
+        "isCorrect": false
+      },
+      {
+        "text": "jest wykorzystywany przez mechanizm informujący o stopniu zaufania do pliku (określający jego pochodzenie przez wpis ZoneId)",
+        "isCorrect": true
+      },
+      {
+        "text": "pozwala związać z dowolnym plikiem lub katalogiem dowolne (zarówno tekstowe, jak i binarne) dane",
+        "isCorrect": true
+      },
+      {
+        "text": "jest wykorzystywany przez procesy w systemie Windows do informowania o błędach wykonania (tzw. metainformacje)",
+        "isCorrect": false
+      }
+    ]
+  }
+]
