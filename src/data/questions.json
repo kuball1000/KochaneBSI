@@ -6460,6 +6460,11 @@
         "text": "WPA-PSK",
         "color": "none",
         "isCorrect": false
+      },
+      {
+        "text": "do zrobienia - jeden rabin powie tak, drugi nie",
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },

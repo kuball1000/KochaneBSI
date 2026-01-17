@@ -33,6 +33,17 @@ export default function Menu({ onSelectMode }) {
             <h3 className="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">Fiszki (Nauka)</h3>
             <p className="text-gray-500 mt-1">Przeglądaj pytania i ucz się z natychmiastową odpowiedzią.</p>
           </button>
+
+          <button 
+            onClick={() => onSelectMode('smart-learning')}
+            className="group relative p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-purple-500 text-left"
+          >
+             <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+              <svg className="w-16 h-16 text-purple-600" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" /></svg>
+            </div>
+            <h3 className="text-xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors">Inteligentna Nauka</h3>
+            <p className="text-gray-500 mt-1">Ucz się partiami po 20 pytań. Błędne odpowiedzi wracają do puli.</p>
+          </button>
         </div>
       </div>
     </div>

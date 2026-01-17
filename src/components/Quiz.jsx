@@ -10,8 +10,9 @@ const shuffleArray = (array) => {
   return newArray;
 };
 
-export default function Quiz({ onBack }) {
+export default function Quiz({ onBack, isSmartLearning = false }) {
   const [questions, setQuestions] = useState([]);
+  const [globalQuestions, setGlobalQuestions] = useState([]); // Remaining questions for smart learning
   const [currentIndex, setCurrentIndex] = useState(0);
   
   // Changed from single index to array of indices
@@ -21,14 +22,25 @@ export default function Quiz({ onBack }) {
   const [score, setScore] = useState(0);
   const [correctCount, setCorrectCount] = useState(0);
   const [quizFinished, setQuizFinished] = useState(false);
+  
+  const BATCH_SIZE = 20;
 
   useEffect(() => {
     const shuffledQuestions = shuffleArray(questionsData).map(q => ({
       ...q,
       answers: shuffleArray(q.answers)
     }));
-    setQuestions(shuffledQuestions);
-  }, []);
+    
+    if (isSmartLearning) {
+        // Load first batch
+        const firstBatch = shuffledQuestions.slice(0, BATCH_SIZE);
+        const remaining = shuffledQuestions.slice(BATCH_SIZE);
+        setQuestions(firstBatch);
+        setGlobalQuestions(remaining);
+    } else {
+        setQuestions(shuffledQuestions);
+    }
+  }, [isSmartLearning]);
 
   const handleAnswerToggle = (index) => {
     if (isConfirmed) return;
@@ -65,7 +77,7 @@ export default function Quiz({ onBack }) {
     const isCorrect = JSON.stringify(sortedSelected) === JSON.stringify(sortedCorrect);
 
     if (isCorrect) {
-      setScore(prev => prev + 1);
+      setScore(prev => prev + 1); // Note: Score in smart mode might need adjusting if we want only 'unique' correct answers, but simple increment is detailed enough for now
       setCorrectCount(prev => prev + 1);
     } else {
       // Re-queue
@@ -84,7 +96,21 @@ export default function Quiz({ onBack }) {
       setSelectedIndices([]);
       setIsConfirmed(false);
     } else {
-      setQuizFinished(true);
+      // End of current list?
+      if (isSmartLearning && globalQuestions.length > 0) {
+          // Load next batch
+          const nextBatch = globalQuestions.slice(0, BATCH_SIZE);
+          const remaining = globalQuestions.slice(BATCH_SIZE);
+          
+          setQuestions(nextBatch);
+          setGlobalQuestions(remaining);
+          setCurrentIndex(0);
+          setSelectedIndices([]);
+          setIsConfirmed(false);
+          // Optional: Show a transient message "Loading next batch..."
+      } else {
+          setQuizFinished(true);
+      }
     }
   };
 
@@ -94,11 +120,11 @@ export default function Quiz({ onBack }) {
     return (
       <div className="min-h-screen flex items-center justify-center p-4">
         <div className="card max-w-lg w-full p-8 text-center space-y-6">
-          <h2 className="text-3xl font-bold text-gray-900">Koniec Egzaminu!</h2>
+          <h2 className="text-3xl font-bold text-gray-900">Koniec Nauki!</h2>
           <div className="text-5xl font-black text-blue-600">
-            {correctCount} poprawne
+            {correctCount} zaliczonych
           </div>
-          <p className="text-gray-500">Wszystkie pytania zostały zaliczone!</p>
+          <p className="text-gray-500">Wszystkie pytania zostały przerobione!</p>
           <div className="flex gap-4 justify-center pt-4">
             <button onClick={onBack} className="btn-secondary">Wróć do Menu</button>
             <button onClick={() => window.location.reload()} className="btn-primary">Spróbuj Ponownie</button>
@@ -109,10 +135,6 @@ export default function Quiz({ onBack }) {
   }
 
   const currentQuestion = questions[currentIndex];
-  // Determine if single choice or multiple choice based on data? 
-  // User asked for "possibility of multiple choice", implying ALL questions can be treated as such 
-  // or at least checks.
-  // We'll treat all as multi-select for consistency, but if there's only 1 correct answer, user selects 1.
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
@@ -127,7 +149,10 @@ export default function Quiz({ onBack }) {
                 Poprawne: {correctCount}
              </span>
              <span className="bg-blue-100 text-blue-700 font-bold px-4 py-1 rounded-full text-sm">
-                Pytanie {currentIndex + 1} / {questions.length}
+                {isSmartLearning 
+                    ? `Pozostało: ${globalQuestions.length + (questions.length - currentIndex)}` 
+                    : `Pytanie ${currentIndex + 1} / ${questions.length}`
+                }
              </span>
           </div>
         </div>

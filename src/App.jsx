@@ -19,6 +19,10 @@ function App() {
       {mode === 'flashcard' && (
         <Flashcard onBack={() => setMode('menu')} />
       )}
+
+      {mode === 'smart-learning' && (
+        <Quiz onBack={() => setMode('menu')} isSmartLearning={true} />
+      )}
     </div>
   );
 }
