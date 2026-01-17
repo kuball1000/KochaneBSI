@@ -909,7 +909,7 @@
       },
       {
         "text": "nie wymaga znajomości po stronie uwierzytelniającej żadnych danych wrażliwych klienta (Zero-Proof Knowledge)",
-        "color": "none",
+        "color": "yellow",
         "isCorrect": false
       }
     ]
