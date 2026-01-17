@@ -146,22 +146,26 @@ export default function Quiz({ onBack }) {
               let btnClass = "w-full text-left p-4 rounded-xl border-2 transition-all duration-200 relative ";
               
               if (isConfirmed) {
-                // If confirmed, show truth
-                if (ans.isCorrect) {
-                   // It was correct. Did we select it?
-                   if (isSelected) {
-                        btnClass += "bg-green-50 border-green-500 text-green-700 font-medium"; // Correct and selected
-                   } else {
-                        btnClass += "bg-green-50 border-green-500 text-green-700 opacity-70"; // Correct but missed
-                   }
-                } else {
-                   // Not correct. Did we select it?
-                   if (isSelected) {
-                       btnClass += "bg-red-50 border-red-500 text-red-700"; // Wrongly selected
-                   } else {
-                       btnClass += "bg-gray-50 border-gray-100 text-gray-400 opacity-50"; // Wrong and not selected (good)
-                   }
-                }
+                  // Show the actual color of the answer
+                  switch(ans.color) {
+                      case 'green':
+                          btnClass += "bg-green-100 border-green-500 text-green-800";
+                          break;
+                      case 'yellow':
+                          btnClass += "bg-yellow-100 border-yellow-500 text-yellow-800";
+                          break;
+                      case 'blue':
+                          btnClass += "bg-blue-100 border-blue-500 text-blue-800";
+                          break;
+                      default:
+                          btnClass += "bg-gray-100 border-gray-400 text-gray-500";
+                  }
+                  
+                  // Visual indicator for selection state
+                  if (isSelected) {
+                      btnClass += " ring-4 ring-offset-2 " + (ans.isCorrect ? "ring-green-400" : "ring-red-400");
+                  }
+                  
               } else {
                  // Selection mode
                  if (isSelected) {
@@ -180,16 +184,29 @@ export default function Quiz({ onBack }) {
                 >
                   <div className="flex items-start gap-3">
                     <div className={`mt-0.5 flex-shrink-0 w-6 h-6 rounded md:rounded-md border-2 flex items-center justify-center text-xs transition-colors
-                      ${isConfirmed && ans.isCorrect ? 'border-green-500 bg-green-500 text-white' : 
-                        isConfirmed && isSelected ? 'border-red-500 bg-red-500 text-white' : 
-                        !isConfirmed && isSelected ? 'border-blue-500 bg-blue-500 text-white' :
-                        'border-gray-300 bg-white'
+                      ${isConfirmed ? 
+                        (ans.isCorrect ? 'border-green-600 bg-green-600 text-white' : 'border-gray-400 bg-transparent text-gray-600') 
+                        : (isSelected ? 'border-blue-500 bg-blue-500 text-white' : 'border-gray-300 bg-white')
                       }`}>
-                      {/* Checkmark or X or letter */}
-                      {isConfirmed && ans.isCorrect && <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>}
-                      {isConfirmed && !ans.isCorrect && isSelected && <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" /></svg>}
-                      {!isConfirmed && isSelected && <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>}
-                      {!isConfirmed && !isSelected && <span className="text-gray-400">{String.fromCharCode(65 + idx)}</span>}
+                      
+                      {/* Icons logic */}
+                      {isConfirmed ? (
+                          isSelected ? (
+                              ans.isCorrect ? 
+                              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg> 
+                              : <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" /></svg>
+                          ) : (
+                              // Not selected
+                              ans.isCorrect ? 
+                              <span className="text-white text-[10px]">!</span> // Missed correct
+                              : <span className="text-gray-400">{String.fromCharCode(65 + idx)}</span> // Normal wrong
+                          )
+                      ) : (
+                          // Not confirmed
+                          isSelected ? 
+                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
+                          : <span className="text-gray-400">{String.fromCharCode(65 + idx)}</span>
+                      )}
                     </div>
                     <span>{ans.text}</span>
                   </div>
