@@ -937,12 +937,12 @@
         "text": "może działać w trybie tylko z ochroną integralności przez AH (sobol i mobile)",
         "color": "yellow",
         "isCorrect": false
-      }, 
+      },
       {
         "text": "trzeba ustalić",
         "color": "grwen",
         "isCorrect": true
-      } 
+      }
     ]
   },
   {
@@ -3980,7 +3980,7 @@
     ]
   },
   {
-    "id": 147,
+    "id": 146,
     "question": "145. Wskaż które z poniższych technik mogą być wykorzystywane do tzw. wzmacniania DDoS:",
     "answers": [
       {
@@ -4006,7 +4006,7 @@
     ]
   },
   {
-    "id": 148,
+    "id": 147,
     "question": "146. Która z poniższych cech poprawnie opisuje mechanizm SYN cookies:",
     "answers": [
       {
@@ -4032,7 +4032,7 @@
     ]
   },
   {
-    "id": 149,
+    "id": 148,
     "question": "147. Mechanizm ACL:",
     "answers": [
       {
@@ -4058,7 +4058,7 @@
     ]
   },
   {
-    "id": 150,
+    "id": 149,
     "question": "148. Wskaż cechy ścisłej kontroli dostępu (MAC):",
     "answers": [
       {
@@ -4084,7 +4084,7 @@
     ]
   },
   {
-    "id": 151,
+    "id": 150,
     "question": "149. Jaki rodzaj filtracji umożliwia podejmowanie decyzji o filtracji pakietów z uwzględnieniem stanu sesji do  której przynależą?",
     "answers": [
       {
@@ -4110,7 +4110,7 @@
     ]
   },
   {
-    "id": 152,
+    "id": 151,
     "question": "150. Które z poniższych cech poprawnie opisują standard IEEE 802.1X:",
     "answers": [
       {
@@ -4136,7 +4136,7 @@
     ]
   },
   {
-    "id": 153,
+    "id": 152,
     "question": "151. Algorytm 3DES to:",
     "answers": [
       {
@@ -4162,7 +4162,7 @@
     ]
   },
   {
-    "id": 154,
+    "id": 153,
     "question": "152. Która z poniższych cech poprawnie opisuje protokół RADIUS:",
     "answers": [
       {
@@ -4208,7 +4208,7 @@
     ]
   },
   {
-    "id": 155,
+    "id": 154,
     "question": "153. Które określenie poprawnie opisuje protokół IKE?",
     "answers": [
       {
@@ -4234,7 +4234,7 @@
     ]
   },
   {
-    "id": 156,
+    "id": 155,
     "question": "154. Przed którymi atakami chroni poprawnie nawiązana sesja VPN (IPsec lub TLS):",
     "answers": [
       {
@@ -4260,7 +4260,7 @@
     ]
   },
   {
-    "id": 157,
+    "id": 156,
     "question": "155. Do zrealizowania zamaskowanego kanału komunikacyjnego może potencjalnie posłużyć:",
     "answers": [
       {
@@ -4286,7 +4286,7 @@
     ]
   },
   {
-    "id": 158,
+    "id": 157,
     "question": "156. Wskaż kto może rozszyfrować plik zaszyfrowany mechanizmem EFS:",
     "answers": [
       {
@@ -4312,7 +4312,7 @@
     ]
   },
   {
-    "id": 159,
+    "id": 158,
     "question": "157. Mechanizm Lock-and-Key:",
     "answers": [
       {
@@ -4343,7 +4343,7 @@
     ]
   },
   {
-    "id": 160,
+    "id": 159,
     "question": "158. Protokół SSL/TLS oferuje:",
     "answers": [
       {
@@ -4369,7 +4369,7 @@
     ]
   },
   {
-    "id": 161,
+    "id": 160,
     "question": "159. Wyobraźmy sobie serwer udostępniający wybranym podsieciom dwie usługi: www i ftp. Zapewnienie kontroli dostępu, np. za pomocą narzędzia personal firewall (lub wrappera połączeń) tylko do jednej z tych usług stanowi:",
     "answers": [
       {
@@ -4395,7 +4395,7 @@
     ]
   },
   {
-    "id": 162,
+    "id": 161,
     "question": "160. Który termin określa ochronę informacji przed nieautoryzowanym jej zmodyfikowaniem:",
     "answers": [
       {
@@ -4421,7 +4421,7 @@
     ]
   },
   {
-    "id": 163,
+    "id": 162,
     "question": "161. Ktore z ponizszych okreslen opisuja mechanizm CAP (capabilities):",
     "answers": [
       {
@@ -4447,7 +4447,7 @@
     ]
   },
   {
-    "id": 164,
+    "id": 163,
     "question": "162.  Którego typu ataku dotyczy następujący opis: Atak ten przeprowadza osoba, która wobec każdej z dwóch uprawnionych stron komunikacji podszywa się za przeciwna strone, pośrednicząc w przesyłaniu danych:",
     "answers": [
       {
@@ -4473,7 +4473,7 @@
     ]
   },
   {
-    "id": 165,
+    "id": 164,
     "question": "163. Co zapewnia uwierzytelnianie przez posiadanie?",
     "answers": [
       {
@@ -4499,7 +4499,7 @@
     ]
   },
   {
-    "id": 166,
+    "id": 165,
     "question": "164. Bezpośrednim celem ataku metodą przepełnienia bufora jest:",
     "answers": [
       {
@@ -4525,7 +4525,7 @@
     ]
   },
   {
-    "id": 167,
+    "id": 166,
     "question": "165. Mechanizm haseł jednorazowych można zrealizować poprzez:",
     "answers": [
       {
@@ -4551,7 +4551,7 @@
     ]
   },
   {
-    "id": 168,
+    "id": 167,
     "question": "166. W RSBAC, czy każdy program może zmienić uprawnienia na inne niż te, na których został uruchomiony?",
     "answers": [
       {
@@ -4577,7 +4577,7 @@
     ]
   },
   {
-    "id": 169,
+    "id": 168,
     "question": "167. Skrót ACL oznacza:",
     "answers": [
       {
@@ -4603,7 +4603,7 @@
     ]
   },
   {
-    "id": 170,
+    "id": 169,
     "question": "168. Czy RSBAC zapewnia:",
     "answers": [
       {
@@ -4639,7 +4639,7 @@
     ]
   },
   {
-    "id": 171,
+    "id": 170,
     "question": "169. Szyfrowanie asymetryczne:",
     "answers": [
       {
@@ -4665,7 +4665,7 @@
     ]
   },
   {
-    "id": 172,
+    "id": 171,
     "question": "170. TUN/TAP to:",
     "answers": [
       {
@@ -4696,7 +4696,7 @@
     ]
   },
   {
-    "id": 173,
+    "id": 172,
     "question": "171. Możliwości uwierzytelniania przy użyciu SSH to:",
     "answers": [
       {
@@ -4727,7 +4727,7 @@
     ]
   },
   {
-    "id": 174,
+    "id": 173,
     "question": "172. Protokół SSH umożliwia:",
     "answers": [
       {
@@ -4748,7 +4748,7 @@
     ]
   },
   {
-    "id": 175,
+    "id": 174,
     "question": "173. Jakie restrykcje wprowadza tryb Safe w konfiguracji modułu PHP serwera WWW?",
     "answers": [
       {
@@ -4774,7 +4774,7 @@
     ]
   },
   {
-    "id": 176,
+    "id": 175,
     "question": "174. Serwer KDC:",
     "answers": [
       {
@@ -4820,7 +4820,7 @@
     ]
   },
   {
-    "id": 177,
+    "id": 176,
     "question": "175. Wektor inicjujący w szyfrowaniu:",
     "answers": [
       {
@@ -4846,7 +4846,7 @@
     ]
   },
   {
-    "id": 178,
+    "id": 177,
     "question": "176. W uwierzytelnianiu z udziałem zaufanej trzeciej strony, do zadań tej trzeciej strony należy:",
     "answers": [
       {
@@ -4872,7 +4872,7 @@
     ]
   },
   {
-    "id": 179,
+    "id": 178,
     "question": "177. W uwierzytelnianiu z udziałem zaufanej trzeciej strony, do zadań strony uwierzytelnianej należy:",
     "answers": [
       {
@@ -4898,7 +4898,7 @@
     ]
   },
   {
-    "id": 180,
+    "id": 179,
     "question": "178. Zastosowanie rozszerzenia Enigmail w kliencie poczty Thunderbird pozwala na:",
     "answers": [
       {
@@ -4924,7 +4924,7 @@
     ]
   },
   {
-    "id": 181,
+    "id": 180,
     "question": "179. Szyfr, w którym poddawana szyfrowaniu zostaje tej samej wielkości jednobajtowa porcja nieregularnie pojawiających się danych, nazywamy:",
     "answers": [
       {
@@ -4950,7 +4950,7 @@
     ]
   },
   {
-    "id": 182,
+    "id": 181,
     "question": "180. Istotna przewaga podpisu elektronicznego nad odręcznym polega m. in. na:",
     "answers": [
       {
@@ -4976,7 +4976,7 @@
     ]
   },
   {
-    "id": 183,
+    "id": 182,
     "question": "181. Prosze wskazać algorytmy wykorzystywane w HMAC:",
     "answers": [
       {
@@ -5022,7 +5022,7 @@
     ]
   },
   {
-    "id": 184,
+    "id": 183,
     "question": "182. System NAC (Network Admission Control):",
     "answers": [
       {
@@ -5053,7 +5053,7 @@
     ]
   },
   {
-    "id": 185,
+    "id": 184,
     "question": "183. Metoda PING stosowana przez systemy IDS polega na wysłaniu:",
     "answers": [
       {
@@ -5079,7 +5079,7 @@
     ]
   },
   {
-    "id": 186,
+    "id": 185,
     "question": "184. Cechy charakterystyczne ataku SYN flood to:",
     "answers": [
       {
@@ -5105,7 +5105,7 @@
     ]
   },
   {
-    "id": 187,
+    "id": 186,
     "question": "185. Do szyfrów symetrycznych zaliczamy:",
     "answers": [
       {
@@ -5171,7 +5171,7 @@
     ]
   },
   {
-    "id": 188,
+    "id": 187,
     "question": "186. Do szyfrów niesymetrycznych zaliczamy:",
     "answers": [
       {
@@ -5212,7 +5212,7 @@
     ]
   },
   {
-    "id": 189,
+    "id": 188,
     "question": "187. IPsec ESP umożliwia zapewnienie:",
     "answers": [
       {
@@ -5258,7 +5258,7 @@
     ]
   },
   {
-    "id": 190,
+    "id": 189,
     "question": "188. Jaki mechanizm może wykorzystać administrator do dynamicznego uaktywnienia specjalnie przygotowanych reguł filtracji umożliwiających obejście ograniczeń narzuconych na normalny ruch sieciowy?",
     "answers": [
       {
@@ -5284,7 +5284,7 @@
     ]
   },
   {
-    "id": 191,
+    "id": 190,
     "question": "189. Do czego służy protokół SMTP?",
     "answers": [
       {
@@ -5310,7 +5310,7 @@
     ]
   },
   {
-    "id": 192,
+    "id": 191,
     "question": "190. Do czego służy komenda rlogin?",
     "answers": [
       {
@@ -5336,7 +5336,7 @@
     ]
   },
   {
-    "id": 193,
+    "id": 192,
     "question": "191. Co ma na celu publikowanie swojego klucza publicznego PGP?",
     "answers": [
       {
@@ -5367,7 +5367,7 @@
     ]
   },
   {
-    "id": 194,
+    "id": 193,
     "question": "192. Czy w systemie Ms Windows można skorzystać z szyfrowania PGP?",
     "answers": [
       {
@@ -5393,7 +5393,7 @@
     ]
   },
   {
-    "id": 195,
+    "id": 194,
     "question": "193. Szyfrowanie plików w systemie Ms Windows:",
     "answers": [
       {
@@ -5419,7 +5419,7 @@
     ]
   },
   {
-    "id": 196,
+    "id": 195,
     "question": "194. Wykorzystując stanowość zapory sieciowej możemy określić:",
     "answers": [
       {
@@ -5445,7 +5445,7 @@
     ]
   },
   {
-    "id": 197,
+    "id": 196,
     "question": "195. LMhash to:",
     "answers": [
       {
@@ -5471,7 +5471,7 @@
     ]
   },
   {
-    "id": 198,
+    "id": 197,
     "question": "196. Dziedziczenie uprawnień w systemie plików NTFS:",
     "answers": [
       {
@@ -5497,7 +5497,7 @@
     ]
   },
   {
-    "id": 199,
+    "id": 198,
     "question": "197. Wadą single-sign-on jest:",
     "answers": [
       {
@@ -5523,7 +5523,7 @@
     ]
   },
   {
-    "id": 200,
+    "id": 199,
     "question": "198. Aby serwer usług w domenie kerberos mogl dzialac wykorzystując uwierzytelniania Single-Sign-On, musi:",
     "answers": [
       {
@@ -5549,7 +5549,7 @@
     ]
   },
   {
-    "id": 201,
+    "id": 200,
     "question": "199. Nazwa domenowa komputera a nazwa domeny kerberos:",
     "answers": [
       {
@@ -5575,7 +5575,7 @@
     ]
   },
   {
-    "id": 202,
+    "id": 201,
     "question": "200. Mechanizm TCP Wrapper:",
     "answers": [
       {
@@ -5601,7 +5601,7 @@
     ]
   },
   {
-    "id": 203,
+    "id": 202,
     "question": "201. Tunel Net-to-Net to:",
     "answers": [
       {
@@ -5627,7 +5627,7 @@
     ]
   },
   {
-    "id": 204,
+    "id": 203,
     "question": "202. Klucz FEK to:",
     "answers": [
       {
@@ -5653,7 +5653,7 @@
     ]
   },
   {
-    "id": 205,
+    "id": 204,
     "question": "203. Połączenie pasywne ftp to:",
     "answers": [
       {
@@ -5679,7 +5679,7 @@
     ]
   },
   {
-    "id": 206,
+    "id": 205,
     "question": "204. Połączenie aktywne ftp to:",
     "answers": [
       {
@@ -5705,7 +5705,7 @@
     ]
   },
   {
-    "id": 207,
+    "id": 206,
     "question": "205. Skrót IKE oznacza:",
     "answers": [
       {
@@ -5731,7 +5731,7 @@
     ]
   },
   {
-    "id": 208,
+    "id": 207,
     "question": "206. Pakiet FreeS/Wan składa się z:",
     "answers": [
       {
@@ -5752,7 +5752,7 @@
     ]
   },
   {
-    "id": 209,
+    "id": 208,
     "question": "207. Kryptografia oportunistyczna to:",
     "answers": [
       {
@@ -5778,7 +5778,7 @@
     ]
   },
   {
-    "id": 210,
+    "id": 209,
     "question": "208. Narzędzie FreeS/Wan to:",
     "answers": [
       {
@@ -5804,7 +5804,7 @@
     ]
   },
   {
-    "id": 211,
+    "id": 210,
     "question": "209. Tunel Host-to-host to:",
     "answers": [
       {
@@ -5825,7 +5825,7 @@
     ]
   },
   {
-    "id": 212,
+    "id": 211,
     "question": "210. W jakich trybach może działać VPN:",
     "answers": [
       {
@@ -5856,7 +5856,7 @@
     ]
   },
   {
-    "id": 213,
+    "id": 212,
     "question": "211. Skrót VPN to:",
     "answers": [
       {
@@ -5887,7 +5887,7 @@
     ]
   },
   {
-    "id": 214,
+    "id": 213,
     "question": "212. Translacja typu DNAT charakteryzuje się:",
     "answers": [
       {
@@ -5913,7 +5913,7 @@
     ]
   },
   {
-    "id": 215,
+    "id": 214,
     "question": "213. Mechanizm SSO pozwala na",
     "answers": [
       {
@@ -5939,7 +5939,7 @@
     ]
   },
   {
-    "id": 216,
+    "id": 215,
     "question": "214. Ukrycie widoczności systemu Ms Win spowoduje:",
     "answers": [
       {
@@ -5965,7 +5965,7 @@
     ]
   },
   {
-    "id": 217,
+    "id": 216,
     "question": "215. Wskaż cechy metody uwierzytelniania klienta wobec serwera z udziałem zaufanej trzeciej strony:",
     "answers": [
       {
@@ -5991,7 +5991,7 @@
     ]
   },
   {
-    "id": 218,
+    "id": 217,
     "question": "216. Flaga suid wg standardu POSIX 1003.1",
     "answers": [
       {
@@ -6017,7 +6017,7 @@
     ]
   },
   {
-    "id": 219,
+    "id": 218,
     "question": "217. Wskaż cechy filtracji bezstanowej realizowanej przez zapory sieciowe:",
     "answers": [
       {
@@ -6043,7 +6043,7 @@
     ]
   },
   {
-    "id": 220,
+    "id": 219,
     "question": "218. Koncepcja \"zamkniętych grup użytkowników\" dotyczy odseparowania danych przetwarzanych przez odrębne grupy użytkowników tego samego środowiska sieciowego. Które z poniższych mechanizmów sa realizacja tej koncepcji:",
     "answers": [
       {
@@ -6069,7 +6069,7 @@
     ]
   },
   {
-    "id": 221,
+    "id": 220,
     "question": "219. Wskaż cechy protokołu Hot Standby Routing Protocol:",
     "answers": [
       {
@@ -6095,7 +6095,7 @@
     ]
   },
   {
-    "id": 222,
+    "id": 221,
     "question": "220. Wskaż kiedy system kontroli dostępu MAC może zezwolić podmiotowi P na dopisanie danych do zasobu Z:",
     "answers": [
       {
@@ -6116,7 +6116,7 @@
     ]
   },
   {
-    "id": 223,
+    "id": 222,
     "question": "221. Wskaż kiedy system kontroli dostępu MAC nie zezwoli podmiotowi P na dopisanie danych do zasobu Z:",
     "answers": [
       {
@@ -6142,7 +6142,7 @@
     ]
   },
   {
-    "id": 224,
+    "id": 223,
     "question": "222. Mechanizm SSO (single-sign-on):",
     "answers": [
       {
@@ -6168,7 +6168,7 @@
     ]
   },
   {
-    "id": 225,
+    "id": 224,
     "question": "223. Statyczne reguły filtracji (filtracja bezstanowa) nie radzą sobie z precyzyjna filtracja ruchu:",
     "answers": [
       {
@@ -6194,7 +6194,7 @@
     ]
   },
   {
-    "id": 226,
+    "id": 225,
     "question": "224. Standard IEEE 802.1x:",
     "answers": [
       {
@@ -6220,7 +6220,7 @@
     ]
   },
   {
-    "id": 227,
+    "id": 226,
     "question": "225. Algorytm 3DES w trybie EDE wykorzystuje klucze o długości:",
     "answers": [
       {
@@ -6246,7 +6246,7 @@
     ]
   },
   {
-    "id": 228,
+    "id": 227,
     "question": "226. Wskaż cechy charakteryzujące kontrole dostępu MAC:",
     "answers": [
       {
@@ -6287,7 +6287,7 @@
     ]
   },
   {
-    "id": 229,
+    "id": 228,
     "question": "227. Który z wymienionych protokołów nie chroni przed podszywaniem się pod podmiot uwierzytelniający:",
     "answers": [
       {
@@ -6313,7 +6313,7 @@
     ]
   },
   {
-    "id": 230,
+    "id": 229,
     "question": "228. Który z wymienionych protokołów nie chroni przed podszywaniem się pod podmiot uwierzytelniający:",
     "answers": [
       {
@@ -6339,7 +6339,7 @@
     ]
   },
   {
-    "id": 231,
+    "id": 230,
     "question": "229. Wskaż przykłady zamaskowanych kanałów komunikacyjnych:",
     "answers": [
       {
@@ -6365,7 +6365,7 @@
     ]
   },
   {
-    "id": 232,
+    "id": 231,
     "question": "230. Wskaż cechy certyfikatów kwalifikowanych (wg obowiązującego prawodawstwa polskiego):",
     "answers": [
       {
@@ -6391,7 +6391,7 @@
     ]
   },
   {
-    "id": 233,
+    "id": 232,
     "question": "231. Który protokół umożliwia transparentna dla stacji sieciowej obsługę uszkodzenia jej routera domyślnego?",
     "answers": [
       {
@@ -6417,7 +6417,7 @@
     ]
   },
   {
-    "id": 234,
+    "id": 233,
     "question": "232. Wskaż własności protokołu HSRP (Hot Standby Router Protocol):",
     "answers": [
       {
@@ -6443,7 +6443,7 @@
     ]
   },
   {
-    "id": 235,
+    "id": 234,
     "question": "233. Wskaż najbezpieczniejszy standard zabezpieczeń komunikacji w sieciach bezprzewodowych Wi-Fi:",
     "answers": [
       {
@@ -6474,7 +6474,7 @@
     ]
   },
   {
-    "id": 236,
+    "id": 235,
     "question": "234. Które z poniższych standardów nie oferują żadnej redundancji:",
     "answers": [
       {
@@ -6500,7 +6500,7 @@
     ]
   },
   {
-    "id": 237,
+    "id": 236,
     "question": "235. Ktora klasa RAID zapewnia odpornosc na jednoczesna awarie 2 dyskow w 5-dyskowej macierzy?",
     "answers": [
       {
@@ -6526,7 +6526,7 @@
     ]
   },
   {
-    "id": 238,
+    "id": 237,
     "question": "236. Program xinetd to:",
     "answers": [
       {
@@ -6552,7 +6552,7 @@
     ]
   },
   {
-    "id": 239,
+    "id": 238,
     "question": "237. Relacja zaufania w uwierzytelnianiu w środowisku sieciowym",
     "answers": [
       {
@@ -6578,7 +6578,7 @@
     ]
   },
   {
-    "id": 240,
+    "id": 239,
     "question": "238. Mechanizm ACL umożliwia",
     "answers": [
       {
@@ -6604,7 +6604,7 @@
     ]
   },
   {
-    "id": 241,
+    "id": 240,
     "question": "239. Jakie restrykcje pozwala narzucić systemowa funkcja chroot() systemu Unix?",
     "answers": [
       {
@@ -6630,7 +6630,7 @@
     ]
   },
   {
-    "id": 242,
+    "id": 241,
     "question": "240. Które z poniższych mechanizmów stosują programy malware w celu kamuflażu swojej obecności",
     "answers": [
       {
@@ -6656,7 +6656,7 @@
     ]
   },
   {
-    "id": 243,
+    "id": 242,
     "question": "241. SFTP to",
     "answers": [
       {
@@ -6687,7 +6687,7 @@
     ]
   },
   {
-    "id": 244,
+    "id": 243,
     "question": "242. Które zdania poprawnie opisują nawiązywanie sesji SSL?",
     "answers": [
       {
@@ -6713,7 +6713,7 @@
     ]
   },
   {
-    "id": 245,
+    "id": 244,
     "question": "243. Które z wymienionych protokołów i standardów oferują szyfrowaną transmisję wiadomości pocztowych?",
     "answers": [
       {
@@ -6739,7 +6739,7 @@
     ]
   },
   {
-    "id": 246,
+    "id": 245,
     "question": "244. Wskaż możliwe środki ochronne przed atakami przepełnienia bufora",
     "answers": [
       {
@@ -6765,7 +6765,7 @@
     ]
   },
   {
-    "id": 247,
+    "id": 246,
     "question": "245. Wskaż szyfry symetryczne",
     "answers": [
       {
@@ -6791,7 +6791,7 @@
     ]
   },
   {
-    "id": 248,
+    "id": 247,
     "question": "246. Protokół IPv6",
     "answers": [
       {
@@ -6817,7 +6817,7 @@
     ]
   },
   {
-    "id": 249,
+    "id": 248,
     "question": "247. Która zasada realizacji zabezpieczeń wymaga konsekwentnego zastosowania odpowiedniego mechanizmu ochrony wobec wszystkich wykorzystywanych protokołów aplikacyjnych",
     "answers": [
       {
@@ -6843,7 +6843,7 @@
     ]
   },
   {
-    "id": 250,
+    "id": 249,
     "question": "248. Moduły PAM (Pluggable Authentication Modules) umożliwiają",
     "answers": [
       {
@@ -6869,7 +6869,7 @@
     ]
   },
   {
-    "id": 251,
+    "id": 250,
     "question": "249. Okresl prawidlowa kolejnosc pelnej sekwencji odwolan klienta do serwerow w przypadku dostepu do uslugi SMTP w środowisku Kerberos",
     "answers": [
       {
@@ -6895,7 +6895,7 @@
     ]
   },
   {
-    "id": 252,
+    "id": 251,
     "question": "250. Które protokoły umożliwiają propagacje portów w tunelu kryptograficznym?",
     "answers": [
       {
@@ -6921,7 +6921,7 @@
     ]
   },
   {
-    "id": 253,
+    "id": 252,
     "question": "251. Standard SASL (Simple Authentication and Security Layer) umożliwia",
     "answers": [
       {
@@ -6947,7 +6947,7 @@
     ]
   },
   {
-    "id": 254,
+    "id": 253,
     "question": "252. Które zdania poprawnie opisują proces uwierzytelniania w usłudze pocztowej?",
     "answers": [
       {
@@ -6973,7 +6973,7 @@
     ]
   },
   {
-    "id": 255,
+    "id": 254,
     "question": "253. Ochronę SYSKEY wprowadzono w systemie MS Windows w celu",
     "answers": [
       {
@@ -6999,7 +6999,7 @@
     ]
   },
   {
-    "id": 256,
+    "id": 255,
     "question": "254. Skrót KDC w systemie Kerberos oznacza",
     "answers": [
       {
@@ -7025,7 +7025,7 @@
     ]
   },
   {
-    "id": 257,
+    "id": 256,
     "question": "255. Funkcja skrótu dająca wynik 512-bitowy",
     "answers": [
       {
@@ -7051,7 +7051,7 @@
     ]
   },
   {
-    "id": 258,
+    "id": 257,
     "question": "256. Jakie komponenty tworzą każdą zaporę sieciowa?",
     "answers": [
       {
@@ -7077,7 +7077,7 @@
     ]
   },
   {
-    "id": 259,
+    "id": 258,
     "question": "257. Wskaż operacje stosowane w metodzie ARP cache detekcji snifferów",
     "answers": [
       {
@@ -7103,7 +7103,7 @@
     ]
   },
   {
-    "id": 260,
+    "id": 259,
     "question": "258. Jaka usługa jest szczególnie narażona na atak TCP spoofing?",
     "answers": [
       {
@@ -7129,7 +7129,7 @@
     ]
   },
   {
-    "id": 261,
+    "id": 260,
     "question": "259. Przykładem realizacji mechanizmu uwierzytelniania z udziałem zaufanej trzeciej strony jest",
     "answers": [
       {
@@ -7155,7 +7155,7 @@
     ]
   },
   {
-    "id": 262,
+    "id": 261,
     "question": "260. Mechanizm OTP (one-time passwords)",
     "answers": [
       {
@@ -7181,7 +7181,7 @@
     ]
   },
   {
-    "id": 263,
+    "id": 262,
     "question": "261. Które z wymienionych technik mogą być wykorzystane do uwierzytelniania z hasłami jednorazowymi",
     "answers": [
       {
@@ -7207,7 +7207,7 @@
     ]
   },
   {
-    "id": 264,
+    "id": 263,
     "question": "262. Które z poniższych reguł są prawdziwe w przypadku mechanizmu Mandatory Access Control (MAC). Podmiot nie może …",
     "answers": [
       {
@@ -7233,7 +7233,7 @@
     ]
   },
   {
-    "id": 265,
+    "id": 264,
     "question": "263. Jakie funkcje moga pelnic systemy HIPS?",
     "answers": [
       {
@@ -7259,7 +7259,7 @@
     ]
   },
   {
-    "id": 266,
+    "id": 265,
     "question": "264. Do zrealizowania zamaskowanego kanału komunikacyjnego może potencjalnie posłużyć",
     "answers": [
       {
@@ -7285,7 +7285,7 @@
     ]
   },
   {
-    "id": 267,
+    "id": 266,
     "question": "265. Wskaż warunek wystarczający do weryfikacji podpisu cyfrowego wiadomości S/MIME:",
     "answers": [
       {
@@ -7311,7 +7311,7 @@
     ]
   },
   {
-    "id": 268,
+    "id": 267,
     "question": "266. Jakie właściwości można ustawić w Zasadach haseł w systemie Windows?",
     "answers": [
       {
@@ -7342,7 +7342,7 @@
     ]
   },
   {
-    "id": 269,
+    "id": 268,
     "question": "267. Systemowa zapora sieciowa w systemie Windows:",
     "answers": [
       {
@@ -7368,7 +7368,7 @@
     ]
   },
   {
-    "id": 270,
+    "id": 269,
     "question": "268.  Lokalna zapora sieciowa systemu Windows na stanowisku X zablokowała możliwość zdalnego odpytywania o dostępność X przy pomocy narzędzia ping, pozostawiając jednak możliwość zdalnego dostępu do serwera www w tym systemie. Mogła to osiągnąć poprzez:",
     "answers": [
       {
@@ -7394,7 +7394,7 @@
     ]
   },
   {
-    "id": 271,
+    "id": 270,
     "question": "269. Użytkownik U systemu Unix należący do grupy G1 nie ma wpisu na liście ACL do zasobu O w systemie plików. Jednak grupie G1 na liście ACL tego zasobu nadano prawa r i w, natomiast wszystkim pozostałym (others) - prawa r oraz x. Które efektywne uprawnienia do O posiada U? (U nie jest właścicielem O i nie należy do grupy zasobu O):",
     "answers": [
       {
@@ -7420,7 +7420,7 @@
     ]
   },
   {
-    "id": 272,
+    "id": 271,
     "question": "270. Zasoby systemu operacyjnego MS Windows udostępnione poprzez SMB:",
     "answers": [
       {
@@ -7451,7 +7451,7 @@
     ]
   },
   {
-    "id": 273,
+    "id": 272,
     "question": "271. ssh -L 9999:cerber:23 polluks  Wybierz prawdziwe stwierdzenia dotyczące powyższego polecenia:",
     "answers": [
       {
@@ -7477,7 +7477,7 @@
     ]
   },
   {
-    "id": 274,
+    "id": 273,
     "question": "272. Kto może nadawać/modyfikować uprawnienia POSIX ACL danego obiektu w systemie plików:",
     "answers": [
       {
@@ -7503,7 +7503,7 @@
     ]
   },
   {
-    "id": 275,
+    "id": 274,
     "question": "273. Mechanizm SUID/SGID:",
     "answers": [
       {
@@ -7529,7 +7529,7 @@
     ]
   },
   {
-    "id": 276,
+    "id": 275,
     "question": "274. Wpisy ACE (na liście ACL) zabraniające dostępu:",
     "answers": [
       {
@@ -7555,7 +7555,7 @@
     ]
   },
   {
-    "id": 277,
+    "id": 276,
     "question": "275. Jakie metody uwierzytelniania oferuje protokół HTTP:",
     "answers": [
       {
@@ -7581,7 +7581,7 @@
     ]
   },
   {
-    "id": 278,
+    "id": 277,
     "question": "276. Trusted Platform Module (TPM) może być wykorzystywany do:",
     "answers": [
       {
@@ -7607,7 +7607,7 @@
     ]
   },
   {
-    "id": 279,
+    "id": 278,
     "question": "277. Czy zaszyfrowany plik w systemie MS Windows możemy współdzielić z innym użytkownikiem?",
     "answers": [
       {
@@ -7633,7 +7633,7 @@
     ]
   },
   {
-    "id": 280,
+    "id": 279,
     "question": "278. W jaki sposób można jednoznacznie określić, które konto w systemie operacyjnym MS Windows jest wbudowanym kontem administracyjnym?",
     "answers": [
       {
@@ -7659,7 +7659,7 @@
     ]
   },
   {
-    "id": 281,
+    "id": 280,
     "question": "279. Co oznacza termin “asocjacja bezpieczeństwa” (ang.Security Association)?",
     "answers": [
       {
@@ -7685,7 +7685,7 @@
     ]
   },
   {
-    "id": 282,
+    "id": 281,
     "question": "280. Które stwierdzenia dotyczące blokady konta w systemie Windows są nieprawdziwe:",
     "answers": [
       {
@@ -7711,7 +7711,7 @@
     ]
   },
   {
-    "id": 283,
+    "id": 282,
     "question": "281. Zapora sieciowa lokalnego systemu na stanowisku X zablokowała możliwość zdalnego odpytywania o dostępności X przy pomocy narzędzia ping, pozostawiając jednak możliwość zdalnego dostępu do serwera www w tym systemie. Mogła to osiągnąć poprzez",
     "answers": [
       {
@@ -7737,7 +7737,7 @@
     ]
   },
   {
-    "id": 284,
+    "id": 283,
     "question": "282. Która z poniższych usług aplikacyjnych wykorzystuje mechanizm SSO",
     "answers": [
       {
@@ -7773,7 +7773,7 @@
     ]
   },
   {
-    "id": 285,
+    "id": 284,
     "question": "283. Mechanizm sudo umożliwia",
     "answers": [
       {
@@ -7799,7 +7799,7 @@
     ]
   },
   {
-    "id": 286,
+    "id": 285,
     "question": "284. Mechanizmem PAM można skonfigurować",
     "answers": [
       {
@@ -7825,7 +7825,7 @@
     ]
   },
   {
-    "id": 287,
+    "id": 286,
     "question": "285. Preshared key to",
     "answers": [
       {
@@ -7851,7 +7851,7 @@
     ]
   },
   {
-    "id": 288,
+    "id": 287,
     "question": "286. Mechanizm User Account Control (UAC) systemu Windows:",
     "answers": [
       {
@@ -7877,7 +7877,7 @@
     ]
   },
   {
-    "id": 289,
+    "id": 288,
     "question": "287. Klucz szyfrowania, którym zaszyfrowana została treść pliku (standardowym mechanizmem EFS z systemu NTFS)",
     "answers": [
       {
@@ -7908,7 +7908,7 @@
     ]
   },
   {
-    "id": 290,
+    "id": 289,
     "question": "288. Skuteczna weryfikacja w systemie PGP podpisanego cyfrowo listu przesłanego od użytkownika A do użytkownika B wymaga:",
     "answers": [
       {
@@ -7934,7 +7934,7 @@
     ]
   },
   {
-    "id": 291,
+    "id": 290,
     "question": "289. xinetd to:",
     "answers": [
       {
@@ -7960,7 +7960,7 @@
     ]
   },
   {
-    "id": 292,
+    "id": 291,
     "question": "290. Przy kopiowaniu zaszyfrowanego pliku z NTFS na partycję FAT:",
     "answers": [
       {
@@ -7986,7 +7986,7 @@
     ]
   },
   {
-    "id": 293,
+    "id": 292,
     "question": "291. Zaznacz poprawne warunki, których spełnienie w systemie plików NTFS pozwoli by użytkownik U  należący do grupy G mógł odczytać zawartość pliku P w katalogu K:",
     "answers": [
       {
@@ -8022,7 +8022,7 @@
     ]
   },
   {
-    "id": 294,
+    "id": 293,
     "question": "292. Wskaż to z ustawień parametrów haseł (tylko jedno), które jest najkorzystniejsze dla bezpieczeństwa konta:",
     "answers": [
       {
@@ -8048,7 +8048,7 @@
     ]
   },
   {
-    "id": 295,
+    "id": 294,
     "question": "293. getfacl --omit-header test",
     "answers": [
       {
@@ -8139,7 +8139,7 @@
     ]
   },
   {
-    "id": 296,
+    "id": 295,
     "question": "294. Stosowany w sieciach VPN preshared key to:",
     "answers": [
       {
@@ -8165,7 +8165,7 @@
     ]
   },
   {
-    "id": 297,
+    "id": 296,
     "question": "295. Czego nie można ograniczyć za pomocą komendy ulimit (mechanizmu limitów zasobowych)?",
     "answers": [
       {
@@ -8201,7 +8201,7 @@
     ]
   },
   {
-    "id": 298,
+    "id": 297,
     "question": "296. Asocjacja bezpieczeństwa (ang. Security Association) IPsec w systemie Windows:",
     "answers": [
       {
@@ -8227,7 +8227,7 @@
     ]
   },
   {
-    "id": 299,
+    "id": 298,
     "question": "297. Mechanizm sudo:",
     "answers": [
       {
@@ -8253,7 +8253,7 @@
     ]
   },
   {
-    "id": 300,
+    "id": 299,
     "question": "298. Szyfrowanie asymetryczne w PGP:",
     "answers": [
       {
@@ -8284,7 +8284,7 @@
     ]
   },
   {
-    "id": 301,
+    "id": 300,
     "question": "299. Wskaż możliwe sposoby uwierzytelniania tunelu IPsec w systemie Windows:",
     "answers": [
       {
@@ -8305,7 +8305,7 @@
     ]
   },
   {
-    "id": 302,
+    "id": 301,
     "question": "300. Jak często sudo będzie pytać użytkownika o hasło?",
     "answers": [
       {
@@ -8331,7 +8331,7 @@
     ]
   },
   {
-    "id": 303,
+    "id": 302,
     "question": "301. Mechanizm POSIX ACL umożliwia:",
     "answers": [
       {
@@ -8357,7 +8357,7 @@
     ]
   },
   {
-    "id": 304,
+    "id": 303,
     "question": "302. Historia haseł jest przypisuje procesowi jeden z 5 poziomów uprawnień uwzględnianych dodatkowo w kontroli dostępu przez system operacyjny:",
     "answers": [
       {
@@ -8383,7 +8383,7 @@
     ]
   },
   {
-    "id": 305,
+    "id": 304,
     "question": "303. Pojedyncza reguła zapory sieciowej Windows:",
     "answers": [
       {
@@ -8409,7 +8409,7 @@
     ]
   },
   {
-    "id": 306,
+    "id": 305,
     "question": "304. Grupa użytkowników w systemie MS Windows o nazwie Użytkownicy uwierzytelnieni:",
     "answers": [
       {
@@ -8435,7 +8435,7 @@
     ]
   },
   {
-    "id": 307,
+    "id": 306,
     "question": "305. Mechanizm mandatory Integrity Control (MIC) system Windows:",
     "answers": [
       {
@@ -8461,7 +8461,7 @@
     ]
   },
   {
-    "id": 308,
+    "id": 307,
     "question": "306. Wskaż pliki zaangażowane w konfigurację TCP wrappera w systemie Unix:",
     "answers": [
       {
@@ -8487,7 +8487,7 @@
     ]
   },
   {
-    "id": 309,
+    "id": 308,
     "question": "307. Wybierz prawdziwą kolejność operacji NAT:",
     "answers": [
       {
@@ -8513,7 +8513,7 @@
     ]
   },
   {
-    "id": 310,
+    "id": 309,
     "question": "308. Wskaż różnicę między dwoma komendami sudo su oraz su:",
     "answers": [
       {
@@ -8539,7 +8539,7 @@
     ]
   },
   {
-    "id": 311,
+    "id": 310,
     "question": "309. Które konfiguracje tuneli obsługuje system OpenVPN:",
     "answers": [
       {
@@ -8565,7 +8565,7 @@
     ]
   },
   {
-    "id": 312,
+    "id": 311,
     "question": "310. Wskaż elementy konfiguracji klienta ssh niezbędne do uwierzytelnienia bez konieczności interakcji z użytkownikiem:",
     "answers": [
       {
@@ -8591,7 +8591,7 @@
     ]
   },
   {
-    "id": 313,
+    "id": 312,
     "question": "311. Definicji zaufania (single-sign-on) dla usług r* możnambożna dokonywać w:",
     "answers": [
       {
@@ -8627,7 +8627,7 @@
     ]
   },
   {
-    "id": 314,
+    "id": 313,
     "question": "312. W jaki sposób przebiega uwierzytelnianie w usłudze rlogin",
     "answers": [
       {
@@ -8653,7 +8653,7 @@
     ]
   },
   {
-    "id": 315,
+    "id": 314,
     "question": "313. Udział C$ jest to:",
     "answers": [
       {
@@ -8679,7 +8679,7 @@
     ]
   },
   {
-    "id": 316,
+    "id": 315,
     "question": "314. Jaka jest kolejność sprawdzania reguł w plikach hosts.deny hosts.allow",
     "answers": [
       {
@@ -8705,7 +8705,7 @@
     ]
   },
   {
-    "id": 317,
+    "id": 316,
     "question": "315. Co można ustawić w zasadach kont w MS Windows",
     "answers": [
       {
@@ -8746,7 +8746,7 @@
     ]
   },
   {
-    "id": 318,
+    "id": 317,
     "question": "316. Czy maska uprawnień POSIX ACL jest definiowana dla każdego użytkownika osobno?",
     "answers": [
       {
@@ -8772,7 +8772,7 @@
     ]
   },
   {
-    "id": 319,
+    "id": 318,
     "question": "317. Przesłanie i zweryfikowanie podpisanego cyfrowo listu w standardzie S/MIME od użytkownika A do użytkownika B wymaga:",
     "answers": [
       {
@@ -8798,7 +8798,7 @@
     ]
   },
   {
-    "id": 320,
+    "id": 319,
     "question": "318. Szyfrowanie symetryczne plików mechanizmem EFS systemu NTFS",
     "answers": [
       {
@@ -8824,7 +8824,7 @@
     ]
   },
   {
-    "id": 321,
+    "id": 320,
     "question": "319. Mechanizm impersonation systemu Windows:",
     "answers": [
       {
@@ -8850,7 +8850,7 @@
     ]
   },
   {
-    "id": 322,
+    "id": 321,
     "question": "320. Możliwości uwierzytelniania się przy użyciu SSH2 to:",
     "answers": [
       {
@@ -8876,7 +8876,7 @@
     ]
   },
   {
-    "id": 323,
+    "id": 322,
     "question": "321. W jakim celu można wyeksportowaćweksportować certyfikat do formatu PKCS #12:",
     "answers": [
       {
@@ -8902,7 +8902,7 @@
     ]
   },
   {
-    "id": 324,
+    "id": 323,
     "question": "322. Który mechanizm pozwala na wirtualizację jądra systemu:",
     "answers": [
       {
@@ -8928,7 +8928,7 @@
     ]
   },
   {
-    "id": 325,
+    "id": 324,
     "question": "323. Aby zweryfikować podpis cyfrowy w systeme PGP wiadomości od nadawcy A do odbiorcy B potrzeba:",
     "answers": [
       {
@@ -8954,7 +8954,7 @@
     ]
   },
   {
-    "id": 326,
+    "id": 325,
     "question": "324. Kiedy w Windowsie następuje zerowanie licznika prób wpisania hasła:",
     "answers": [
       {
@@ -8980,7 +8980,7 @@
     ]
   },
   {
-    "id": 327,
+    "id": 326,
     "question": "325. Czy iptables umożliwia określenie domyślnej polityki w łańcuchu?",
     "answers": [
       {
@@ -9021,7 +9021,7 @@
     ]
   },
   {
-    "id": 328,
+    "id": 327,
     "question": "326. W metodzie uzgadniania klucza Diffiego-Hellmana system kompromituje (narusza bezpieczenstwo)",
     "answers": [
       {
@@ -9047,7 +9047,7 @@
     ]
   },
   {
-    "id": 329,
+    "id": 328,
     "question": "327. Klasa B1 wg TCSEC („Orange Book”) lub rownowazna jej klasa EAL4 wg Common Criteria wymaga m. in.",
     "answers": [
       {
@@ -9073,7 +9073,7 @@
     ]
   },
   {
-    "id": 330,
+    "id": 329,
     "question": "328. Czy certyfikaty SSL dla obu stron polaczenia vpn nawiazanego przy pomocy programu OpenVPN musza by podpisane przez ta sam zaufana strone trzecia?",
     "answers": [
       {
@@ -9099,7 +9099,7 @@
     ]
   },
   {
-    "id": 331,
+    "id": 330,
     "question": "329. Ktore funkcje i parametry konfiguracyjne PHP moga byc wykorzystane do ochrony przed atakami typu command injection?",
     "answers": [
       {
@@ -9125,7 +9125,7 @@
     ]
   },
   {
-    "id": 332,
+    "id": 331,
     "question": "330. Wskaz prawidlowe stwierdzenia dotyczace metod uwierzytelniania systemow operacyjnych MS Windows w srodowisku sieciowym:",
     "answers": [
       {
@@ -9151,7 +9151,7 @@
     ]
   },
   {
-    "id": 333,
+    "id": 332,
     "question": "331. Czy program inetd to:",
     "answers": [
       {
@@ -9177,7 +9177,7 @@
     ]
   },
   {
-    "id": 334,
+    "id": 333,
     "question": "332. Wskaz cechy mechanizmu SYN cookies:",
     "answers": [
       {
@@ -9203,7 +9203,7 @@
     ]
   },
   {
-    "id": 335,
+    "id": 334,
     "question": "333. Jesli ls -l plik.txt wyglada nastepujaco -rwxr-xr-x+ 1 user group 1000 2005-01-10 09:00 plik.txt to chmod 715 plik.txt\" spowoduje:",
     "answers": [
       {
@@ -9229,7 +9229,7 @@
     ]
   },
   {
-    "id": 336,
+    "id": 335,
     "question": "334. Zapora sieciowa wbudowana w Ms Win XP sp2:",
     "answers": [
       {
@@ -9255,7 +9255,7 @@
     ]
   },
   {
-    "id": 337,
+    "id": 336,
     "question": "335. W jaki sposob mozna utworzyc wiele polaczen z danego hosta za pomoca programu OpenVPN?",
     "answers": [
       {
@@ -9291,7 +9291,7 @@
     ]
   },
   {
-    "id": 338,
+    "id": 337,
     "question": "336. Ktore polecenie bedzie poprawne, dla ustalenia DNAT (wybierz 2 odpowiedzi)?",
     "answers": [
       {
@@ -9327,7 +9327,7 @@
     ]
   },
   {
-    "id": 339,
+    "id": 338,
     "question": "337. Ponizsza regula zostala wpisana na komputerze pelniacym role routera: iptables -t filter -A INPUT -m state --state NEW -j DROP",
     "answers": [
       {
@@ -9353,7 +9353,7 @@
     ]
   },
   {
-    "id": 340,
+    "id": 339,
     "question": "338. Narzedzie OpenVPN",
     "answers": [
       {
@@ -9389,7 +9389,7 @@
     ]
   },
   {
-    "id": 341,
+    "id": 340,
     "question": "339. Narzedzie Vtun to:",
     "answers": [
       {
@@ -9410,7 +9410,7 @@
     ]
   },
   {
-    "id": 342,
+    "id": 341,
     "question": "340. Program Vtun dziala w architekturze:",
     "answers": [
       {
@@ -9436,7 +9436,7 @@
     ]
   },
   {
-    "id": 343,
+    "id": 342,
     "question": "341.  Program Vtun dziala:",
     "answers": [
       {
@@ -9467,7 +9467,7 @@
     ]
   },
   {
-    "id": 344,
+    "id": 343,
     "question": "342. Polaczenie w Vtun przebiega nastepujaco:",
     "answers": [
       {
@@ -9488,7 +9488,7 @@
     ]
   },
   {
-    "id": 345,
+    "id": 344,
     "question": "343. Czy polecenie jest poprawne? iptables -t mangle -A PREROUTING -s localnet -d ! localnet -m ipp2p --dc -m comment --comment \"zla regulka\" -j TTL --ttl-set 1",
     "answers": [
       {
@@ -9514,7 +9514,7 @@
     ]
   },
   {
-    "id": 346,
+    "id": 345,
     "question": "344. Ideąa połączeńpolaczen typu VPN jest",
     "answers": [
       {
@@ -9545,7 +9545,7 @@
     ]
   },
   {
-    "id": 347,
+    "id": 346,
     "question": "345. Opcja PARANOID w pliku hosts.deny",
     "answers": [
       {
@@ -9571,7 +9571,7 @@
     ]
   },
   {
-    "id": 348,
+    "id": 347,
     "question": "346. getfacl --omit-header acl-test5 user::r-x user:inf44444:r-- group::rw- group:student:r-x mask::rwx other::--x Oznacza:",
     "answers": [
       {
@@ -9607,7 +9607,7 @@
     ]
   },
   {
-    "id": 349,
+    "id": 348,
     "question": "347. Zaleta single-sign-on jest:",
     "answers": [
       {
@@ -9633,7 +9633,7 @@
     ]
   },
   {
-    "id": 350,
+    "id": 349,
     "question": "348. $ssh host Enter passphrase for key '/home/junior/.ssh/id_dsa': Wpis passphrase to:",
     "answers": [
       {
@@ -9659,7 +9659,7 @@
     ]
   },
   {
-    "id": 351,
+    "id": 350,
     "question": "349. getfacl --omit-header acl-test1 user::rw- user:junior:rwx group::r-- group:student:r-x mask::r-- other::--- Oznacza, ze:",
     "answers": [
       {
@@ -9695,7 +9695,7 @@
     ]
   },
   {
-    "id": 352,
+    "id": 351,
     "question": "350. Jak zachowa sie system kontroli ACL standardu POSIX w przypadku uzytkownika U nalezacego do grupy G i wpisanego na liscie ACL obiektu p, jesli ani U ani G nie maja jawnie przydzielonego prawa r, ale kategoria „wszyscy uzytkownicy” (others) takie uprawnienie do obiektu posiada:",
     "answers": [
       {
@@ -9721,7 +9721,7 @@
     ]
   },
   {
-    "id": 353,
+    "id": 352,
     "question": "351. Szyfr, w ktorym poddawana szyfrowaniu zostaje tej samej wielkosci jednobajtowa porcja nieregularnie pojawiajacych sie danych, nazywamy:",
     "answers": [
       {
@@ -9747,7 +9747,7 @@
     ]
   },
   {
-    "id": 354,
+    "id": 353,
     "question": "352. SUID to:",
     "answers": [
       {
@@ -9773,7 +9773,7 @@
     ]
   },
   {
-    "id": 355,
+    "id": 354,
     "question": "353. W jaki sposob administrator moze narzucic ograniczenia uzytkownikom (limity)?",
     "answers": [
       {
@@ -9799,7 +9799,7 @@
     ]
   },
   {
-    "id": 356,
+    "id": 355,
     "question": "354. Problem przepelnienia bufora dotyczy potencjalnie aplikacji:",
     "answers": [
       {
@@ -9825,7 +9825,7 @@
     ]
   },
   {
-    "id": 357,
+    "id": 356,
     "question": "355. Czy istnieje mozliwosc zmiany portu docelowego i adresu docelowego na adres localhost i dowolny inny port?",
     "answers": [
       {
@@ -9851,7 +9851,7 @@
     ]
   },
   {
-    "id": 358,
+    "id": 357,
     "question": "356. W jaki sposob program OpenVPN bedzie wiedzial, gdzie znajduje sie drugi koniec tunelu VPN",
     "answers": [
       {
@@ -9877,7 +9877,7 @@
     ]
   },
   {
-    "id": 359,
+    "id": 358,
     "question": "357. Dyrektywa \"mask\" w ACL okresla:",
     "answers": [
       {
@@ -9903,7 +9903,7 @@
     ]
   },
   {
-    "id": 360,
+    "id": 359,
     "question": "358. Opcja spawn w pliku hosts.deny:",
     "answers": [
       {
@@ -9929,7 +9929,7 @@
     ]
   },
   {
-    "id": 361,
+    "id": 360,
     "question": "359. Ktore polecenie bedzie poprawne, dla ustalenia SNAT",
     "answers": [
       {
@@ -9965,7 +9965,7 @@
     ]
   },
   {
-    "id": 362,
+    "id": 361,
     "question": "360. Czy iptables umozliwia ograniczenie dostepu do uslugi w jednym poleceniu?",
     "answers": [
       {
@@ -9991,7 +9991,7 @@
     ]
   },
   {
-    "id": 363,
+    "id": 362,
     "question": "361. Oprogramowanie OpenVPN wykorzystuje tablice routingu w Linuxie:",
     "answers": [
       {
@@ -10017,7 +10017,7 @@
     ]
   },
   {
-    "id": 364,
+    "id": 363,
     "question": "362. Nazwa konta \"administrator\" w systemie Ms Windows XP:",
     "answers": [
       {
@@ -10043,7 +10043,7 @@
     ]
   },
   {
-    "id": 365,
+    "id": 364,
     "question": "363. Jaki uzytkownik zostanie wybrany w momencie logowania sie na zdalna maszyne przez rsh, gdy w poleceniu rsh nie podano nazwy uzytkownika?:",
     "answers": [
       {
@@ -10084,7 +10084,7 @@
     ]
   },
   {
-    "id": 366,
+    "id": 365,
     "question": "364. Do czego sluzy komenda rsh?",
     "answers": [
       {
@@ -10105,7 +10105,7 @@
     ]
   },
   {
-    "id": 367,
+    "id": 366,
     "question": "365. user::rw- user:inf44444:r-x group::rwx group:student:rwx mask::rwx other::--- Oznacza:",
     "answers": [
       {
@@ -10141,7 +10141,7 @@
     ]
   },
   {
-    "id": 368,
+    "id": 367,
     "question": "366. Czy system MS Windows korzysta z serwera Kerberos?",
     "answers": [
       {
@@ -10167,7 +10167,7 @@
     ]
   },
   {
-    "id": 369,
+    "id": 368,
     "question": "367. Algorytmy SHA-256 i SHA-512 roznia sie wzajemnie:",
     "answers": [
       {
@@ -10193,7 +10193,7 @@
     ]
   },
   {
-    "id": 370,
+    "id": 369,
     "question": "368. Ktorym z ponizszych terminow okresla sie ograniczone srodowisko wykonawcze aplikacji lub jej komponentu:",
     "answers": [
       {
@@ -10219,7 +10219,7 @@
     ]
   },
   {
-    "id": 371,
+    "id": 370,
     "question": "369. Kontrola dostepu do zasobow jest zwiazana z zachowaniem wlasnosci:",
     "answers": [
       {
@@ -10245,7 +10245,7 @@
     ]
   },
   {
-    "id": 372,
+    "id": 371,
     "question": "370. Czy RSBAC to:",
     "answers": [
       {
@@ -10271,7 +10271,7 @@
     ]
   },
   {
-    "id": 373,
+    "id": 372,
     "question": "371. Pre-shared key to",
     "answers": [
       {
@@ -10307,7 +10307,7 @@
     ]
   },
   {
-    "id": 374,
+    "id": 373,
     "question": "372. Co to jest challenge-response?",
     "answers": [
       {
@@ -10338,7 +10338,7 @@
     ]
   },
   {
-    "id": 375,
+    "id": 374,
     "question": "373. Czy serwer KDC w systemie Kerberos przechowuje konta uzytkownikow?",
     "answers": [
       {
@@ -10364,7 +10364,7 @@
     ]
   },
   {
-    "id": 376,
+    "id": 375,
     "question": "374. W jaki sposob polaczenie nawiazane przez rsh jest zabezpieczone?",
     "answers": [
       {
@@ -10390,7 +10390,7 @@
     ]
   },
   {
-    "id": 377,
+    "id": 376,
     "question": "375. W RSBAC, czy mozna zmienic uprawnienia do katalogu dla programu podczas jego dzialania?",
     "answers": [
       {
@@ -10416,7 +10416,7 @@
     ]
   },
   {
-    "id": 378,
+    "id": 377,
     "question": "376. Czy TCP wrapper to",
     "answers": [
       {
@@ -10447,7 +10447,7 @@
     ]
   },
   {
-    "id": 379,
+    "id": 378,
     "question": "377. user::r-x user:inf44444:r-- group::rw- group:student:r-x mask::rwx other::--x Oznacza",
     "answers": [
       {
@@ -10483,7 +10483,7 @@
     ]
   },
   {
-    "id": 380,
+    "id": 379,
     "question": "378. Jaka usluga jest szczegolnie trudna do filtrowania statycznego?",
     "answers": [
       {
@@ -10509,7 +10509,7 @@
     ]
   },
   {
-    "id": 381,
+    "id": 380,
     "question": "379. Zdasz ten egzamin?",
     "answers": [
       {
@@ -10521,1269 +10521,30 @@
         "text": "Nie",
         "color": "green",
         "isCorrect": true
-      },
-      {
-        "text": "379 Certyfikat EFS używany w NTFS zawiera:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*klucz, którym szyfruje się pliki",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*klucz, którym deszyfruje się pliki",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*klucz publiczny użytkownika, używany do odszyfrowywania kluczy FEK",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*klucz publiczny użytkownika, używany do szyfrowania kluczy FEK",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "380 Które stwierdzenia dotyczące blokady konta użytkownika w systemie Windows są nieprawdziwe:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*licznik prób logowania jest zerowany po każdym nieudanym logowaniu",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*licznik prób logowania jest zerowany automatycznie po zadanym czasie",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*licznik prób logowania może wyzerować administrator",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*licznik prób logowania jest zerowany po każdym pomyślnym zalogowaniu",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "381 Zasoby systemu operacyjnego MS Windows udostępnione poprzez SMB:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*są dostępne zdalnie tylko dla tych użytkowników, którzy posiadają lokalne konto w systemie operacyjnym",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*nazywa się portami",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*zawsze wymagają uwierzytelniania (podania hasła) przy dostępie zdalnym",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*mogą mieć ograniczony dostęp do odczytu i/lub zapisu tylko dla wskazanych użytkowników",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "382 Użytkownik U systemu Linux należący do grupy G1 nie ma wpisu na liście ACL do zasobu O w systemie plików. Jednak grupie G1 na liście ACL zasobu O nadano prawa r i x, a uprawnienia domyślne tego zasobu wynoszą rwx. Jakie efektywne uprawnienia do O posiada U? (U nie jest właścicielem O i nie należy do grupy zasobu O, mask=rwx):",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*tylko r",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*rx",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*rwx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*żadne",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "383 Co użytkownik może zrobić za pomocą komendy ulimit?:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*zwiększyć swoje uprawnienia dostępu do plików",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*zablokować możliwość dokonywania zrzutu obrazu pamięci procesu do pliku (core dump)",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*ograniczyć liczbę jednocześnie otwartych plików",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*ograniczyć uprawnienia dostępu do swoich plików dla innych użytkowników",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "384 Jakie mechanizmy kryptograficzne są niezbędne w celu zapewnienia niezaprzeczalności (ang. nonrepudiation) w kontekście poczty elektronicznej?:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*wiadomość musi być podpisana elektronicznie kluczem publicznym nadawcy",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*wiadomość musi być podpisana elektronicznie kluczem prywatnym nadawcy",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*do wiadomości musi zostać dołączony certyfikat poświadczony przez zaufany urząd CA",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*wiadomość musi zostać zaszyfrowana kluczem symetrycznym znanym jedynie stronom komunikacji",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "385 Mechanizm wirtualizacji dostępu do newralgicznych komponentów systemu Windows:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*dotyczy niektórych obiektów rejestru systemowego",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*może być włączany/wyłączany przez użytkownika dla jego własnych procesów",
-        "color": "yellow",
-        "isCorrect": false
-      },
-      {
-        "text": "*dotyczy niektórych obiektów systemu plików",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*jest stosowany wyłącznie wobec aplikacji 64-bitowych",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "386 Których wpisów ACE na liście POSIX ACL dotyczy maska:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*właściciela obiektu",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "* grupy (domyślnej) pliku (z bazowych ACE)",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*każdej jawnie wpisanej grupy",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*wszystkich użytkowników niewpisanych jawnie, ale należących do dowolnej jawnie wpisanej grupy",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "387 Wskaż wszystkie warunki konieczne do weryfikacji podpisu cyfrowego wiadomości S/MIME:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*uprzednie przekazanie do nadawcy klucza publicznego odbiorcy",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*dostęp odbiorcy do certyfikatu klucza publicznego CA, który certyfikował klucz publiczny nadawcy",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*uprzednie przekazanie do odbiorcy klucza publicznego nadawcy",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*poprawna wymiana kluczy między nadawcą a odbiorcą metodą Diffiego-Hellmana",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "388 $ getfacl skrypt user :: rwuser: jbond:r-x group :: rwx group: agents: rwx mask :: r-x other ::- wOznacza, że:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*grupa agents może zmodyfikować skrypt",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*grupa domyślna (owning group) może zmodyfikować skrypt",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*użytkownik jbond może wykonać skrypt",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*pozostali użytkownicy mogą zmodyfikować skrypt",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "389 TCP Wrapper może korzystać z dwóch plików z regułami polityki, przy czym:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*ponieważ stosuje zasadę pierwszego dopasowania, plik /etc/hosts.deny może nie być w ogóle sprawdzany",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*jeśli reguła nie zostaje odnaleziona w żadnym pliku, to dostęp zostaje odrzucony",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*najpierw sprawdzane są reguły z pliku /etc/hosts.deny, a ewentualnie później reguły z pliku /etc/hosts.allow",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*najpierw sprawdzane są reguły z pliku /etc/hosts.allow, a ewentualnie później reguły z pliku /etc/hosts.deny",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "390 Mechanizm Bypass Traverse Checking pozwala na:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*ominięcie sprawdzania uprawnień do katalogów na ścieżce do pliku, do którego użytkownik ma przyznany dostęp",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*wyświetlanie zawartości katalogu, do którego użytkownik nie ma przyznanego dostępu, ale ma dostęp do któregokolwiek pliku wewnątrz",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*zestawianie tunelu IPsec w sieci wykorzystującej NAT (NAT-T)",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*dostęp do udziałów sieciowych bez konieczności posiadania konta w zdalnym systemie",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "391 Ustawienie bitu SGID dla katalogu dir można osiągnąć za pomocą polecenia:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*set-suid dir",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*chmod g+s dir",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*sgid --set dir",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*setfacl -m group",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "392 PGP (GPG) używane jest do:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*realizacji tuneli VPN",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*podpisywania plików muzycznych celem zachowania praw autorskich DRM",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*podpisywania danych",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*szyfrowania plików",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "393 $getfacl test owner: jbond group: agents user::rw user:jbond:r-x group:agents:--x mask::r-x other:--- W takim wypadku użytkownik jbond (będący właścicielem obiektu test), należący do grupy agents, ma efektywne uprawnienia:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*rx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*rw",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*r",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*rwx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "394 Wybierz prawdziwe stwierdzenie dotyczące poniższego polecenia: `ssh -L 9999:neptun:23 pluton`:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*dane kierowane na port 9999 lokalnego systemu zostaną przesłane w niezabezpieczonej formie na port 23 systemu pluton",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*dane kierowane na port 9999 systemu neptun zostaną przesłane w niezabezpieczonej formie na port 23 systemu neptun",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*dane kierowane na port 9999 lokalnego systemu zostaną przesłane w zaszyfrowanej formie na port 22 systemu pluton",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*w wyniku polecenia zestawiony zostanie tunel kryptograficzny między systemem neptun i systemem pluton",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "395 Windows Firewall pozwala tworzyć reguły:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*przepuszczające wybrany ruch",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*blokujące wysyłanie ruchu sieciowego przez wskazane programy",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*blokujące odbieranie ruchu sieciowego przez wskazane programy",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*blokujące wybrany ruch",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "396 Polecenie ulimit:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*stworzyć ograniczenie zasobów obowiązujące wszystkie procesy tego użytkownika w systemie (także już te istniejące)",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*stworzyć ograniczenie zasobów obowiązujące wszystkie nowe procesy tego użytkownika w systemie",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*stworzyć ograniczenie zasobów obowiązujące wszystkie procesy tego użytkownika w systemie, ale tylko aż do zakończenia bieżącej sesji",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*stworzyć ograniczenia zasobów obowiązujące tylko daną powłokę i jej procesy potomne",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "397 Klucz z certyfikatu EFS użytkownika U jest wykorzystywany w systemie NTFS do:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*szyfrowania jednorazowych kluczy, którymi zaszyfrowane zostały poszczególne pliki do których U ma dostęp",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*szyfrowania i deszyfrowania treści plików należących do U",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*szyfrowania i deszyfrowania wszelkiej komunikacji z użytkownikiem U",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*szyfrowania i deszyfrowania treści plików należących do użytkowników, którzy udostępnili te pliki użytkownikowi U",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "398 Użytkownik U systemu Linux jest właścicielem zasobu O w systemie plików i na liście ACL tego zasobu ma przyznane prawa rw, a maska zawiera prawa r oraz x. Jakie efektywne uprawnienia do O posiada aktualnie U?:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*tylko r",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*tylko w",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*rw",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*rwx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "399 Mechanizm Mandatory Integrity Control (MIC) system Windows:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*pozwala ograniczyć swobodę komunikacji między procesami",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*pozwala ograniczyć dostęp do zapisu w systemie plików",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*pozwala ograniczyć dostęp do odczytu dla wybranych plików",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*przypisuje procesowi jeden z kilku poziomów uprawnień uwzględnianych dodatkowo w kontroli dostępu",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "400 Dany jest plik Tajne.txt w katalogu Jawne. Załóżmy, że użytkownik Adaś należy do grupy Users. Katalog Jawne ma przydzielone uprawnienia ACL dla grupy Users: ALLOW na czytanie i DENY na zapis. Plik Tajne.txt ma uprawnienia ALLOW na zapis dla użytkownika Adaś. Jakie uprawnienia ostatecznie ma Adaś do pliku Tajne.txt?:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*ma uprawnienia do odczytu, brak uprawnień do zapisu",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*brak uprawnień do odczytu i zapisu",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*ma uprawnienia do odczytu i zapisu",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*ma uprawnienia do zapisu, brak uprawnienia do odczytu",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "401 Mechanizm sudo umożliwia:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*miękkie (soft) zmniejszenie limitów użytkownika",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*uruchamianie poleceń z uprawnieniami administratora po podaniu własnego (domyślnie) hasła",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*miękkie (soft) zwiększenie limitów użytkownika",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*uruchamianie wybranych aplikacji z uprawnieniami innych użytkowników",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "402 Czym różnią się klauzule DROP i REJECT w akcjach reguły iptables?:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*obie odrzucają pakiety, ale REJECT dotyczy tylko łańcucha FORWARD",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*obie odrzucają pakiety, ale DROP zawsze robi to \"po cichu\"",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*obie odrzucają pakiety, ale DROP powoduje przerwanie przeglądania reguł, a REJECT nie",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*REJECT odrzuca pakiety warunkowo, a DROP bezwarunkowo",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "403 Autentyczność kluczy publicznych PGP jest weryfikowana:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*poprzez PKI",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*przez pozyskanie certyfikatu klucza publicznego",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*metodą Web of Trust, w której użytkownicy PGP podpisują sobie wzajemnie klucze",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*poprzez weryfikację podpisu urzędu CA pod kluczem użytkownika",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "404 Które zdania są prawdziwe w odniesieniu do aktywnego mechanizmu UAC w systemie Windows:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*jeśli zwykły użytkownik chce wykonać operację wymagającą uprawnień administratora zostanie zapytany o hasło administratora",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*UAC blokuje możliwość instalacji programów przez administratora",
-        "color": "yellow",
-        "isCorrect": false
-      },
-      {
-        "text": "*zmiana istotnych gałęzi rejestru systemu wymaga świadomej reakcji uprawnionego użytkownika",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*UAC chroni przed przypadkowym uruchomieniem potencjalnie niebezpiecznych programów przez użytkownika",
-        "color": "yellow",
-        "isCorrect": false
-      },
-      {
-        "text": "405 Które stwierdzenia dotyczące blokady konta w systemie Windows są prawdziwe:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*licznik prób logowania jest zerowany po każdej udanej próbie logowania",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*w czasie określonym długością okresu zerowania licznika prób logowania, użytkownik nie może podjąć więcej udanych prób logowania niż określa próg blokady",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*istnieje ustawienie progu blokady dopuszczające nieblokowanie konta mimo dowolnej liczby niepomyślnych prób logowania",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*próg blokady określa ilość kolejnych niepomyślnych prób logowania, po osiągnięciu której dostęp do konta będzie zablokowany trwale",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "406 Czy pakiet PGP(GPG) używa szyfrowania symetrycznego?:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*tak, treść listu jest zawsze szyfrowana algorytmem symetrycznym",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*nie, PGP stosuje tylko kryptografię klucza publicznego",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*tak, np. do szyfrowania plików",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*tak, nadawca i odbiorca generują metodą DH wspólny klucz sesji na podstawie swoich kluczy publicznych",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "407 Bezpośrednim efektem operacji eksportu certyfikatu do formatu PKCS#12 jest:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*przekazanie klucza publicznego innemu użytkownikowi w celu umożliwienia mu wysłania do nas zaszyfrowanej poczty",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*wyodrębnienie z certyfikatu klucza publicznego w celu dołączenia go do kryptogramu przesyłanej wiadomości",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*wyodrębnienie z certyfikatu klucza prywatnego w celu dołączenia go do wykonanego podpisu elektronicznego wiadomości",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*utworzenie kopii zapasowej klucza prywatnego i publicznego w pliku",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "408 Mechanizm sudo można tak skonfigurować by:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*nigdy nie wymagał podania hasła",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*wymagał podania hasła użytkownika, w ramach konta którego należy wykonać polecenie *wykonał polecenie bez pytania o hasło użytkownika o ile plik programu tego polecenia ma ustawiony bit SUID",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*wymagał podania hasła bieżącego użytkownika przy każdym poleceniu",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "409 Możliwe metody uwierzytelniania użytkownika w protokole SSH:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*hasło użytkownika",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*mechanizm TOFU",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*asymetryczne klucze kryptograficzne",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*symetryczne klucze kryptograficzne",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "410 Wskaż prawdziwe stwierdzenia dotyczące szyfrowania treści plików mechanizmem EFS:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*każdy plik szyfrowany jest kluczem publicznym właściciela pliku",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*każdy plik szyfrowany jest innym kluczem",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*plik udostępniony przez właściciela 2 innym użytkownikom jest szyfrowany 3 kluczami",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*każdy plik szyfrowany jest kluczem prywatnym właściciela pliku",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "411 Protokół TLS w usłudze poczty elektronicznej stosuje się do:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*tworzenia bezpiecznego kanału komunikacji programu klienta z serwerem poczty",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*uwierzytelniania nadawcy konkretnej wiadomości",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*podpisywania cyfrowego treści listy",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*szyfrowania załączników wiadomości",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "412 Który opis pasuje do poniższej konfiguracji TCP wrappera ftpd: ALL EXCEPT www : ALLOW ALL : ALL : twist /bin/echo “OK”:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*za wyjątkiem komputera www umożliwia każdemu dostęp do każdej usługi",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*zabrania dostępu do usługi WWW z komputera ftpd",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*umożliwia dostęp do usługi FTP z komputera www",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*zabrania dostępu do usługi FTP z komputera www",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "413 Pliki zwirtualizowane mechanizmem UAC przechowywane są w systemie Windows w:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*katalogu \"%WINDIR%\\User Access Container\\Sandbox\"",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*katalogu \"%SYSTEMDRIVE%\\VirtualStore\"",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*katalogu \"VirtualStore\" lokalnym dla każdego użytkownika",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*alternatywnych strumieniach danych (ADS) systemu NTFS",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "414 Czego nie można ograniczyć za pomocą komendy ulimit (mechanizmu limitów zasobowych)?:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*wielkości pliku zrzutu pamięci",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*ilości otwartych deskryptorów",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*ilości tworzonych procesów",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*sumy zajmowanej przestrzeni dyskowej przez pliki",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "415 Polecenie `netsh advfirewall firewall add rule name=”private” protocol=icmpv4 action=block dir =out remoteip=10.10.0.2` zablokuje możliwość:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*pingowania adresu 10.10.0.2 niezależnie od użycia IPv4 czy IPv6",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*pingowania adresu 10.10.0.2 tylko w sieci o profilu prywatnym",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*pingowania tylko po IPv4 bieżącego systemu z adresu 10.10.0.2",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*pingowania tylko po IPv4 adresu z bieżącego systemu 10.10.0.2",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "416 W jak można udostępnić swój klucz publiczny PGP innemu użytkownikowi:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*przekazać osobiście na nośniku wymiennym",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*umieścić na swojej stronie www",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*wysłać pocztą elektroniczną",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*umieścić w sieciowym repozytorium kluczy",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "417 Ataki phishing:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*dotyczą wykradzenia zaufanych certyfikatów CA",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*realizowane są za pośrednictwem poczty",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*polegają na zatruwania cache przeglądarki www",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*realizowane są za pośrednictwem www",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "418 Które z wymienionych poniżej mechanizmów wspomagają wykrywanie podsłuchu w sieci:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*802.1X",
-        "color": "blue",
-        "isCorrect": false
-      },
-      {
-        "text": "*ARP",
-        "color": "blue",
-        "isCorrect": false
-      },
-      {
-        "text": "*802.11X",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*ICMP echo",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "419 Metoda Diffiego-Hellmana:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*pozwala stronom komunikacji bezpiecznie ustalić wspólne klucze asymetryczne",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*wymaga szyfrowania negocjacji w celu ochrony przed atakami pasywnymi",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*pozwala stronom komunikacji bezpiecznie ustalić wspólny klucz symetryczny",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*wymaga uwierzytelniania negocjacji w celu ochrony przed atakami aktywnymi",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "420 Które z poniższych protokołów służą do realizacji kryptograficznych tuneli wirtualnych:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*TLS",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*SSO",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*IKE",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*ESP",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "421 Wskaż cechy charakteryzujące kontrole dostępu MAC:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*właściciel zasobu może dysponować prawami dostępu do tego zasobu",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*etykiety ochrony danych przypisane do zasobów automatycznie wymuszają uprawnienia",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*właściciel zasobu nie może dysponować prawami dostępu do tego zasobu",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*tylko wyróżniony oficer bezpieczeństwa może dysponować prawami dostępu do zasobów",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "422 Wskaż możliwe sposoby ochrony przed atakami na protokół DHCP (takimi jak np. DHCP redirection, lease starvation):",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*DHCP Snooping - przełącznik przepuszcza odpowiedzi DHCP tylko z określonego wcześniej portu",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*DHCP Hoping - zapora zamienia numer VLAN w zadaniach DHCP",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*ICMP redirection - wykorzystanie ICMP do ponownej zmiany trasy pakietów DHCP",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*DHCP session hijacking - przejmowanie połączeń TCP sesji DHCP przez proxy",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "423 W modelu uwierzytelniania z udziałem zaufanej trzeciej strony, do zadań tej trzeciej strony należy:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*pobieranie danych uwierzytelniających od strony uwierzytelnionej",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*wystawienie poświadczenia uwierzytelnienia stronie uwierzytelnionej",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*przekazanie danych uwierzytelniających strony uwierzytelnionej docelowym serwerowi",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*przekazanie danych uwierzytelniających stronie uwierzytelnionej",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "424 Wskaż protokoły wymagające zabezpieczenia autentyczności i integralności danych, ale niekoniecznie poufności:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*DNS (Domain Name Service)",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*ARP (Address Resolution Protocol)",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*STP (Spanning Tree Protocol)",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*rlogin (Remote Login)",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "425 W przypadku systemu kontroli ACL standardu POSIX użytkownik U należący do grupy G posiada efektywne uprawnienia r do zasobu p jeśli:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*właściciel p ma prawo r oraz p posiada ustawiony bit suid - bez względu na zawartość ACL",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*U oraz G występują na liście ACL bez prawa r, ale kategoria \"wszyscy użytkownicy\" (others) takie uprawniania posiada",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*prawo r zostanie jawnie nadane U lub G",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*U jest właścicielem p - bez względu a zawartość ACL",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "426 Atak Slow Read:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "* wymusza nienaturalnie długie podtrzymywanie połączenia TCP",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "* manipuluje mechanizmami rozmiaru segmentu oraz okna TCP do spowolnienia komunikacji",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*wykorzystuje funkcję masqarade w iptables w celu nieautoryzowanego ograniczenia przepustowości ruchu skierowanego do atakowanej aplikacji",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*blokuje komunikację sieciową poprzez radykalne zmniejszenie buforów gniazd socketów",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "427 Wskaż cechy charakteryzujące kontrolę dostępu MAC:",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*tylko wyróżniony oficer bezpieczeństwa może dysponować prawami dostępu do zasobu",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*właściciel zasobu nie może dysponować prawami dostępu do tego zasobu",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*etykiety ochrony danych przypisane do zasobów automatycznie wymuszają uprawniania",
-        "color": "yellow",
-        "isCorrect": false
-      },
-      {
-        "text": "*tylko właściciel zasobu może dysponować prawami dostępu do tego zasobu",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "428 Moduł sprzętowy Trusted Platform Module (TPM):",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*ma wbudowane wybrane operacje kryptograficzne, wykonywane wewnętrznie",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*umożliwia przechowywanie danych biometrycznych",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "*umożliwia przechowywanie kluczy kryptograficznych",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "*z założenia ma uniemożliwiać sprzętowe ataki inwazyjne na zawartość swojej pamięci",
-        "color": "green",
-        "isCorrect": true
-      },
+      }
+    ]
+  },
+  {
+    "id": 381,
+    "question": "379 Certyfikat EFS używany w NTFS zawiera:",
+    "answers": [
       {
-        "text": "429 Które z poniższych poleceń pozwolą ustawić but SUID dla katalogu dir:* suid –set dir",
+        "text": "klucz, którym szyfruje się pliki",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "* setfacl -m user::s",
+        "text": "klucz, którym deszyfruje się pliki",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "*chmod u+s dir",
+        "text": "klucz publiczny użytkownika, używany do odszyfrowywania kluczy FEK",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "*set-suid dir",
+        "text": "klucz publiczny użytkownika, używany do szyfrowania kluczy FEK",
         "color": "none",
         "isCorrect": false
       }
@@ -11791,20 +10552,25 @@
   },
   {
     "id": 382,
-    "question": "430. Ataki o nazwie phishin:*dotyczą wykradzenia zaufanych certyfikatów CA",
+    "question": "380 Które stwierdzenia dotyczące blokady konta użytkownika w systemie Windows są nieprawdziwe:",
     "answers": [
       {
-        "text": "*realizowane są za pośrednictwem poczty",
+        "text": "licznik prób logowania jest zerowany po każdym nieudanym logowaniu",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "*polegają na zatruwaniu cache przeglądarki www",
+        "text": "licznik prób logowania jest zerowany automatycznie po zadanym czasie",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "*realizowane są za pośrednictwem www",
+        "text": "licznik prób logowania może wyzerować administrator",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "licznik prób logowania jest zerowany po każdym pomyślnym zalogowaniu",
         "color": "green",
         "isCorrect": true
       }
@@ -11812,6 +10578,1296 @@
   },
   {
     "id": 383,
+    "question": "381 Zasoby systemu operacyjnego MS Windows udostępnione poprzez SMB:",
+    "answers": [
+      {
+        "text": "są dostępne zdalnie tylko dla tych użytkowników, którzy posiadają lokalne konto w systemie operacyjnym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nazywa się portami",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawsze wymagają uwierzytelniania (podania hasła) przy dostępie zdalnym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "mogą mieć ograniczony dostęp do odczytu i/lub zapisu tylko dla wskazanych użytkowników",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 384,
+    "question": "382 Użytkownik U systemu Linux należący do grupy G1 nie ma wpisu na liście ACL do zasobu O w systemie plików. Jednak grupie G1 na liście ACL zasobu O nadano prawa r i x, a uprawnienia domyślne tego zasobu wynoszą rwx. Jakie efektywne uprawnienia do O posiada U? (U nie jest właścicielem O i nie należy do grupy zasobu O, mask=rwx):",
+    "answers": [
+      {
+        "text": "tylko r",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "rx",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "rwx",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "żadne",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 385,
+    "question": "383 Co użytkownik może zrobić za pomocą komendy ulimit?:",
+    "answers": [
+      {
+        "text": "zwiększyć swoje uprawnienia dostępu do plików",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zablokować możliwość dokonywania zrzutu obrazu pamięci procesu do pliku (core dump)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "ograniczyć liczbę jednocześnie otwartych plików",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "ograniczyć uprawnienia dostępu do swoich plików dla innych użytkowników",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 386,
+    "question": "384 Jakie mechanizmy kryptograficzne są niezbędne w celu zapewnienia niezaprzeczalności (ang. nonrepudiation) w kontekście poczty elektronicznej?:",
+    "answers": [
+      {
+        "text": "wiadomość musi być podpisana elektronicznie kluczem publicznym nadawcy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wiadomość musi być podpisana elektronicznie kluczem prywatnym nadawcy",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "do wiadomości musi zostać dołączony certyfikat poświadczony przez zaufany urząd CA",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wiadomość musi zostać zaszyfrowana kluczem symetrycznym znanym jedynie stronom komunikacji",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 387,
+    "question": "385 Mechanizm wirtualizacji dostępu do newralgicznych komponentów systemu Windows:",
+    "answers": [
+      {
+        "text": "dotyczy niektórych obiektów rejestru systemowego",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "może być włączany/wyłączany przez użytkownika dla jego własnych procesów",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "dotyczy niektórych obiektów systemu plików",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "jest stosowany wyłącznie wobec aplikacji 64-bitowych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 388,
+    "question": "386 Których wpisów ACE na liście POSIX ACL dotyczy maska:",
+    "answers": [
+      {
+        "text": "właściciela obiektu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "grupy (domyślnej) pliku (z bazowych ACE)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "każdej jawnie wpisanej grupy",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wszystkich użytkowników niewpisanych jawnie, ale należących do dowolnej jawnie wpisanej grupy",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 389,
+    "question": "387 Wskaż wszystkie warunki konieczne do weryfikacji podpisu cyfrowego wiadomości S/MIME:",
+    "answers": [
+      {
+        "text": "uprzednie przekazanie do nadawcy klucza publicznego odbiorcy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dostęp odbiorcy do certyfikatu klucza publicznego CA, który certyfikował klucz publiczny nadawcy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "uprzednie przekazanie do odbiorcy klucza publicznego nadawcy",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "poprawna wymiana kluczy między nadawcą a odbiorcą metodą Diffiego-Hellmana",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 390,
+    "question": "388 $ getfacl skrypt user :: rwuser: jbond:r-x group :: rwx group: agents: rwx mask :: r-x other ::- wOznacza, że:",
+    "answers": [
+      {
+        "text": "grupa agents może zmodyfikować skrypt",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "grupa domyślna (owning group) może zmodyfikować skrypt",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "użytkownik jbond może wykonać skrypt",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "pozostali użytkownicy mogą zmodyfikować skrypt",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 391,
+    "question": "389 TCP Wrapper może korzystać z dwóch plików z regułami polityki, przy czym:",
+    "answers": [
+      {
+        "text": "ponieważ stosuje zasadę pierwszego dopasowania, plik /etc/hosts.deny może nie być w ogóle sprawdzany",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "jeśli reguła nie zostaje odnaleziona w żadnym pliku, to dostęp zostaje odrzucony",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "najpierw sprawdzane są reguły z pliku /etc/hosts.deny, a ewentualnie później reguły z pliku /etc/hosts.allow",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "najpierw sprawdzane są reguły z pliku /etc/hosts.allow, a ewentualnie później reguły z pliku /etc/hosts.deny",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 392,
+    "question": "390 Mechanizm Bypass Traverse Checking pozwala na:",
+    "answers": [
+      {
+        "text": "ominięcie sprawdzania uprawnień do katalogów na ścieżce do pliku, do którego użytkownik ma przyznany dostęp",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wyświetlanie zawartości katalogu, do którego użytkownik nie ma przyznanego dostępu, ale ma dostęp do któregokolwiek pliku wewnątrz",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zestawianie tunelu IPsec w sieci wykorzystującej NAT (NAT-T)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dostęp do udziałów sieciowych bez konieczności posiadania konta w zdalnym systemie",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 393,
+    "question": "391 Ustawienie bitu SGID dla katalogu dir można osiągnąć za pomocą polecenia:",
+    "answers": [
+      {
+        "text": "set-suid dir",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "chmod g+s dir",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "sgid --set dir",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "setfacl -m group",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 394,
+    "question": "392 PGP (GPG) używane jest do:",
+    "answers": [
+      {
+        "text": "realizacji tuneli VPN",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "podpisywania plików muzycznych celem zachowania praw autorskich DRM",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "podpisywania danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "szyfrowania plików",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 395,
+    "question": "393 $getfacl test owner: jbond group: agents user::rw user:jbond:r-x group:agents:--x mask::r-x other:--- W takim wypadku użytkownik jbond (będący właścicielem obiektu test), należący do grupy agents, ma efektywne uprawnienia:",
+    "answers": [
+      {
+        "text": "rx",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "rw",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "r",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "rwx",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 396,
+    "question": "394 Wybierz prawdziwe stwierdzenie dotyczące poniższego polecenia: `ssh -L 9999:neptun:23 pluton`:",
+    "answers": [
+      {
+        "text": "dane kierowane na port 9999 lokalnego systemu zostaną przesłane w niezabezpieczonej formie na port 23 systemu pluton",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dane kierowane na port 9999 systemu neptun zostaną przesłane w niezabezpieczonej formie na port 23 systemu neptun",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dane kierowane na port 9999 lokalnego systemu zostaną przesłane w zaszyfrowanej formie na port 22 systemu pluton",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "w wyniku polecenia zestawiony zostanie tunel kryptograficzny między systemem neptun i systemem pluton",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 397,
+    "question": "395 Windows Firewall pozwala tworzyć reguły:",
+    "answers": [
+      {
+        "text": "przepuszczające wybrany ruch",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "blokujące wysyłanie ruchu sieciowego przez wskazane programy",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "blokujące odbieranie ruchu sieciowego przez wskazane programy",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "blokujące wybrany ruch",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 398,
+    "question": "396 Polecenie ulimit:",
+    "answers": [
+      {
+        "text": "stworzyć ograniczenie zasobów obowiązujące wszystkie procesy tego użytkownika w systemie (także już te istniejące)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "stworzyć ograniczenie zasobów obowiązujące wszystkie nowe procesy tego użytkownika w systemie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "stworzyć ograniczenie zasobów obowiązujące wszystkie procesy tego użytkownika w systemie, ale tylko aż do zakończenia bieżącej sesji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "stworzyć ograniczenia zasobów obowiązujące tylko daną powłokę i jej procesy potomne",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 399,
+    "question": "397 Klucz z certyfikatu EFS użytkownika U jest wykorzystywany w systemie NTFS do:",
+    "answers": [
+      {
+        "text": "szyfrowania jednorazowych kluczy, którymi zaszyfrowane zostały poszczególne pliki do których U ma dostęp",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "szyfrowania i deszyfrowania treści plików należących do U",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "szyfrowania i deszyfrowania wszelkiej komunikacji z użytkownikiem U",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "szyfrowania i deszyfrowania treści plików należących do użytkowników, którzy udostępnili te pliki użytkownikowi U",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 400,
+    "question": "398 Użytkownik U systemu Linux jest właścicielem zasobu O w systemie plików i na liście ACL tego zasobu ma przyznane prawa rw, a maska zawiera prawa r oraz x. Jakie efektywne uprawnienia do O posiada aktualnie U?:",
+    "answers": [
+      {
+        "text": "tylko r",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tylko w",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "rw",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "rwx",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 401,
+    "question": "399 Mechanizm Mandatory Integrity Control (MIC) system Windows:",
+    "answers": [
+      {
+        "text": "pozwala ograniczyć swobodę komunikacji między procesami",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "pozwala ograniczyć dostęp do zapisu w systemie plików",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "pozwala ograniczyć dostęp do odczytu dla wybranych plików",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "przypisuje procesowi jeden z kilku poziomów uprawnień uwzględnianych dodatkowo w kontroli dostępu",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 402,
+    "question": "400 Dany jest plik Tajne.txt w katalogu Jawne. Załóżmy, że użytkownik Adaś należy do grupy Users. Katalog Jawne ma przydzielone uprawnienia ACL dla grupy Users: ALLOW na czytanie i DENY na zapis. Plik Tajne.txt ma uprawnienia ALLOW na zapis dla użytkownika Adaś. Jakie uprawnienia ostatecznie ma Adaś do pliku Tajne.txt?:",
+    "answers": [
+      {
+        "text": "ma uprawnienia do odczytu, brak uprawnień do zapisu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "brak uprawnień do odczytu i zapisu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ma uprawnienia do odczytu i zapisu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ma uprawnienia do zapisu, brak uprawnienia do odczytu",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 403,
+    "question": "401 Mechanizm sudo umożliwia:",
+    "answers": [
+      {
+        "text": "miękkie (soft) zmniejszenie limitów użytkownika",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "uruchamianie poleceń z uprawnieniami administratora po podaniu własnego (domyślnie) hasła",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "miękkie (soft) zwiększenie limitów użytkownika",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "uruchamianie wybranych aplikacji z uprawnieniami innych użytkowników",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 404,
+    "question": "402 Czym różnią się klauzule DROP i REJECT w akcjach reguły iptables?:",
+    "answers": [
+      {
+        "text": "obie odrzucają pakiety, ale REJECT dotyczy tylko łańcucha FORWARD",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "obie odrzucają pakiety, ale DROP zawsze robi to \"po cichu\"",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "obie odrzucają pakiety, ale DROP powoduje przerwanie przeglądania reguł, a REJECT nie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "REJECT odrzuca pakiety warunkowo, a DROP bezwarunkowo",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 405,
+    "question": "403 Autentyczność kluczy publicznych PGP jest weryfikowana:",
+    "answers": [
+      {
+        "text": "poprzez PKI",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "przez pozyskanie certyfikatu klucza publicznego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "metodą Web of Trust, w której użytkownicy PGP podpisują sobie wzajemnie klucze",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "poprzez weryfikację podpisu urzędu CA pod kluczem użytkownika",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 406,
+    "question": "404 Które zdania są prawdziwe w odniesieniu do aktywnego mechanizmu UAC w systemie Windows:",
+    "answers": [
+      {
+        "text": "jeśli zwykły użytkownik chce wykonać operację wymagającą uprawnień administratora zostanie zapytany o hasło administratora",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "UAC blokuje możliwość instalacji programów przez administratora",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "zmiana istotnych gałęzi rejestru systemu wymaga świadomej reakcji uprawnionego użytkownika",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "UAC chroni przed przypadkowym uruchomieniem potencjalnie niebezpiecznych programów przez użytkownika",
+        "color": "yellow",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 407,
+    "question": "405 Które stwierdzenia dotyczące blokady konta w systemie Windows są prawdziwe:",
+    "answers": [
+      {
+        "text": "licznik prób logowania jest zerowany po każdej udanej próbie logowania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w czasie określonym długością okresu zerowania licznika prób logowania, użytkownik nie może podjąć więcej udanych prób logowania niż określa próg blokady",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "istnieje ustawienie progu blokady dopuszczające nieblokowanie konta mimo dowolnej liczby niepomyślnych prób logowania",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "próg blokady określa ilość kolejnych niepomyślnych prób logowania, po osiągnięciu której dostęp do konta będzie zablokowany trwale",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 408,
+    "question": "406 Czy pakiet PGP(GPG) używa szyfrowania symetrycznego?:",
+    "answers": [
+      {
+        "text": "tak, treść listu jest zawsze szyfrowana algorytmem symetrycznym",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "nie, PGP stosuje tylko kryptografię klucza publicznego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tak, np. do szyfrowania plików",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tak, nadawca i odbiorca generują metodą DH wspólny klucz sesji na podstawie swoich kluczy publicznych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 409,
+    "question": "407 Bezpośrednim efektem operacji eksportu certyfikatu do formatu PKCS#12 jest:",
+    "answers": [
+      {
+        "text": "przekazanie klucza publicznego innemu użytkownikowi w celu umożliwienia mu wysłania do nas zaszyfrowanej poczty",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wyodrębnienie z certyfikatu klucza publicznego w celu dołączenia go do kryptogramu przesyłanej wiadomości",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wyodrębnienie z certyfikatu klucza prywatnego w celu dołączenia go do wykonanego podpisu elektronicznego wiadomości",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "utworzenie kopii zapasowej klucza prywatnego i publicznego w pliku",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 410,
+    "question": "408 Mechanizm sudo można tak skonfigurować by:",
+    "answers": [
+      {
+        "text": "nigdy nie wymagał podania hasła",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wymagał podania hasła użytkownika, w ramach konta którego należy wykonać polecenie *wykonał polecenie bez pytania o hasło użytkownika o ile plik programu tego polecenia ma ustawiony bit SUID",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wymagał podania hasła bieżącego użytkownika przy każdym poleceniu",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 411,
+    "question": "409 Możliwe metody uwierzytelniania użytkownika w protokole SSH:",
+    "answers": [
+      {
+        "text": "hasło użytkownika",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "mechanizm TOFU",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "asymetryczne klucze kryptograficzne",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "symetryczne klucze kryptograficzne",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 412,
+    "question": "410 Wskaż prawdziwe stwierdzenia dotyczące szyfrowania treści plików mechanizmem EFS:",
+    "answers": [
+      {
+        "text": "każdy plik szyfrowany jest kluczem publicznym właściciela pliku",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "każdy plik szyfrowany jest innym kluczem",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "plik udostępniony przez właściciela 2 innym użytkownikom jest szyfrowany 3 kluczami",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "każdy plik szyfrowany jest kluczem prywatnym właściciela pliku",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 413,
+    "question": "411 Protokół TLS w usłudze poczty elektronicznej stosuje się do:",
+    "answers": [
+      {
+        "text": "tworzenia bezpiecznego kanału komunikacji programu klienta z serwerem poczty",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "uwierzytelniania nadawcy konkretnej wiadomości",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "podpisywania cyfrowego treści listy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "szyfrowania załączników wiadomości",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 414,
+    "question": "412 Który opis pasuje do poniższej konfiguracji TCP wrappera ftpd: ALL EXCEPT www : ALLOW ALL : ALL : twist /bin/echo “OK”:",
+    "answers": [
+      {
+        "text": "za wyjątkiem komputera www umożliwia każdemu dostęp do każdej usługi",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zabrania dostępu do usługi WWW z komputera ftpd",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "umożliwia dostęp do usługi FTP z komputera www",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zabrania dostępu do usługi FTP z komputera www",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 415,
+    "question": "413 Pliki zwirtualizowane mechanizmem UAC przechowywane są w systemie Windows w:",
+    "answers": [
+      {
+        "text": "katalogu \"%WINDIR%\\User Access Container\\Sandbox\"",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "katalogu \"%SYSTEMDRIVE%\\VirtualStore\"",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "katalogu \"VirtualStore\" lokalnym dla każdego użytkownika",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "alternatywnych strumieniach danych (ADS) systemu NTFS",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 416,
+    "question": "414 Czego nie można ograniczyć za pomocą komendy ulimit (mechanizmu limitów zasobowych)?:",
+    "answers": [
+      {
+        "text": "wielkości pliku zrzutu pamięci",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ilości otwartych deskryptorów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ilości tworzonych procesów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sumy zajmowanej przestrzeni dyskowej przez pliki",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 417,
+    "question": "415 Polecenie `netsh advfirewall firewall add rule name=”private” protocol=icmpv4 action=block dir =out remoteip=10.10.0.2` zablokuje możliwość:",
+    "answers": [
+      {
+        "text": "pingowania adresu 10.10.0.2 niezależnie od użycia IPv4 czy IPv6",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pingowania adresu 10.10.0.2 tylko w sieci o profilu prywatnym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pingowania tylko po IPv4 bieżącego systemu z adresu 10.10.0.2",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pingowania tylko po IPv4 adresu z bieżącego systemu 10.10.0.2",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 418,
+    "question": "416 W jak można udostępnić swój klucz publiczny PGP innemu użytkownikowi:",
+    "answers": [
+      {
+        "text": "przekazać osobiście na nośniku wymiennym",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "umieścić na swojej stronie www",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wysłać pocztą elektroniczną",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "umieścić w sieciowym repozytorium kluczy",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 419,
+    "question": "417 Ataki phishing:",
+    "answers": [
+      {
+        "text": "dotyczą wykradzenia zaufanych certyfikatów CA",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "realizowane są za pośrednictwem poczty",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "polegają na zatruwania cache przeglądarki www",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "realizowane są za pośrednictwem www",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 420,
+    "question": "418 Które z wymienionych poniżej mechanizmów wspomagają wykrywanie podsłuchu w sieci:",
+    "answers": [
+      {
+        "text": "802.1X",
+        "color": "blue",
+        "isCorrect": false
+      },
+      {
+        "text": "ARP",
+        "color": "blue",
+        "isCorrect": false
+      },
+      {
+        "text": "802.11X",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ICMP echo",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 421,
+    "question": "419 Metoda Diffiego-Hellmana:",
+    "answers": [
+      {
+        "text": "pozwala stronom komunikacji bezpiecznie ustalić wspólne klucze asymetryczne",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wymaga szyfrowania negocjacji w celu ochrony przed atakami pasywnymi",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pozwala stronom komunikacji bezpiecznie ustalić wspólny klucz symetryczny",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wymaga uwierzytelniania negocjacji w celu ochrony przed atakami aktywnymi",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 422,
+    "question": "420 Które z poniższych protokołów służą do realizacji kryptograficznych tuneli wirtualnych:",
+    "answers": [
+      {
+        "text": "TLS",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "SSO",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "IKE",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ESP",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 423,
+    "question": "421 Wskaż cechy charakteryzujące kontrole dostępu MAC:",
+    "answers": [
+      {
+        "text": "właściciel zasobu może dysponować prawami dostępu do tego zasobu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "etykiety ochrony danych przypisane do zasobów automatycznie wymuszają uprawnienia",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "właściciel zasobu nie może dysponować prawami dostępu do tego zasobu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "tylko wyróżniony oficer bezpieczeństwa może dysponować prawami dostępu do zasobów",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 424,
+    "question": "422 Wskaż możliwe sposoby ochrony przed atakami na protokół DHCP (takimi jak np. DHCP redirection, lease starvation):",
+    "answers": [
+      {
+        "text": "DHCP Snooping - przełącznik przepuszcza odpowiedzi DHCP tylko z określonego wcześniej portu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "DHCP Hoping - zapora zamienia numer VLAN w zadaniach DHCP",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "ICMP redirection - wykorzystanie ICMP do ponownej zmiany trasy pakietów DHCP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "DHCP session hijacking - przejmowanie połączeń TCP sesji DHCP przez proxy",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 425,
+    "question": "423 W modelu uwierzytelniania z udziałem zaufanej trzeciej strony, do zadań tej trzeciej strony należy:",
+    "answers": [
+      {
+        "text": "pobieranie danych uwierzytelniających od strony uwierzytelnionej",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wystawienie poświadczenia uwierzytelnienia stronie uwierzytelnionej",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "przekazanie danych uwierzytelniających strony uwierzytelnionej docelowym serwerowi",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "przekazanie danych uwierzytelniających stronie uwierzytelnionej",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 426,
+    "question": "424 Wskaż protokoły wymagające zabezpieczenia autentyczności i integralności danych, ale niekoniecznie poufności:",
+    "answers": [
+      {
+        "text": "DNS (Domain Name Service)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "ARP (Address Resolution Protocol)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "STP (Spanning Tree Protocol)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "rlogin (Remote Login)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 427,
+    "question": "425 W przypadku systemu kontroli ACL standardu POSIX użytkownik U należący do grupy G posiada efektywne uprawnienia r do zasobu p jeśli:",
+    "answers": [
+      {
+        "text": "właściciel p ma prawo r oraz p posiada ustawiony bit suid - bez względu na zawartość ACL",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "U oraz G występują na liście ACL bez prawa r, ale kategoria \"wszyscy użytkownicy\" (others) takie uprawniania posiada",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "prawo r zostanie jawnie nadane U lub G",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "U jest właścicielem p - bez względu a zawartość ACL",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 428,
+    "question": "426 Atak Slow Read:",
+    "answers": [
+      {
+        "text": "wymusza nienaturalnie długie podtrzymywanie połączenia TCP",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "manipuluje mechanizmami rozmiaru segmentu oraz okna TCP do spowolnienia komunikacji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wykorzystuje funkcję masqarade w iptables w celu nieautoryzowanego ograniczenia przepustowości ruchu skierowanego do atakowanej aplikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "blokuje komunikację sieciową poprzez radykalne zmniejszenie buforów gniazd socketów",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 429,
+    "question": "427 Wskaż cechy charakteryzujące kontrolę dostępu MAC:",
+    "answers": [
+      {
+        "text": "tylko wyróżniony oficer bezpieczeństwa może dysponować prawami dostępu do zasobu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "właściciel zasobu nie może dysponować prawami dostępu do tego zasobu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "etykiety ochrony danych przypisane do zasobów automatycznie wymuszają uprawniania",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "tylko właściciel zasobu może dysponować prawami dostępu do tego zasobu",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 430,
+    "question": "428 Moduł sprzętowy Trusted Platform Module (TPM):",
+    "answers": [
+      {
+        "text": "ma wbudowane wybrane operacje kryptograficzne, wykonywane wewnętrznie",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "umożliwia przechowywanie danych biometrycznych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "umożliwia przechowywanie kluczy kryptograficznych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "z założenia ma uniemożliwiać sprzętowe ataki inwazyjne na zawartość swojej pamięci",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 431,
+    "question": "429 Które z poniższych poleceń pozwolą ustawić but SUID dla katalogu dir:* suid –set dir",
+    "answers": [
+      {
+        "text": "setfacl -m user::s",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "chmod u+s dir",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "set-suid dir",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 432,
+    "question": "430. Ataki o nazwie phishin:",
+    "answers": [
+      {
+        "text": "dotyczą wykradzenia zaufanych certyfikatów CA",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "realizowane są za pośrednictwem poczty",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "polegają na zatruwaniu cache przeglądarki www",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "realizowane są za pośrednictwem www",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 433,
     "question": "107. Wskaż własności protokołu RADIUS:",
     "answers": [
       {
