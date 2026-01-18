@@ -937,7 +937,12 @@
         "text": "może działać w trybie tylko z ochroną integralności przez AH (sobol i mobile)",
         "color": "yellow",
         "isCorrect": false
-      }
+      }, 
+      {
+        "text": "trzeba ustalić",
+        "color": "grwen",
+        "isCorrect": true
+      } 
     ]
   },
   {
