@@ -1868,6 +1868,11 @@
         "text": "zasadę określoną w polityce danego łańcucha (np. BESTMATCH, FIRSTMATCH)",
         "color": "none",
         "isCorrect": false
+      },
+      {
+        "text": "nie wiadomo",
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -8049,73 +8054,8 @@
   },
   {
     "id": 294,
-    "question": "293. getfacl --omit-header test",
+    "question": "293. getfacl --omit-header test; user::rwx; user:jbond:rwx; group::r--; group:agents:r-x; mask::r-x; other::---; default:user::rwx; default:user:jbond:r-x; default:group::-wx; default:group:agents:-wx; default:mask::--x; default:other::r-x; Oznacza, że:",
     "answers": [
-      {
-        "text": "user::rwx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "user:jbond:rwx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "group::r--",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "group:agents:r-x",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "mask::r-x",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "other::---",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:user::rwxlł",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:user:jbond:r-x",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:group::-wx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:group:agents:-wx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:mask::--x",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:other::r-x",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Oznacza, że:",
-        "color": "none",
-        "isCorrect": false
-      },
       {
         "text": "grupa \"agents\" może modyfikować zawartość obiektu test",
         "color": "none",
