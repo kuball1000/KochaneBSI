@@ -633,8 +633,8 @@
       },
       {
         "text": "wirtualizacja systemu operacyjnego",
-        "color": "yellow",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -9894,8 +9894,8 @@
       },
       {
         "text": "iptables -t nat -A POSTROUTING -o eth0 -j SAME --to 150.254.17.2",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       }
     ]
   },
