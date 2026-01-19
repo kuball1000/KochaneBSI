@@ -6458,23 +6458,18 @@
       },
       {
         "text": "IEEE 802.11i WPA",
-        "color": "yellow",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "WPA-Enterprise",
-        "color": "blue",
+        "color": "none",
         "isCorrect": false
       },
       {
         "text": "WPA-PSK",
         "color": "none",
         "isCorrect": false
-      },
-      {
-        "text": "do zrobienia - jeden rabin powie tak, drugi nie",
-        "color": "green",
-        "isCorrect": true
       }
     ]
   },
