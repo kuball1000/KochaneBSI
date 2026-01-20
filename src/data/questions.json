@@ -10506,8 +10506,8 @@
       },
       {
         "text": "licznik prób logowania jest zerowany po każdym pomyślnym zalogowaniu",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       }
     ]
   },
