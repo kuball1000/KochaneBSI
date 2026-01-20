@@ -11557,8 +11557,8 @@
       },
       {
         "text": "etykiety ochrony danych przypisane do zasobów automatycznie wymuszają uprawnienia",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "właściciel zasobu nie może dysponować prawami dostępu do tego zasobu",
