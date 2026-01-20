@@ -10,7 +10,7 @@ const shuffleArray = (array) => {
   return newArray;
 };
 
-export default function Quiz({ onBack, isSmartLearning = false }) {
+export default function Quiz({ onBack, isSmartLearning = false, startId = 0 }) {
   const [questions, setQuestions] = useState([]);
   const [globalQuestions, setGlobalQuestions] = useState([]); // Remaining questions for smart learning
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -26,7 +26,14 @@ export default function Quiz({ onBack, isSmartLearning = false }) {
   const BATCH_SIZE = 20;
 
   useEffect(() => {
-    const shuffledQuestions = shuffleArray(questionsData).map(q => ({
+    // 1. Filter by startId if provided
+    let filteredData = questionsData;
+    if (startId > 0) {
+      filteredData = questionsData.filter(q => q.id >= startId);
+    }
+
+    // 2. Shuffle questions and answers
+    const shuffledQuestions = shuffleArray(filteredData).map(q => ({
       ...q,
       answers: shuffleArray(q.answers)
     }));
@@ -40,7 +47,7 @@ export default function Quiz({ onBack, isSmartLearning = false }) {
     } else {
         setQuestions(shuffledQuestions);
     }
-  }, [isSmartLearning]);
+  }, [isSmartLearning, startId]);
 
   const handleAnswerToggle = (index) => {
     if (isConfirmed) return;

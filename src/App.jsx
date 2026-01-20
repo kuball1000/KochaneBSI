@@ -4,12 +4,18 @@ import Quiz from './components/Quiz';
 import Flashcard from './components/Flashcard';
 
 function App() {
-  const [mode, setMode] = useState('menu'); // 'menu', 'quiz', 'flashcard'
+  const [mode, setMode] = useState('menu'); // 'menu', 'quiz', 'flashcard', 'smart-learning', 'sequential'
+  const [quizParams, setQuizParams] = useState({});
+
+  const handleSelectMode = (selectedMode, params = {}) => {
+    setMode(selectedMode);
+    setQuizParams(params);
+  };
 
   return (
     <div className="bg-gray-50 min-h-screen font-sans selection:bg-blue-100">
       {mode === 'menu' && (
-        <Menu onSelectMode={(m) => setMode(m)} />
+        <Menu onSelectMode={handleSelectMode} />
       )}
       
       {mode === 'quiz' && (
@@ -22,6 +28,14 @@ function App() {
 
       {mode === 'smart-learning' && (
         <Quiz onBack={() => setMode('menu')} isSmartLearning={true} />
+      )}
+
+      {mode === 'sequential' && (
+        <Quiz 
+          onBack={() => setMode('menu')} 
+          isSmartLearning={true} 
+          startId={quizParams.startId} 
+        />
       )}
     </div>
   );
