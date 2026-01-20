@@ -44,6 +44,34 @@ export default function Menu({ onSelectMode }) {
             <h3 className="text-xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors">Inteligentna Nauka</h3>
             <p className="text-gray-500 mt-1">Ucz się partiami po 20 pytań. Błędne odpowiedzi wracają do puli.</p>
           </button>
+
+          <div className="group relative p-6 bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-orange-500 text-left">
+             <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+               <svg className="w-16 h-16 text-orange-600" fill="currentColor" viewBox="0 0 20 20"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z" /></svg>
+             </div>
+             <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors">Nauka od pytania ID</h3>
+             <p className="text-gray-500 mt-1 mb-4">Inteligentna nauka od konkretnego pytania do końca.</p>
+             <div className="flex gap-2 relative z-10">
+                <input 
+                  type="number" 
+                  defaultValue="434"
+                  id="startIdInput"
+                  className="border rounded px-3 py-2 w-24 focus:outline-none focus:ring-2 focus:ring-orange-500"
+                  placeholder="ID"
+                  onClick={(e) => e.stopPropagation()}
+                />
+                <button 
+                  onClick={(e) => {
+                      e.stopPropagation();
+                      const val = document.getElementById('startIdInput').value;
+                      onSelectMode('sequential', { startId: parseInt(val) || 434 });
+                  }}
+                  className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors"
+                >
+                  Start
+                </button>
+             </div>
+          </div>
         </div>
       </div>
     </div>
