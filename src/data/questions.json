@@ -11906,5 +11906,525 @@
         "isCorrect": true
       }
     ]
+  },
+  {
+    "id": 434,
+    "question": "431. Użytkownik U systemu MS Windows należący do grupy G1 oraz G2 uzyskał jawnie do zasobu O w systemie plików NTFS prawo A, B oraz C. Grupie G1 na liście ACL zasobu O nadano prawo A i D, lecz odmówiono prawa B, natomiast grupa G2 dziedziczy z obiektu nadrzędnego względem O prawo B, C oraz E. Jakie czynne uprawnienia do O posiada U?",
+    "answers": [
+      {
+        "text": "A B C D E",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tylko A C D",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tylko A C D E",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "tylko A B C",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 435,
+    "question": "432. Jeśli w systemie zostanie wykonana komenda: iptables -A INPUT -p tcp --dport ssh -j DROP -s 222.22.22.0/24 to (wyłącznie na jej podstawie) można stwierdzić, iż:",
+    "answers": [
+      {
+        "text": "tylko połączenia SSH z sieci 222.22.22.0/24 będą dopuszczone",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "cała komunikacja SSH niezależnie od adresu źródłowego będzie odrzucana",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "połączenia SSH z sieci 222.22.22.0/24 będą odrzucane",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "z każdego zdalnego komputera można będzie się zalogować w tym systemie przez SSH",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 436,
+    "question": "433. Plik użytkownika systemu Windows, który został zwirtualizowany mechanizmem UAC, jest widoczny w postaci zwirtualizowanej:",
+    "answers": [
+      {
+        "text": "dla wszystkich zwirtualizowanych aplikacji tego użytkownika",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "dla wszystkich aplikacji pracujących aktualnie na tym samym poziomie integralności",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tylko dla aplikacji która go utworzyła",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dla wszystkich zwirtualizowanych aplikacji w systemie",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 437,
+    "question": "434. Po utworzeniu tunelu OpenVPN pomiędzy końcami A i B pojawiły się tunelowe interfejsy sieciowe z wirtualnymi adresami IP. Pingując te [adresy] zauważymy (analizatorem pakietów) na tych interfejsach:",
+    "answers": [
+      {
+        "text": "pakiety TLS",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pakiety OpenVPN",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pakiety IPsec",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pakiety ICMP",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 438,
+    "question": "435. Jak iptables umożliwia wprowadzenie zasady domyślnej odmowy do... [przycięte]?",
+    "answers": [
+      {
+        "text": "poprzez prowadzenie odpowiedniej pierwszej reguły w łańcuchu pasującej do każdego pakietu z opcją -P REJECT",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nie umożliwia",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dla konkretnego łańcucha reguł umożliwia prowadzenie polityki DROP",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "umożliwia globalnie dla całej zapory opcją -D (default) DROP",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 439,
+    "question": "436. Nowoutworzony katalog w systemie Linux:",
+    "answers": [
+      {
+        "text": "może mieć nadane uprawnienia wyłącznie poprzez dziedziczenie z katalogu nadrzędnego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "na liście ACL otrzyma skopiowane z katalogu nadrzędnego uprawnienia domyślne jako wpisy ACE",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "nie może mieć przypisanej listy ACL, jeśli nie posiada jej katalog nadrzędny",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawsze posiada listę ACL identyczną z listą ACL katalogu nadrzędnego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 441,
+    "question": "438. Który z wymienionych protokołów chroni klienta przed przypadkiem podszywania się pod zaufany serwer?",
+    "answers": [
+      {
+        "text": "IPsec + ISAKMP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ARP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "DNSsec",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "SSL/TLS",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 442,
+    "question": "16. Wskaż mechanizmy wykorzystywane w systemie Windows do ochrony haseł użytkowników:",
+    "answers": [
+      {
+        "text": "Virtualization-Based Security",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Pass the Hash",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Encrypted File System",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Access Control Lists",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 443,
+    "question": "21. Standard IEEE 802.1ae:",
+    "answers": [
+      {
+        "text": "oferuje ochronę poufności i integralności komunikacji na poziomie warstwy sieciowej OSI",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "oferuje ochronę poufności i integralności komunikacji na poziomie warstwy MAC",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "to odpowiednik IPsec na poziomie warstwy transportowej",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "inne (niekompletne)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 444,
+    "question": "12. Wybierz poprawne odpowiedzi dotyczące systemu OpenVPN:",
+    "answers": [
+      {
+        "text": "implementuje protokół komunikacyjny opisany w standardzie OpenSSH w wersji 2.0",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "OpenVPN potrafi uwierzytelniać strony w oparciu o certyfikaty wystawione przez lokalne urzędy certyfikacji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "protokół komunikacyjny wykorzystywany przez narzędzie OpenVPN jest binarnie kompatybilny z protokołem IPsec",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "za pomocą darmowej wersji OpenVPN tworzyć można tylko połączenia w konfiguracji host-to-host",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 445,
+    "question": "24. Utworzenie strumienia ADS pliku wpływa na rozmiar samego pliku widoczny w systemie operacyjnym:",
+    "answers": [
+      {
+        "text": "tylko jeżeli strumień ADS ma rozmiar większy od rozmiaru samego pliku",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawsze (zmianę rozmiaru można zobaczyć zwykłym poleceniem dir)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tylko jeśli wymusimy przeliczenie rozmiaru poleceniem dir /r",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zupełnie nie wpływa",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 446,
+    "question": "23. Czy iptables umożliwia ograniczenie dostępu do pojedynczej usługi?",
+    "answers": [
+      {
+        "text": "nie, jeśli w regule określimy konkretny protokół",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tak, poprzez wyspecyfikowanie konkretnego portu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "tak, jeśli w regule określimy konkretny protokół",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nie, sieciowa zapora operuje na pakietach i nie rozróżnia poszczególnych usług",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 447,
+    "question": "1. Które stwierdzenia dotyczące blokady konta użytkownika w systemie Windows są prawdziwe:",
+    "answers": [
+      {
+        "text": "licznik prób logowania może wyzerować administrator",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "licznik prób logowania jest zerowany po każdym pomyślnym zalogowaniu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "licznik prób logowania jest zerowany automatycznie po zadanym czasie",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "licznik prób logowania jest zerowany po każdym nieudanym logowaniu",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 448,
+    "question": "11. Połączenie VPN w systemie MS Windows:",
+    "answers": [
+      {
+        "text": "można skonfigurować w zaporze sieciowej",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "może wykorzystywać protokół SMB",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "może wykorzystywać protokół IPsec",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "można skonfigurować w lokalnej polityce bezpieczeństwa",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 449,
+    "question": "17. Protokół TLS oferuje:",
+    "answers": [
+      {
+        "text": "szyfrowanie transmisji na poziomie warstwy sesji OSI",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "uwierzytelnianie SSO",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "uwierzytelnianie obustronne uczestników komunikacji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "negocjację parametrów kryptograficznych przed zestawieniem tunelu",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 450,
+    "question": "30. Które stwierdzenia dotyczące blokady konta w systemie Windows są prawdziwe:",
+    "answers": [
+      {
+        "text": "licznik prób logowania jest zerwany po każdej nieudanej próbie logowania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "licznik prób logowania jest zerowany automatycznie po upływie czasu blokady konta",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "próg blokady określa ilość kolejnych niepomyślnych prób logowania",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "podczas blokady konta, kolejne logowanie będzie możliwe dopiero po wyzerowaniu licznika przez admina",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 451,
+    "question": "4. Wskaż operacje niedozwolone w systemie kontroli dostępu MAC:",
+    "answers": [
+      {
+        "text": "read-down",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "read-up",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "write-up",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "write-down",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 452,
+    "question": "5. Jakie restrykcje wprowadza flaga HTTPOnly w definicji ciasteczka WWW?",
+    "answers": [
+      {
+        "text": "wartości ciasteczka nie można odczytać w skryptach",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "ciasteczko będzie wysyłane do serwera tylko w tunelu kryptograficznym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dostęp do ciasteczka ma tylko oryginalna strona, która je utworzyła",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ciasteczka nie wolno przesyłać w sesji SSL/TLS",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 453,
+    "question": "6. Jakiego typu pakiety są wykorzystywane w atakach sieciowych zalewających ofiarę (flooding)?",
+    "answers": [
+      {
+        "text": "ARP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "TCP SYN",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "TCP RST",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ICMP",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 454,
+    "question": "7. Uprawnienia domyślne POSIX ACL oznaczają:",
+    "answers": [
+      {
+        "text": "uprawnienia obowiązujące użytkowników spoza listy ACL",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "minimalne uprawnienia do danego obiektu dla wszystkich użytkowników",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "uprawnienia ustawiane po wyczyszczeniu listy ACL",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "uprawnienia nadawane nowym elementom utworzonym w danym katalogu",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
   }
 ]
