@@ -1164,8 +1164,8 @@
       },
       {
         "text": "uwierzytelniać użytkowników z wykorzystaniem haseł",
-        "color": "yellow",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "uwierzytelniać komputery (systemy operacyjne) z wykorzystaniem kluczy kryptograficznych",
@@ -11718,8 +11718,8 @@
       },
       {
         "text": "etykiety ochrony danych przypisane do zasobów automatycznie wymuszają uprawniania",
-        "color": "yellow",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "tylko właściciel zasobu może dysponować prawami dostępu do tego zasobu",
