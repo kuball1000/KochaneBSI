@@ -633,8 +633,8 @@
       },
       {
         "text": "wirtualizacja systemu operacyjnego",
-        "color": "yellow",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -1868,6 +1868,11 @@
         "text": "zasadę określoną w polityce danego łańcucha (np. BESTMATCH, FIRSTMATCH)",
         "color": "none",
         "isCorrect": false
+      },
+      {
+        "text": "nie wiadomo",
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -6453,23 +6458,18 @@
       },
       {
         "text": "IEEE 802.11i WPA",
-        "color": "yellow",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "WPA-Enterprise",
-        "color": "blue",
+        "color": "none",
         "isCorrect": false
       },
       {
         "text": "WPA-PSK",
         "color": "none",
         "isCorrect": false
-      },
-      {
-        "text": "do zrobienia - jeden rabin powie tak, drugi nie",
-        "color": "green",
-        "isCorrect": true
       }
     ]
   },
@@ -8049,73 +8049,8 @@
   },
   {
     "id": 294,
-    "question": "293. getfacl --omit-header test",
+    "question": "293. getfacl --omit-header test; user::rwx; user:jbond:rwx; group::r--; group:agents:r-x; mask::r-x; other::---; default:user::rwx; default:user:jbond:r-x; default:group::-wx; default:group:agents:-wx; default:mask::--x; default:other::r-x; Oznacza, że:",
     "answers": [
-      {
-        "text": "user::rwx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "user:jbond:rwx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "group::r--",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "group:agents:r-x",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "mask::r-x",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "other::---",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:user::rwxlł",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:user:jbond:r-x",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:group::-wx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:group:agents:-wx",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:mask::--x",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "default:other::r-x",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Oznacza, że:",
-        "color": "none",
-        "isCorrect": false
-      },
       {
         "text": "grupa \"agents\" może modyfikować zawartość obiektu test",
         "color": "none",
@@ -8185,13 +8120,13 @@
       },
       {
         "text": "sumy zajmowanej przestrzeni dyskowej przez pliki",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "ilości zalogowanych równocześnie użytkowników",
-        "color": "green",
-        "isCorrect": true
+        "color": "yellow",
+        "isCorrect": false
       },
       {
         "text": "ilości wykorzystanej pamięci operacyjnej przez proces",
@@ -9306,8 +9241,8 @@
       },
       {
         "text": "iptables -t nat -A PREROUTING -i eth0 -j SAME --to 150.254.17.2",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       },
       {
         "text": "iptables -t nat -A PREROUTING -d 150.254.17.3 -i eth0 -j DNAT --to 192.168.1.1",
@@ -9959,8 +9894,8 @@
       },
       {
         "text": "iptables -t nat -A POSTROUTING -o eth0 -j SAME --to 150.254.17.2",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       }
     ]
   },
@@ -11086,13 +11021,13 @@
       },
       {
         "text": "ma uprawnienia do odczytu i zapisu",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "ma uprawnienia do zapisu, brak uprawnienia do odczytu",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       }
     ]
   },
@@ -11648,8 +11583,8 @@
       },
       {
         "text": "DHCP Hoping - zapora zamienia numer VLAN w zadaniach DHCP",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       },
       {
         "text": "ICMP redirection - wykorzystanie ICMP do ponownej zmiany trasy pakietów DHCP",
@@ -11658,8 +11593,8 @@
       },
       {
         "text": "DHCP session hijacking - przejmowanie połączeń TCP sesji DHCP przez proxy",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       }
     ]
   },
