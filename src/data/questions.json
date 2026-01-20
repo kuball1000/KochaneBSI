@@ -6702,8 +6702,8 @@
       },
       {
         "text": "serwer przesyła komunikat ServerHello z opcjonalnym losowym zawołaniem",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       },
       {
         "text": "klient odsyła podpisane zawołanie do serwera tylko jeśli serwer zadał uwierzytelnienia klienta",
@@ -10278,8 +10278,8 @@
     "answers": [
       {
         "text": "tak",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "tylko lokalne konta",
@@ -10288,8 +10288,8 @@
       },
       {
         "text": "nie",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       },
       {
         "text": "tylko konta administratorow",
