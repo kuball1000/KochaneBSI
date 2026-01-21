@@ -35,6 +35,7 @@ function App() {
           onBack={() => setMode('menu')} 
           isSmartLearning={true} 
           startId={quizParams.startId} 
+          endId={999}
         />
       )}
 
@@ -51,6 +52,7 @@ function App() {
           onBack={() => setMode('menu')} 
           isSmartLearning={true} 
           startId={1000} 
+          endId={1999}
         />
       )}
     </div>
