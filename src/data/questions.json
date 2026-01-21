@@ -12361,5 +12361,1870 @@
         "isCorrect": true
       }
     ]
+  },
+  {
+    "id": 1000,
+    "question": "Metoda Lasso jest stosowana w modelach uczenia maszynowego do:",
+    "answers": [
+      {
+        "text": "jest rodzajem tzw. regresji grzbietowej",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jako metoda doboru parametru k podczas selekcji cech",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "do wykonania selekcji zmiennych w problemach klasyfikacyjnych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "W przypadku regresji jako element regularyzacyjny",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1001,
+    "question": "Co jest prawdą dla zespołu T drzew w ramach tzw. systemu bagging:",
+    "answers": [
+      {
+        "text": "Wypracowuje się decyzje końcową poprzez głosowanie większościowe",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "modyfikuje się parametry uczenia każdego drzew dla zwiększenia ich zróżnicowania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "stosuje się rozłączny podział przykładów w kolejnych zbiorach uczących drzew",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Stosuje się losowanie bootstrapowe dla każdego z tych drzew",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1002,
+    "question": "Jakie przykłady uczące są zapamiętywane w algorytmie IBL2:",
+    "answers": [
+      {
+        "text": "posiadające wysoką wartość tzw. rekordu klasyfikacyjnego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "żadna z powyższych odpowiedzi nie jest prawdziwa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "te, które są poprawnie klasyfikowane",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "te, dla których podczas przyrostowego uczenia się popełniane są błędy",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wszystkie",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1003,
+    "question": "Metodą wiązania w algorytmach aglomeracyjnych może być:",
+    "answers": [
+      {
+        "text": "wiązanie single linkage",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "metoda Barda",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "średnie ważone odległości Lorentza",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "odległość najdalszego sąsiada",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1004,
+    "question": "Autoenkoder wariacyjny różni się od zwykłego następującymi cechami (UWAGA: pytanie wielokrotnego wyboru):",
+    "answers": [
+      {
+        "text": "liczbą wejść dekodera",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "randomizacją sygnału przekazywanego z enkodera do dekodera",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "sposobem obliczania błędu rekonstrukcji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "funkcją straty",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "sposobem prezentowania przykładów wejściowych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1005,
+    "question": "Metoda analizy dyskryminacyjnej:",
+    "answers": [
+      {
+        "text": "Opiera się na minimalizacji różnicy rzutów wartości średnich w klasach oraz minimalizacji odpowiednio przekształconej macierzy kowariancji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jest odmianą algorytmu analizy skupisk",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w wersji zaproponowanej przez R. Fishera automatycznie tworzy liniową płaszczyznę separującą",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Maksymalizuje tzw. margines decyzyjny po to aby przybliżyć granicę decyzyjną",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1006,
+    "question": "Które ze zdań jest prawdziwe w stosunku do algorytmu k-średnich:",
+    "answers": [
+      {
+        "text": "Przy wykorzystaniu odległości euklidesowej ma ukierunkowanie do tworzenia kulistych kształtów skupisk",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Wykorzystuje rzeczywiste obserwacje (tzw. medoidy) do reprezentacji skupienia",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Iteracyjnie próbuje minimalizować miarę zmienności wewnątrz-skupieniowej",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Sam algorytm ustala liczbę skupień",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1007,
+    "question": "Zaletą funkcji aktywacji ReLU w porównaniu z funkcją ReLU jest:",
+    "answers": [
+      {
+        "text": "Ciągłość pochodnej w zerze",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Niezerowy gradient dla ujemnych argumentów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Różniczkowalność w całej dziedzinie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Niezerowy gradient dla ujemnych argumentów i ciągłość pochodnej w zerze",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1008,
+    "question": "Dlaczego nie wykorzystuje się pełnej postaci klasyfikatora bayesowskiego, tylko wersje tzw. naiwnego klasyfikatora bayesowskiego:",
+    "answers": [
+      {
+        "text": "nie potrafimy poprawnie oszacować prawdopodobieństwa a’priori klas",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jego obliczenie prowadzi do wyższych kosztów czasowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "grozi tzw. przeuczeniem",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "gdyż oszacowanie prawdopodobieństw koniunkcji atrybutów warunkowych stwarza zbyt trudne wymagania do ich obecności w zbiorze przykładów uczących – należy zapewnić realizację wszystkich możliwych kombinacji",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1009,
+    "question": "Wymiarowość wektora gradientu obliczanego w algorytmie spadku wzdłuż gradientu dla sieci neuronowej n wejściach, m wyjściach, i k parametrach, uczonej skalarną funkcją straty wynosi:",
+    "answers": [
+      {
+        "text": "m",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "m+k",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "m+n",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "n",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "k",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1010,
+    "question": "Motywacją dla stosowania połączeń rezydualnych jest:",
+    "answers": [
+      {
+        "text": "redukcja liczby parametrów modelu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zapewnienie lepszej propagacji gradientu w procesie uczenia",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "istnienie grupy zadań dla których celem nie jest uczenie się odwzorowania y=f(x) dla przykładów o postaci (x_i, f(x_i)), a raczej odwzorowania y=f(x)+x",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "uproszczenie architektury modelu dzięki modularyzacji architektury",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zapewnienie lepszej propagacji gradientu w procesie odpytywania modelu",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1011,
+    "question": "Edytowana wersja klasyfikatora k-NN:",
+    "answers": [
+      {
+        "text": "dostraja wartość k na zbiorze walidującym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "polega na wyborze przykładów uczących do tzw. concept description",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "pozwala na selekcje atrybutów z wykorzystaniem podejścia wrapper",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "modyfikuje dynamicznie miarę odległości",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1012,
+    "question": "Jak modyfikuje się zbiór przykładów uczących w algorytmie boosting:",
+    "answers": [
+      {
+        "text": "modyfikuje się wagi przykładów w zależności od błędów popełnianych w poprzedniej iteracji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "dla każdego z przykładów losuje się podzbiór atrybutów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nie modyfikuje się przykładów, lecz stosuje się różne algorytmy uczące",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wybiera się losowo przykłady wg. strategii boostrapowych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1013,
+    "question": "Przykład adwersarzowy to przykład:",
+    "answers": [
+      {
+        "text": "skonstruowany w celu wywołania nieprawidłowej odpowiedzi modelu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "skonstruowany w celu wywołania sprzeciwu modelu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "szczególnie trudny do zaklasyfikowania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "który może być tak przekształcony aby wywołać nieprawidłową odpowiedź modelu",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1014,
+    "question": "Tzw. „Cost-complexity approach” w indukcji drzew jest wykorzystywane do:",
+    "answers": [
+      {
+        "text": "Uczenia się oszczędnego z uwagi na zużycie czasu obliczeń",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Wprowadzenie kosztów użycia poszczególnych atrybutów do korekcji miary entropii",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Uwzględnienia funkcji kosztu pomyłek w obliczeniach warunków podziału w węzłach",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Wykonania redukcji rozmiarów drzewa z sumą ważoną kryteriów minimalizacji błędu klasyfikacji oraz rozmiaru drzewa",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1015,
+    "question": "Miara entropii informacji stosowana w indukcyjnym uczeniu się z przykładów w przypadku klasyfikacji binarnej przyjmuje wartości (załóż podstawę 2 w logarytmie):",
+    "answers": [
+      {
+        "text": "żadna z odpowiedzi nie jest prawdziwa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "z przedziału [0, 1]",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "dowolne",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "większa od 1,",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "z przedziału [0,2*k], gdzie k jest liczbą klas",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1016,
+    "question": "Sploty o kernelach/maskach o rozmiarach 1x1 stosuje się w sieciach neuronowych najczęściej w celu:",
+    "answers": [
+      {
+        "text": "zmniejszenia liczby kanałów w tensorze wyjściowym",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zmniejszenia liczby kanałów w tensorze wejściowym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zwiększenia rozdzielczości obrazu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zmniejszenia rozdzielczości obrazu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zwiększenia liczby kanałów w tensorze wejściowym",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1017,
+    "question": "Twierdzenie Cybenki o uniwersalnej aproksymacji dotyczy:",
+    "answers": [
+      {
+        "text": "sieci neuronowej złożonej z 3 warstw i klasy funkcji monotonicznych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sieci neuronowej złożonej z 2 warstw i dowolnej klasy funkcji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pojedynczego neuronu i klasy funkcji monotonicznych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dowolnej sieci neuronowej i dowolnej klasy funkcji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sieci neuronowej złożonej z 2 warstw i klasy funkcji monotonicznych",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1018,
+    "question": "Ile węzłów i liści będzie miało drzewo wyindukowane dla zbioru uczącego, którego wszystkie przykłady należą do jednej klasy?",
+    "answers": [
+      {
+        "text": "1",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "0",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "co najmniej 3",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1019,
+    "question": "Pole receptorowe pojedynczego unitu w sieci neuronowej składającej się z 3 warstw splotowych o wielkościach kerneli/masek odpowiednio 3x3, 5x5 i 1x1, przy stride/kroku równym 1 i bez warstw typu pooling pomiędzy nimi, ma wymiary:",
+    "answers": [
+      {
+        "text": "7x7",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "9x9",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "6x6",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "3x3",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "1x1",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1020,
+    "question": "Zjawiska nadmiernego dopasowania (ang. overfitting) drzewa do danych uczących można unikać poprzez:",
+    "answers": [
+      {
+        "text": "uwzględnianie przykładów o niezdefiniowanych wartościach atrybutów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "transformacje drzewa na zbiór reguł",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "usuwanie niektórych poddrzew i w rezultacie redukcję rozmiarów drzewa",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "użycie zmodyfikowanej miary informacyjnej (ang. pre-misinformation) zamiast entropii",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1021,
+    "question": "Wariacyjny autoenkoder różni się od zwykłego tym, że:",
+    "answers": [
+      {
+        "text": "daje gwarancję, że wektory zmiennych ukrytych są unikalne dla wszystkich przypadków w danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nauczone wektory zmiennych ukrytych rozrzucone są równomiernie po całej przestrzeni",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wariancja wskazań tego autoenkodera dla różnych danych wykorzystywana jest do uczenia sieci",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "uczony jest rozkład prawdopodobieństwa, który wykorzystywany jest do generowania wektora ukrytych zmiennych",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1022,
+    "question": "Ile razy klasyfikowany jest każdy przykład (jako testowy przez klasyfikator) w procedurze oceny krzyżowej (ang. k fold cross validation)?",
+    "answers": [
+      {
+        "text": "Dokładnie jeden raz.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Przynajmniej raz i nie więcej niż n- 1, gdzie n to liczba części na jakie jest podzielony zbiór uczący.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Jest to zależne od liczby części (ang. podziałów), na jakie został losowo podzielony zbiór uczący?",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "metoda oceny jest techniką wielu losowych podziałów, więc trudno to ustalić",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "n razy, gdzie n jest zdefiniowane jak w punkcie c.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1023,
+    "question": "Pojęcie \"przekleństwo wymiarowości\" mówi o:",
+    "answers": [
+      {
+        "text": "wzroście złożoności obliczeniowej wraz ze wzrostem liczby atrybutów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "żadna z powyższych odpowiedzi nie jest poprawna",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "konieczności wykładniczego wzrostu liczby przykładów uczących przy rosnącej liczbie atrybutów (aby utrzymać jakość klasyfikacji)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "spadku jakości klasyfikacji za każdym razem po dodaniu kolejnego atrybutu",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1024,
+    "question": "Zaletą funkcji aktywacji ReLU jest:",
+    "answers": [
+      {
+        "text": "ściskanie rezultatu w przedziale [0,1]",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "możliwość wykorzystania algorytmu wstecznej propagacji błędu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "niezerowa pochodna dla dowolnego argumentu dodatniego",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "łatwość inicjalizacji parametrów",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1025,
+    "question": "Reguła delta dla neuronu nieliniowego o wektorze parametrów w, funkcji aktywacji f, aktywacji z, który w odpowiedzi na wektor wejść x popełnił błąd delta, ma następującą postać:",
+    "answers": [
+      {
+        "text": "w <- w + eta delta x df/dz",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w <- w - eta delta x df/dz",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "w <- w - eta delta x",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w <- w + eta delta f(z) df/dz",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w <- w - eta f(x) ddelta/dz",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1026,
+    "question": "Pojedyncza jednostka splotowa o wielkości jądra 3 na 5 pikseli, zaaplikowana do wejścia o czterech kanałach z krokiem (stride) równym 2 i paddingiem równym 3, ma następującą liczbę parametrów (wag, w tym biasów):",
+    "answers": [
+      {
+        "text": "45",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "61",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "60",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "121",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "46",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1027,
+    "question": "Składanie ze sobą warstw liniowych jest dyskusyjne, ponieważ:",
+    "answers": [
+      {
+        "text": "złożenie operacji liniowych jest operacją liniową",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "większość problemów rzeczywistych jest liniowo separowalna",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "prowadzi do niepotrzebnego wzrostu liczby parametrów modelu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "większość problemów rzeczywistych nie jest liniowo separowalna",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1028,
+    "question": "Przyrost informacji (ang. info gain) jest zdefiniowany jako (A --- zbiór przykładów uczących, s --- atrybut użyty do podziału w węźle drzewa; Ent symbol obliczenia entropii informacji):",
+    "answers": [
+      {
+        "text": "Gain(A,s)=Ent(s)-Ent(A|s);",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Gain(A,s)=Ent(A)-Ent(A|s)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Gain(A,s)=Ent(A|s)-Ent(A)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Gain(A,s)=Ent(s)-Ent(s|A)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1029,
+    "question": "Zbiór walidacyjny wykorzystywany jest w uczeniu sieci neuronowych do:",
+    "answers": [
+      {
+        "text": "przerywania uczenia w przypadku przeuczenia",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "żadna z pozostałych odpowiedzi nie jest poprawna",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "efektywniejszego liczenia gradientu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sprawdzania poprawności implementacji sieci",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "testowania finalnej jakości modelu",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1030,
+    "question": "Technikę o nazwaną oceną krzyżową (ang. k fold cross validation) do estymacji miar oceny zdolności predykcyjnych klasyfikatora stosuje się, gdy:",
+    "answers": [
+      {
+        "text": "liczba przykładów jest większa niż rozmiar tzw. małej statystycznej próby tj. 33 przykłady",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "liczba przykładów uczących jest większa niż 100 a mniejsza niż dziesiątki tysięcy",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "liczba atrybutów jest równa k",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "liczba przykładów jest rzędu wielu tysięcy przykładów",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1031,
+    "question": "Główną przeszkodą w uczeniu modeli głębokich jest/było:",
+    "answers": [
+      {
+        "text": "zjawisko zanikających gradientów",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "ograniczenia dostępnej mocy obliczeniowej (który to problem rozwiązany został przez obliczenia na GPU)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ograniczenia pamięciowe (duża liczba parametrów modelu)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "problem klątwy wymiarowości (ang. curse of dimensionality)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "brak formuły definiującej pożądaną wartość wyjścia unitów w warstwach ukrytych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1032,
+    "question": "Autoenkodery rozwiązujące problem autoasocjacji charakteryzuje to, że:",
+    "answers": [
+      {
+        "text": "rekurencyjnie używają wektora zmiennych ukrytych jako swojego wejścia, by po iluś iteracjach zbiec do finalnego rozwiązania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "oryginalne dane są najpierw reprezentowane jako pewien wektor cech, a następnie są na jego podstawie rekonstruowane",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "oryginalne przypadki uczące zostają zapamiętane w wektorze zmiennych ukrytych, a następnie sieć decyduje, który z nich zostanie zwrócony na wyjście",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "porównują wektor zmiennych ukrytych oryginalnych danych z wektorem uzyskanym po ich przetworzeniu przez sieć",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "do ich uczenia nie można użyć algorytmu wstecznej propagacji błędu",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1033,
+    "question": "Funkcja straty typowo wykorzystywana w zadaniach klasyfikacji to:",
+    "answers": [
+      {
+        "text": "błąd średniokwadratowy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "średni błąd absolutny",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "entropia krzyżowa",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "strata zerojedynkowa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "trafność klasyfikacji",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1034,
+    "question": "Ściskające funkcje aktywacji to między innymi…",
+    "answers": [
+      {
+        "text": "leaky ReLU i ReLU",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "funkcja liniowa i tangens hiperboliczny",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "funkcja sigmoidalna i ReLU",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "funkcja sigmoidalna i tangens hiperboliczny",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1035,
+    "question": "Uczenie modeli sieci neuronowych typowymi algorytmami wymaga obliczania gradientu:",
+    "answers": [
+      {
+        "text": "hiperparametrów względem parametrów modelu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "parametrów modelu względem funkcji straty",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "funkcji straty względem parametrów modelu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "funkcji straty względem wejść modelu",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1036,
+    "question": "Pojedyncza jednostka splotowa o wielkości jądra 3 na 3 pikseli, zaaplikowana do wejścia o czterech kanałach z krokiem (stride) równym 2 i paddingiem równym 3, ma następującą liczbę parametrów (wag, w tym biasów):",
+    "answers": [
+      {
+        "text": "37",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "9",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "41",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "40",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1037,
+    "question": "Dropout to technika regularyzacji charakteryzująca się:",
+    "answers": [
+      {
+        "text": "stochastycznym usuwaniem neuronów podczas uczenia i testowania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "stochastycznym usuwaniem neuronów podczas uczenia, i zmniejszaniem amplitud wyjść neuronów w trakcie testowania",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "stochastycznym usuwaniem neuronów podczas testowania, i zmniejszaniem amplitud wyjść neuronów w trakcie uczenia",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "stochastycznym usuwaniem neuronów podczas uczenia, i zwiększaniem amplitud wyjść neuronów w trakcie testowania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "stochastycznym usuwaniem neuronów podczas testowania, i zwiększaniem amplitud wyjść neuronów w trakcie uczenia",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1038,
+    "question": "Klasyfikowanie nowego obiektu z wykorzystaniem zbioru reguł wygenerowanych algorytmem LEM2 odbywa się na podstawie:",
+    "answers": [
+      {
+        "text": "strategii list priorytetowej reguł.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "najdokładniejszej ze zbioru reguł dopasowanych do opisu nowego obiektu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "żadna z powyższych odpowiedzi nie jest prawdziwa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "głosowania wsparciami (siłami) wszystkich reguł dopasowanych do opisu nowego obiektu.",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "najsilniejszej ze zbioru reguł dopasowanych do opisu nowego obiektu.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1039,
+    "question": "Klasyfikowanie nowego obiektu z wykorzystaniem zbioru reguł wygenerowanych ze struktury drzewa otrzymanej algorytmem C4.5 odbywa się na podstawie:",
+    "answers": [
+      {
+        "text": "strategii list priorytetowej reguł.",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "ostatniej ze zbioru reguł dopasowanych do opisu nowego obiektu.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zbioru wszystkich reguł dopasowanych do opisu nowego obiektu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "żadna z powyższych odpowiedzi nie jest prawdziwa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "najsilniejszej ze zbioru reguł dopasowanych do opisu nowego obiektu.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1040,
+    "question": "Pytanie (brak numeru) Jakie przykłady uczące są zapamiętywane w algorytmie IBL3:",
+    "answers": [
+      {
+        "text": "posiadające statystycznie znaczącą wysoką wartość tzw. rekordu klasyfikacyjnego uaktualnianego w trybie przyrostowym",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "te, które są poprawnie klasyfikowane",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wszystkie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "żadna z powyższych odpowiedzi nie jest prawdziwa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "te, dla których podczas przyrostowego uczenia się popełniane są błędy",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1041,
+    "question": "Szukając w Internecie odpowiedzi na pytanie: \"jaki jest związek pomiędzy twierdzeniem CAP a platformą Hadoop?\", ograniczmy to do HDFS, można znaleźć taką odpowiedź: Talking about Hadoop, it supports the Availability and Partition Tolerance property. The Consistency property is not supported because onlynamenode has the information of where the replicas are placed. This information is not available with each and every node of the cluster. Czy jest to zgodne z prawdą? Czy faktycznie HDFS spełnia dwie własności: odporności na partycjonowanie (Partition Tolerance) oraz dostępności (Availability), a nie spełnia własności spójności (Consistency) w rozumieniu twierdzenia CAP? Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Prawda",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Fałsz, bo nie spełnia Availability",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1042,
+    "question": "Które z poniższych nazw nie jest programem szeregowania zadań używanym przez system YARN Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "FIFO",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Fair",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "LIFO",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Capacity",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1043,
+    "question": "Zadanie MapReduce ma do przetworzenia zbiór plików zawierających dane meteorologiczne. Każdy plik przechowywany jest w 5 blokach po 128MB. Poziom replikacji w klastrze Hadoop wynosi 3. Liczba serwerów wchodzących w skład klastra wynosi 10. Dane meteorologiczne zawarte są w 100 plikach, w każdym znajduje się po 10 000 rekordów. W każdym pliku przechowywane są dane dotyczące pomiarów z jednego rocznika. Każdy rekord zawiera informacje dotyczące: identyfikatora pomiaru, roku pomiaru, miesiąca (w roku) pomiaru, dnia (w miesiącu) pomiaru, miejsca pomiaru, temperatury, wilgotności, prędkości wiatru, ilości opadów Celem zadania MapReduce jest wyliczenie średniej temperatury dla każdego roku pomiarów. Zadanie MapReduce nie korzysta z agregatora łączącego (ang. combiner). Co powinno być kluczem w rekordach tworzonych przez mappera? Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "rok pomiaru",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "temperatura",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "identyfikator pomiaru",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nie mamy wpływu na to jaka jest wartości klucza generowana przez mappera w zadaniu MapReduce",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1044,
+    "question": "Masz dwa komputery, które chcesz spiąć w klaster Hadoop. Komputer A: 32GB RAM, 512GB HDD Komputer B: 4GB RAM, 1TB HDD Który z nich wykorzystasz dla węzła nazw?:",
+    "answers": [
+      {
+        "text": "Komputer A, bo ma więcej pamięci RAM,",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Komputer B, bo ma większy dysk",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1045,
+    "question": "Która z poniższych aplikacji (systemów/platform/silników) nie korzysta z systemu YARN (nie ma takiej możliwości) Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Tez",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "MapReduce",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "HDFS",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Spark",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1046,
+    "question": "W systemie klasy Big Data opracowanym zgodnie z architekturą Lambda obliczanych jest wiele obrazów wsadowych (ang. batch view) oraz wiele obrazów czasu rzeczywistego (ang. speed view). Czy jest jakaś korelacja pomiędzy liczbą obrazów jednocześnie wyliczanych (takich, które aktywnie są tworzone lub aktualizowane) obrazów wsadowych i obrazów czasu rzeczywistego? Załóż, że system został skonfigurowany tak aby natychmiast po zakończeniu wyliczania obrazu wsadowego N rozpoczynało się wyliczanie kolejnego obrazu wsadowego N+1. Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Nie ma żadnej korelacji.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba wyliczanych obrazów czasu rzeczywistego jest dwa razy większa niż liczba wyliczanych obrazów wsadowych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba wyliczanych obrazów wsadowych jest taka sama jak liczba wyliczanych obrazów czasu rzeczywistego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba wyliczanych obrazów wsadowych jest dwa razy większa niż liczba wyliczanych obrazów czasu rzeczywistego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1047,
+    "question": "Co zajmie więcej pamięci w węźle nazw?",
+    "answers": [
+      {
+        "text": "10 plików o wielkości 1MB",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Jeden plik wielkości 1GB",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1048,
+    "question": "W systemie klasy Big Data opracowanym zgodnie z architekturą Lambda zapytania użytkowników oparte są na aktywnych (dostępnych dla zapytań) obrazach wsadowych (ang. batch view) oraz obrazach czasu rzeczywistego (ang. speed view). Czy jest jakaś korelacja pomiędzy liczbą obrazów jednocześnie aktywnych (takich, które dostępne dla zapytań użytkowników) obrazów wsadowych i obrazów czasu rzeczywistego? Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba aktywnych obrazów czasu rzeczywistego jest dwa razy większa niż liczba aktywnych obrazów wsadowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie ma żadnej korelacji.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba aktywnych obrazów wsadowych jest dwa razy większa niż liczba aktywnych obrazów czasu rzeczywistego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba aktywnych obrazów wsadowych jest taka sama jak liczba aktywnych obrazów czasu rzeczywistego",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1049,
+    "question": "Węzeł nazw przechowuje metadane dotyczące plików i bloków. Co nie należy do metadanych (nie jest przechowywane przez węzeł nazw)?",
+    "answers": [
+      {
+        "text": "Uprawnienia dotyczące pliku",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Nazwa pliku",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawartość pliku (bloków należących do pliku)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Nazwa katalogu, w którym plik się znajduje",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1050,
+    "question": "Węzły nazw HDFS są newralgicznym elementem klastra Hadoop. Ich awaria może prowadzić do utraty danych. Aby zapobiec utracie wszystkich plików lub plików z całej przestrzeni nazw (np. pojedynczego katalogu) można: Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "zmniejszyć liczbę węzłów danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wykorzystać mechanizm federacji węzłów naz",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wykorzystać konfigurację z pomocniczym węzłem nazw",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zwiększyć liczbę węzłów danych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1051,
+    "question": "Która z wymienionych cech nie byłaby zaletą narzędzia użytego do przechowywania głównego zbioru danych (ang. master dataset) w systemie Big Data opartym o architekturę Lambda. Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Łatwość w dokonywaniu modyfikowania raz zapisanych danych - mutowalność",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Zdolność do partycjonowania pionowego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Niemutowalność danych polegająca na braku możliwości zmiany wprowadzonych danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Obsługa przetwarzania równoległego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1052,
+    "question": "Z1. W systemie klasy Big Data opracowanym zgodnie z architekturą Lambda zapytania użytkowników wykorzystują obrazy wsadowe (ang. batch view) oraz obrazy czasu rzeczywistego (ang. speed view). Jaka jest rola obrazów czasu rzeczywistego? Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Są obrazami, które są alternatywą dla obrazów wsadowych, przechowując nowe dane. Jeśli użytkownik potrzebuje informacje najnowsze wykonuje zapytania tylko na obrazach czasu rzeczywistego. W przeciwnym przypadku korzysta tylko z obrazów wsadowych.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Obrazy czasu rzeczywistego to „kolejne paczki danych” jakie w regularnych odstępach czasu są wykorzystywane do przyrostowej aktualizacji obrazów wsadowych.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Są zapasowymi obrazami, które w każdej chwili mogą zostać użyte, gdy obraz wsadowy nie jest dostępny.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Stanowią uzupełnienie obrazów wsadowych, zawierające dane jakie pojawiły się od momentu rozpoczęcia obliczania obrazu wsadowego i które w związku z tym nie są przez obraz wsadowy uwzględniane. Dzięki użyciu obu obrazów przez zapytania, użytkownik otrzymuje informacje aktualne, a nie historyczne.",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1053,
+    "question": "Z3. Twierdzenie CAP dotyczy trzech własności: Odporności na partycjonowanie (Partition Tolerance) Dostępności (Availability) Spójności (Consistency) Rozumienie dwóch pierwszych własności jest dość oczywiste. Co rozumiemy przez trzecią z nich? Czym jest spójność w twierdzeniu CAP? Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "zgodność danych ze światem rzeczywistym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "spełnienie ograniczeń integralnościowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dostęp zawsze do najświeższych danych, takich które były zapisane jako ostatnie",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "identyczność danych w każdej partycji zawierającej te same dane",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2000,
+    "question": "Szukając w Internecie odpowiedzi na pytanie: \"jaki jest związek pomiędzy twierdzeniem CAP a platformą Hadoop?\", ograniczmy to do HDFS, można znaleźć taką odpowiedź: Talking about Hadoop, it supports the Availability and Partition Tolerance property. The Consistency property is not supported because onlynamenode has the information of where the replicas are placed. This information is not available with each and every node of the cluster. Czy jest to zgodne z prawdą? Czy faktycznie HDFS spełnia dwie własności: odporności na partycjonowanie (Partition Tolerance) oraz dostępności (Availability), a nie spełnia własności spójności (Consistency) w rozumieniu twierdzenia CAP? Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Prawda",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Fałsz, bo nie spełnia Availability",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 2001,
+    "question": "Które z poniższych nazw nie jest programem szeregowania zadań używanym przez system YARN Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "FIFO",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Fair",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "LIFO",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Capacity",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2002,
+    "question": "Wg twierdzenia CAP, system rozproszony nie jest w stanie spełniać jednocześnie wszystkich poniższych własności: odporność na partycjonowanie (Partition Tolerance) spójność (Consistency) dostępność (Availability) Zawsze co najmniej jedna z tych własności nie będzie spełniona. HBase jest bez wątpienia systemem rozproszonym. Która z powyższych własności nie jest spełniona przez HBase? Uwzględnij konfigurację HBase, która działa na systemie plików HDFS korzystającym z zapasowych węzłów nazw oraz federacji.",
+    "answers": [
+      {
+        "text": "odporność na partycjonowanie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "spójność",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dostępność",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 2003,
+    "question": "Zadanie MapReduce ma do przetworzenia zbiór plików zawierających dane meteorologiczne. Każdy plik przechowywany jest w 5 blokach po 128MB. Poziom replikacji w klastrze Hadoop wynosi 3. Liczba serwerów wchodzących w skład klastra wynosi 10. Dane meteorologiczne zawarte są w 100 plikach, w każdym znajduje się po 10 000 rekordów. W każdym pliku przechowywane są dane dotyczące pomiarów z jednego rocznika. Każdy rekord zawiera informacje dotyczące: identyfikatora pomiaru, roku pomiaru, miesiąca (w roku) pomiaru, dnia (w miesiącu) pomiaru, miejsca pomiaru, temperatury, wilgotności, prędkości wiatru, ilości opadów Celem zadania MapReduce jest wyliczenie średniej temperatury dla każdego roku pomiarów. Zadanie MapReduce nie korzysta z agregatora łączącego (ang. combiner). Co powinno być kluczem w rekordach tworzonych przez mappera? Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "rok pomiaru",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "temperatura",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "identyfikator pomiaru",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nie mamy wpływu na to jaka jest wartości klucza generowana przez mappera w zadaniu MapReduce",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2004,
+    "question": "Masz dwa komputery, które chcesz spiąć w klaster Hadoop. Komputer A: 32GB RAM, 512GB HDD Komputer B: 4GB RAM, 1TB HDD Który z nich wykorzystasz dla węzła nazw?:",
+    "answers": [
+      {
+        "text": "Komputer A, bo ma więcej pamięci RAM,",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Komputer B, bo ma większy dysk",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2005,
+    "question": "Która z poniższych aplikacji (systemów/platform/silników) nie korzysta z systemu YARN (nie ma takiej możliwości) Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Tez",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "MapReduce",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "HDFS",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Spark",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2006,
+    "question": "W systemie klasy Big Data opracowanym zgodnie z architekturą Lambda obliczanych jest wiele obrazów wsadowych (ang. batch view) oraz wiele obrazów czasu rzeczywistego (ang. speed view). Czy jest jakaś korelacja pomiędzy liczbą obrazów jednocześnie wyliczanych (takich, które aktywnie są tworzone lub aktualizowane) obrazów wsadowych i obrazów czasu rzeczywistego? Załóż, że system został skonfigurowany tak aby natychmiast po zakończeniu wyliczania obrazu wsadowego N rozpoczynało się wyliczanie kolejnego obrazu wsadowego N+1. Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Nie ma żadnej korelacji.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba wyliczanych obrazów czasu rzeczywistego jest dwa razy większa niż liczba wyliczanych obrazów wsadowych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba wyliczanych obrazów wsadowych jest taka sama jak liczba wyliczanych obrazów czasu rzeczywistego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba wyliczanych obrazów wsadowych jest dwa razy większa niż liczba wyliczanych obrazów czasu rzeczywistego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2007,
+    "question": "Co zajmie więcej pamięci w węźle nazw?",
+    "answers": [
+      {
+        "text": "10 plików o wielkości 1MB",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Jeden plik wielkości 1GB",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2008,
+    "question": "W systemie klasy Big Data opracowanym zgodnie z architekturą Lambda zapytania użytkowników oparte są na aktywnych (dostępnych dla zapytań) obrazach wsadowych (ang. batch view) oraz obrazach czasu rzeczywistego (ang. speed view). Czy jest jakaś korelacja pomiędzy liczbą obrazów jednocześnie aktywnych (takich, które dostępne dla zapytań użytkowników) obrazów wsadowych i obrazów czasu rzeczywistego? Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba aktywnych obrazów czasu rzeczywistego jest dwa razy większa niż liczba aktywnych obrazów wsadowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie ma żadnej korelacji.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba aktywnych obrazów wsadowych jest dwa razy większa niż liczba aktywnych obrazów czasu rzeczywistego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Istnieje korelacja - w danym momencie liczba aktywnych obrazów wsadowych jest taka sama jak liczba aktywnych obrazów czasu rzeczywistego",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 2009,
+    "question": "Węzeł nazw przechowuje metadane dotyczące plików i bloków. Co nie należy do metadanych (nie jest przechowywane przez węzeł nazw)?",
+    "answers": [
+      {
+        "text": "Uprawnienia dotyczące pliku",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Nazwa pliku",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Zawartość pliku (bloków należących do pliku)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Nazwa katalogu, w którym plik się znajduje",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2010,
+    "question": "Węzły nazw HDFS są newralgicznym elementem klastra Hadoop. Ich awaria może prowadzić do utraty danych. Aby zapobiec utracie wszystkich plików lub plików z całej przestrzeni nazw (np. pojedynczego katalogu) można: Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "zmniejszyć liczbę węzłów danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wykorzystać mechanizm federacji węzłów naz",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wykorzystać konfigurację z pomocniczym węzłem nazw",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zwiększyć liczbę węzłów danych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2011,
+    "question": "Która z wymienionych cech nie byłaby zaletą narzędzia użytego do przechowywania głównego zbioru danych (ang. master dataset) w systemie Big Data opartym o architekturę Lambda. Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Łatwość w dokonywaniu modyfikowania raz zapisanych danych - mutowalność",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Zdolność do partycjonowania pionowego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Niemutowalność danych polegająca na braku możliwości zmiany wprowadzonych danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Obsługa przetwarzania równoległego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2012,
+    "question": "Z1. W systemie klasy Big Data opracowanym zgodnie z architekturą Lambda zapytania użytkowników wykorzystują obrazy wsadowe (ang. batch view) oraz obrazy czasu rzeczywistego (ang. speed view). Jaka jest rola obrazów czasu rzeczywistego? Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "Są obrazami, które są alternatywą dla obrazów wsadowych, przechowując nowe dane. Jeśli użytkownik potrzebuje informacje najnowsze wykonuje zapytania tylko na obrazach czasu rzeczywistego. W przeciwnym przypadku korzysta tylko z obrazów wsadowych.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Obrazy czasu rzeczywistego to „kolejne paczki danych” jakie w regularnych odstępach czasu są wykorzystywane do przyrostowej aktualizacji obrazów wsadowych.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Są zapasowymi obrazami, które w każdej chwili mogą zostać użyte, gdy obraz wsadowy nie jest dostępny.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Stanowią uzupełnienie obrazów wsadowych, zawierające dane jakie pojawiły się od momentu rozpoczęcia obliczania obrazu wsadowego i które w związku z tym nie są przez obraz wsadowy uwzględniane. Dzięki użyciu obu obrazów przez zapytania, użytkownik otrzymuje informacje aktualne, a nie historyczne.",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 2013,
+    "question": "Z3. Twierdzenie CAP dotyczy trzech własności: Odporności na partycjonowanie (Partition Tolerance) Dostępności (Availability) Spójności (Consistency) Rozumienie dwóch pierwszych własności jest dość oczywiste. Co rozumiemy przez trzecią z nich? Czym jest spójność w twierdzeniu CAP? Wybierz jedną odpowiedź:",
+    "answers": [
+      {
+        "text": "zgodność danych ze światem rzeczywistym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "spełnienie ograniczeń integralnościowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dostęp zawsze do najświeższych danych, takich które były zapisane jako ostatnie",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "identyczność danych w każdej partycji zawierającej te same dane",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2014,
+    "question": "Dobrze jest rozumieć różnice pomiędzy możliwościami i cechami tradycyjnych relacyjnych systemów baz danych, a cechami i możliwościami platformy Hadoop. Dopasuj poszczególne określenia cech i możliwości do właściwych systemów. (Hadoop)",
+    "answers": [
+      {
+        "text": "Możliwość skalowalnego przetwarzania wolumenów danych przekraczających 10PB",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Prosta liniowa skalowalność polegająca na zwiększaniu liczby serwerów obsługujących system/platformę",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Format przechowywanych danych praktycznie dowolny: niestrukturalne, semistrukturalne, strukturalne",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Obsługa transakcji posiadających własności ACID",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Sposób przetwarzania zoptymalizowany do wielokrotnych odczytów i zapisów pojedynczych danych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 2014,
+    "question": "Dobrze jest rozumieć różnice pomiędzy możliwościami i cechami tradycyjnych relacyjnych systemów baz danych, a cechami i możliwościami platformy Hadoop. Dopasuj poszczególne określenia cech i możliwości do właściwych systemów. (RDBMS)",
+    "answers": [
+      {
+        "text": "Możliwość skalowalnego przetwarzania wolumenów danych przekraczających 10PB",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Prosta liniowa skalowalność polegająca na zwiększaniu liczby serwerów obsługujących system/platformę",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Format przechowywanych danych praktycznie dowolny: niestrukturalne, semistrukturalne, strukturalne",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Obsługa transakcji posiadających własności ACID",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Sposób przetwarzania zoptymalizowany do wielokrotnych odczytów i zapisów pojedynczych danych",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
   }
 ]

@@ -37,6 +37,22 @@ function App() {
           startId={quizParams.startId} 
         />
       )}
+
+      {mode === 'big-d' && (
+        <Quiz 
+          onBack={() => setMode('menu')} 
+          isSmartLearning={true} 
+          startId={2000} 
+        />
+      )}
+
+      {mode === 'sieci-pajaka' && (
+        <Quiz 
+          onBack={() => setMode('menu')} 
+          isSmartLearning={true} 
+          startId={1000} 
+        />
+      )}
     </div>
   );
 }
