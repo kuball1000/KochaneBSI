@@ -14336,26 +14336,6 @@
         "text": "d) Przerwaniu uczenia sieci kiedy błąd na zbiorze walidacyjnym zacznie wzrastać.",
         "color": "green",
         "isCorrect": true
-      },
-      {
-        "text": "",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "b) ",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "c) ",
-        "color": "green",
-        "isCorrect": true
-      },
-      {
-        "text": "d) ",
-        "color": "none",
-        "isCorrect": false
       }
     ]
   },
