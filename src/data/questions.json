@@ -13955,6 +13955,676 @@
     ]
   },
   {
+    "id": 1057,
+    "question": "Jeżeli wykryty zostanie relatywnie duży poziom szumu w zbiorze uczącym, która z akcji podanych poniżej będzie właściwą aby jakość klasyfikacji była jak najwyższa:",
+    "answers": [
+      {
+        "text": "a) brak działania (zmiana wartości k nie wpłynie na jakość klasyfikacji w zaszumionych danych)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) zmniejszenie wartości k",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) zwiększenie wartości k",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1058,
+    "question": "Uczenie nadzorowane różni się od nienadzorowanego tym, że:",
+    "answers": [
+      {
+        "text": "a) w uczeniu nadzorowanym mamy wskazany atrybut którego wartości mamy przewidywać",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) w uczeniu nadzorowanym mamy odgórnie narzuconą miarę odległości między przypadkami",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) w uczeniu nadzorowanym ekspert na bieżąco ocenia jakość każdej indywidualnej predykcji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) w uczeniu nadzorowanym mamy zdefiniowane atrybuty",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1059,
+    "question": "Który z poniższych wzorów pozwoli znormalizować dane?",
+    "answers": [
+      {
+        "text": "a) X / avg(X)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) (X + avg(X)) / (X - std(X))",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) X - max(X)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) (X - avg(X)) / stddev(X)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1060,
+    "question": "Jakie będą skutki dobrania zbyt dużego współczynnika uczenia (learning rate)?",
+    "answers": [
+      {
+        "text": "a) Proces optymalizacji zatrzyma się przedwcześnie z powodu zerowej pochodnej.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Nauczona sieć będzie działać niedeterministycznie.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Proces optymalizacji może być niezdolny dotrzeć do wartości bliskich optimum.",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Sieć neuronowa przeuczy się.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1061,
+    "question": "W pewnej iteracji algorytmu k-means (k=2) podzielono zbiór danych na następujące podzbiory: K1: (1,3), (2,7) oraz K2: (6,2), (0,10). Jakie będą wartości atrybutów dla centroidów w kolejnej iteracji?",
+    "answers": [
+      {
+        "text": "a) Centroid K1: (2,6), centroid K2: (1,5)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Centroid K1: (1, 2), centroid K2: (2, 0)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Centroid K1: (3, 7), centroid K2: (6, 10)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Centroid K1: (1.5, 5), centroid K2: (3, 6)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1062,
+    "question": "Mamy sieć konwolucyjną C=Conv2D(5, (3, 3), (1,1)), która ma 5 filtrów, rozmiar kernela (3,3), przesunięcie kernela (strides) (1,1) i brak paddingu. Aplikujemy ją do obrazka w odcieniach szarości o wymiarach 100x100. Jaki będzie wymiar tensora danych po przetworzeniu przez C?",
+    "answers": [
+      {
+        "text": "a) 98 x 98",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 98 x 98 x 5",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) 100 x 100",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 500 x 500",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "e) 100 x 100 x 5",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1063,
+    "question": "Która z poniższych odpowiedzi dotyczących biasu używanego w neuronie jest prawdziwa?",
+    "answers": [
+      {
+        "text": "a) Z biasu można zrezygnować bez szkody dla jakości klasyfikacji sieci.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Bias jest dodawany przed zaaplikowaniem funkcji aktywacji.",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Neuron podczas agregacji dodaje uśrednioną wartość biasu połączonych z nim neuronów z poprzedniej warstwy.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Bias jest stały podczas uczenia, wagi muszą się dostosować do dobranych wartości biasu.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1064,
+    "question": "Przy k = 1 algorytm k-NN:",
+    "answers": [
+      {
+        "text": "a) zawsze daje gorsze rezultaty niż przy k = 3",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) jest odporny na przykłady odstające (outliers)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) daje dobre wyniki (jakość klasyfikacji) jeżeli w zbiorze danych klasy są wyraźnie rozdzielone",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1065,
+    "question": "Początkowe centroidy w algorytmie k-means:",
+    "answers": [
+      {
+        "text": "a) zawsze ustalane są na wartości kolejne wartości co 1/k przedziału wartości na wszystkich atrybutach",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) w pierwszej iteracji jest tylko jeden centroid w połowie przedziału każdego atrybutu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) ich wybór nie ma wpływu na końcowe przydziały do grup",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) mogą być ustalone jako losowe przykłady z danych",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1079,
+    "question": "Który wzór reprezentuje wyjście zwrócone przez neuron z funkcją aktywacji f, wagami w, biasem b, oraz wejściami x?",
+    "answers": [
+      {
+        "text": "a. $\\sum_{i} f(w_i \\cdot x_i + b)$",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "$\\sum_{i} w_i \\cdot f(x_i + b)$",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "$f(\\sum_{i} w_i \\cdot x_i + b)$",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "$\\sum_{i} w_i \\cdot f(b \\cdot x_i)$",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1066,
+    "question": "Co jest zadaniem autoenkodera w zadaniu autoasocjacji?",
+    "answers": [
+      {
+        "text": "a) Klasyfikacja do właściwej klasy decyzyjnej.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Minimalizacja wariancji na wyjściu.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Wskazanie najważniejszych grup (klastrów) w danych.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Odtworzenie na wyjściu oryginalnego wejścia",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1067,
+    "question": "Który atrybut zostanie wybrany do dokonania podziału w danym węźle?",
+    "answers": [
+      {
+        "text": "a) Zawierający najwięcej przypadków uczących",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Mający najwyższą wartość entropii",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Losowy wg prawdopodobieństwa uzyskanego z policzenia jego entropii warunkowej ze względu na klasę decyzyjną",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Dzielący zbiór przypadków na podzbiory o możliwie jednolitych decyzjach",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1068,
+    "question": "Która z poniższych metod selekcji atrybutów nie wykorzystuje do działania żadnej dodatkowej miary oceny jakości atrybutu:",
+    "answers": [
+      {
+        "text": "a) wrapper",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) entropy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) sort",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) filter",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1069,
+    "question": "Przyrost informacji (ang. info gain) jest zdefiniowany jako (D --- zbiór przykładów uczących, a --- atrybut użyty do podziału w węźle drzewa; Ent --- funkcja entropii):",
+    "answers": [
+      {
+        "text": "a) Gain(D,a)=Ent(D)-Ent(D|a)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) Gain(D,s)=Ent(a)-Ent(s|D)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Gain(D,a)=Ent(D|a)-Ent(D)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Gain(D,a)=Ent(a)-Ent(D|a);",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1070,
+    "question": "Technika wczesnego kończenia uczenia sieci (early stopping) przy wykorzystaniu zbioru walidacyjnego polega na:",
+    "answers": [
+      {
+        "text": "a) Usunięciu ze zbioru walidacyjnego wszystkich outlierów.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Dodaniu specjalnej warstwy walidacyjnej do sieci neuronowej.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Zoptymalizowaniu działania sieci na zbiorze walidacyjnym, a potem dopiero douczeniu jej na zbiorze uczącym.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Przerwaniu uczenia sieci kiedy błąd na zbiorze walidacyjnym zacznie wzrastać.",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) ",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) ",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) ",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1080,
+    "question": "Jakie są główne wady algorytmu k-means w porównaniu do innych algorytmów grupowania?",
+    "answers": [
+      {
+        "text": "tworzenie kulistych skupień, skupienia trudne w interpretacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "skupienia trudne w interpretacji, brak odporności na przypadki odstające",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tworzenie kulistych skupień, brak odporności na przypadki odstające",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wolne działanie, brak odporności na zaszumienie przypadków",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1071,
+    "question": "Na którym zbiorze danych powinniśmy sprawdzić, jak model zachowa się podczas wdrożenia go do pracy na potencjalnie niewidzianych wcześniej przypadkach:",
+    "answers": [
+      {
+        "text": "a) nienadzorowanym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) uczącym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) testowym",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) walidacyjnym",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1072,
+    "question": "Mamy w sieci neuronowej pewną warstwę W = Dense(5). Następnie postanawiamy dodać do sieci jeszcze jedną w pełni połączoną warstwę W = Dense(10) po warstwie W. Ile dodatkowych uczalnych parametrów sieci (wag i biasów) zostanie utworzonych w związku z powiększeniem architektury tej sieci?",
+    "answers": [
+      {
+        "text": "a) 35",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) 60",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) 15",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) 20",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "e) 55",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "f) 50",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1073,
+    "question": "Który z poniższych sposobów NIE jest dobrym sposobem na poradzenie sobie z brakującą wartością atrybutu dla przypadku uczącego?",
+    "answers": [
+      {
+        "text": "a) Wykorzystanie dodatkowej wartości 'unknown'",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Skopiowanie wartości atrybutu z następnego w kolejności przypadku uczącego",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Wstawienie wartości atrybutu najczęściej występującej dla klasy decyzyjnej tego przypadku",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Wstawienie wartości najczęściej występującej na tym atrybucie",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1074,
+    "question": "Algorytm k-NN:",
+    "answers": [
+      {
+        "text": "a) nie tworzy modelu (predykcja odbywa się na całych danych uczących)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) nie wymaga ustalenia żadnych parametrów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) może być użyty tylko z użyciem odległości euklidesowej",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1075,
+    "question": "Które zdanie o sieciach neuronowych jest prawdziwe?",
+    "answers": [
+      {
+        "text": "a) Sieci neuronowe to paradygmat uczenia maszynowego, który łatwo podlega interpretacji jeżeli chodzi o powody klasyfikacji przypadków.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Sieć neuronowa zaczyna od losowej klasyfikacji przypadków, i z czasem poprawia rezultaty w wyniku procesu uczenia.",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Sieć neuronowa przyjmuje na wejście kilka przypadków ze zbioru uczącego, które agreguje.",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Sieć neuronowa dokonuje klasyfikacji przypadków stochastycznie, tzn. wynik klasyfikacji może się różnić przy wielu uruchomieniach danej sieci neuronowej.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1076,
+    "question": "Spośród poniżej przedstawionych architektur, wskaż tę która reprezentuje typowy autoenkoder (czyli wariant undercomplete) w zadaniu autoasocjacji.",
+    "answers": [
+      {
+        "text": "a) Dense(100) -> Dense(1000) -> Dense(100)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Dense(100) -> Dense(10) -> Dense(100)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Dense(100) -> Dense(10) -> Dense(2)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Dense(100) -> Dense(100) -> Dense(100)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1077,
+    "question": "Pojęcie \"przekleństwo wymiarowości\" mówi o:",
+    "answers": [
+      {
+        "text": "a) spadku jakości klasyfikacji za każdym razem po dodaniu kolejnego atrybutu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) konieczności wykładniczego wzrostu liczby przykładów uczących przy rosnącej liczbie atrybutów (aby utrzymać jakość klasyfikacji)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) żadna z pozostałych odpowiedzi nie jest poprawna",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) wzroście złożoności obliczeniowej wraz ze wzrostem liczby atrybutów",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1078,
+    "question": "Przeuczenie polega na tym, że:",
+    "answers": [
+      {
+        "text": "a) błąd klasyfikatora na zbiorze uczącym jest niższy niż testowym",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) klasyfikator osiągnął minimalny możliwy błąd na danych testowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) klasyfikator działa zbyt dobrze",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) klasyfikator przestał działać na skutek zbyt długiego uczenia",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1081,
+    "question": "Poniższy obrazek przedstawia zarys działania algorytmu wstecznej propagacji błędu dla pojedynczego neuronu. W jaki sposób należy obliczyć zmienną delta A? Załóżmy, że X∈{P,Q,R}?",
+    "answers": [
+      {
+        "text": "Należy znaleźć maksymalną wartość błędu $\\delta_X$, a następnie pomnożyć ją przez pochodną funkcji aktywacji neuronu A, $f'(z_A)$",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Należy obliczyć sumę ważoną wszystkich wchodzących $\\delta_X$ po wagach $w_{A,X}$, a następnie pomnożyć ją przez pochodną funkcji aktywacji neuronu A, $f'(z_A)$",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Należy zsumować wszystkie $\\delta_X$, a następnie pomnożyć przez pochodną funkcji aktywacji neuronu A, $f'(z_A)$",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Należy uśrednić wszystkie $\\delta_X$, a następnie pomnożyć przez pochodną funkcji aktywacji neuronu A, $f'(z_A)$",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
     "id": 2000,
     "question": "Szukając w Internecie odpowiedzi na pytanie: \"jaki jest związek pomiędzy twierdzeniem CAP a platformą Hadoop?\", ograniczmy to do HDFS, można znaleźć taką odpowiedź: Talking about Hadoop, it supports the Availability and Partition Tolerance property. The Consistency property is not supported because onlynamenode has the information of where the replicas are placed. This information is not available with each and every node of the cluster. Czy jest to zgodne z prawdą? Czy faktycznie HDFS spełnia dwie własności: odporności na partycjonowanie (Partition Tolerance) oraz dostępności (Availability), a nie spełnia własności spójności (Consistency) w rozumieniu twierdzenia CAP? Wybierz jedną odpowiedź:",
     "answers": [
