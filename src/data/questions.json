@@ -12383,8 +12383,8 @@
       },
       {
         "text": "W przypadku regresji jako element regularyzacyjny",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -12394,8 +12394,8 @@
     "answers": [
       {
         "text": "Wypracowuje się decyzje końcową poprzez głosowanie większościowe",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "modyfikuje się parametry uczenia każdego drzew dla zwiększenia ich zróżnicowania",
@@ -12409,8 +12409,8 @@
       },
       {
         "text": "Stosuje się losowanie bootstrapowe dla każdego z tych drzew",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -12508,8 +12508,8 @@
     "answers": [
       {
         "text": "Opiera się na minimalizacji różnicy rzutów wartości średnich w klasach oraz minimalizacji odpowiednio przekształconej macierzy kowariancji",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "jest odmianą algorytmu analizy skupisk",
@@ -12534,8 +12534,8 @@
     "answers": [
       {
         "text": "Przy wykorzystaniu odległości euklidesowej ma ukierunkowanie do tworzenia kulistych kształtów skupisk",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "Wykorzystuje rzeczywiste obserwacje (tzw. medoidy) do reprezentacji skupienia",
@@ -12544,8 +12544,8 @@
       },
       {
         "text": "Iteracyjnie próbuje minimalizować miarę zmienności wewnątrz-skupieniowej",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "Sam algorytm ustala liczbę skupień",
@@ -12565,8 +12565,8 @@
       },
       {
         "text": "Niezerowy gradient dla ujemnych argumentów",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "Różniczkowalność w całej dziedzinie",
@@ -12767,8 +12767,8 @@
       },
       {
         "text": "Wykonania redukcji rozmiarów drzewa z sumą ważoną kryteriów minimalizacji błędu klasyfikacji oraz rozmiaru drzewa",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -12871,8 +12871,8 @@
     "answers": [
       {
         "text": "1",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "2",
@@ -12897,8 +12897,8 @@
     "answers": [
       {
         "text": "7x7",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "9x9",
@@ -12980,8 +12980,8 @@
     "answers": [
       {
         "text": "Dokładnie jeden raz.",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "Przynajmniej raz i nie więcej niż n- 1, gdzie n to liczba części na jakie jest podzielony zbiór uczący.",
@@ -13099,8 +13099,8 @@
       },
       {
         "text": "61",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "60",
@@ -13156,8 +13156,8 @@
       },
       {
         "text": "Gain(A,s)=Ent(A)-Ent(A|s)",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "Gain(A,s)=Ent(A|s)-Ent(A)",
@@ -13239,8 +13239,8 @@
       },
       {
         "text": "ograniczenia dostępnej mocy obliczeniowej (który to problem rozwiązany został przez obliczenia na GPU)",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "ograniczenia pamięciowe (duża liczba parametrów modelu)",
@@ -13379,8 +13379,8 @@
     "answers": [
       {
         "text": "37",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "9",
@@ -13499,7 +13499,7 @@
   },
   {
     "id": 1040,
-    "question": "Pytanie (brak numeru) Jakie przykłady uczące są zapamiętywane w algorytmie IBL3:",
+    "question": "Jakie przykłady uczące są zapamiętywane w algorytmie IBL3:",
     "answers": [
       {
         "text": "posiadające statystycznie znaczącą wysoką wartość tzw. rekordu klasyfikacyjnego uaktualnianego w trybie przyrostowym",
