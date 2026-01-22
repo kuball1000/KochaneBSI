@@ -13530,15 +13530,25 @@
   },
   {
     "id": 1041,
-    "question": "Szukając w Internecie odpowiedzi na pytanie: \"jaki jest związek pomiędzy twierdzeniem CAP a platformą Hadoop?\", ograniczmy to do HDFS, można znaleźć taką odpowiedź: Talking about Hadoop, it supports the Availability and Partition Tolerance property. The Consistency property is not supported because onlynamenode has the information of where the replicas are placed. This information is not available with each and every node of the cluster. Czy jest to zgodne z prawdą? Czy faktycznie HDFS spełnia dwie własności: odporności na partycjonowanie (Partition Tolerance) oraz dostępności (Availability), a nie spełnia własności spójności (Consistency) w rozumieniu twierdzenia CAP? Wybierz jedną odpowiedź:",
+    "question": "Kryterium gain-ratio używa się w indukcji drzew i reguł decyzyjnych w następujących sytuacjach: Wybierz jedną odpowiedź:",
     "answers": [
       {
-        "text": "Prawda",
+        "text": "Jest to zastępcze kryterium podziału dla algorytmu CART",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "Fałsz, bo nie spełnia Availability",
+        "text": "Stosowana jest w trakcie dyskretyzacji atrybutów liczbowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Nieprawda - nie jest wykorzystywane w indukcji drzew",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Pozwala na lepsze uwzględnienie atrybutów o zróżnicowanych dziedzinach",
         "color": "green",
         "isCorrect": true
       }
@@ -13546,51 +13556,51 @@
   },
   {
     "id": 1042,
-    "question": "Które z poniższych nazw nie jest programem szeregowania zadań używanym przez system YARN Wybierz jedną odpowiedź:",
+    "question": "Warunkiem zatrzymania algorytmu k-średnich jest: Wybierz jedną odpowiedź:",
     "answers": [
       {
-        "text": "FIFO",
+        "text": "zakończenie dyskretyzacji atrybutów liczbowych",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "Fair",
+        "text": "utworzenie pełnego drzewa skupień",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "LIFO",
+        "text": "optymalizacja wartości k - tzn. jest obliczenie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Osiągnięcie stabilizacji zawartości przykładów wewnątrz skupień",
         "color": "green",
         "isCorrect": true
-      },
-      {
-        "text": "Capacity",
-        "color": "none",
-        "isCorrect": false
       }
     ]
   },
   {
     "id": 1043,
-    "question": "Zadanie MapReduce ma do przetworzenia zbiór plików zawierających dane meteorologiczne. Każdy plik przechowywany jest w 5 blokach po 128MB. Poziom replikacji w klastrze Hadoop wynosi 3. Liczba serwerów wchodzących w skład klastra wynosi 10. Dane meteorologiczne zawarte są w 100 plikach, w każdym znajduje się po 10 000 rekordów. W każdym pliku przechowywane są dane dotyczące pomiarów z jednego rocznika. Każdy rekord zawiera informacje dotyczące: identyfikatora pomiaru, roku pomiaru, miesiąca (w roku) pomiaru, dnia (w miesiącu) pomiaru, miejsca pomiaru, temperatury, wilgotności, prędkości wiatru, ilości opadów Celem zadania MapReduce jest wyliczenie średniej temperatury dla każdego roku pomiarów. Zadanie MapReduce nie korzysta z agregatora łączącego (ang. combiner). Co powinno być kluczem w rekordach tworzonych przez mappera? Wybierz jedną odpowiedź:",
+    "question": "Autodiff to żargonowe określenie na. Wybierz jedną odpowiedź:",
     "answers": [
       {
-        "text": "rok pomiaru",
+        "text": "techniki automatycznego różniczkowania wykorzystywane w uczeniu głębokim",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "temperatura",
+        "text": "funkcję straty wykorzystywaną często w modelach uczonych przez autoasocjację",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "identyfikator pomiaru",
+        "text": "najbardziej popularną klasę algorytmów wstecznej propagacji błędu",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "nie mamy wpływu na to jaka jest wartości klucza generowana przez mappera w zadaniu MapReduce",
+        "text": "automatyczne odejmowanie offsetu unitów (bias, parametr oznaczany zazwyczaj przez b) od ich aktywacji",
         "color": "none",
         "isCorrect": false
       }
@@ -13598,15 +13608,25 @@
   },
   {
     "id": 1044,
-    "question": "Masz dwa komputery, które chcesz spiąć w klaster Hadoop. Komputer A: 32GB RAM, 512GB HDD Komputer B: 4GB RAM, 1TB HDD Który z nich wykorzystasz dla węzła nazw?:",
+    "question": "Estymacja parametrów w regresji logistycznych jest dokonywana poprzez:",
     "answers": [
       {
-        "text": "Komputer A, bo ma więcej pamięci RAM,",
+        "text": "analityczne rozwiązanie metody najmniejszych kwadratów poprzez",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "metodę estymacji największej wiarygodności",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "Komputer B, bo ma większy dysk",
+        "text": "algorytm spadku gradientu błędu średniokwadratowego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "algorytm Larossa",
         "color": "none",
         "isCorrect": false
       }
@@ -13614,25 +13634,25 @@
   },
   {
     "id": 1045,
-    "question": "Która z poniższych aplikacji (systemów/platform/silników) nie korzysta z systemu YARN (nie ma takiej możliwości) Wybierz jedną odpowiedź:",
+    "question": "Regularyzacja L2 (weight decay) polega na. Wybierz jedną odpowiedź:",
     "answers": [
       {
-        "text": "Tez",
+        "text": "dodaniu do funkcji straty członu obliczającego odległość euklidesową wektora wyjść modelu od wektora wartości pożądanych (tzw. targetu)",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "MapReduce",
+        "text": "odjęcia od funkcji straty członu obliczającego odległość euklidesową wektora parametrów modelu od wektora wyjść",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "HDFS",
+        "text": "dodaniu do funkcji straty członu penalizującego amplitudę parametrów modelu",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "Spark",
+        "text": "odjęciu od funkcji straty członu penalizującego amplitudę parametrów modelu",
         "color": "none",
         "isCorrect": false
       }
@@ -13640,25 +13660,25 @@
   },
   {
     "id": 1046,
-    "question": "W systemie klasy Big Data opracowanym zgodnie z architekturą Lambda obliczanych jest wiele obrazów wsadowych (ang. batch view) oraz wiele obrazów czasu rzeczywistego (ang. speed view). Czy jest jakaś korelacja pomiędzy liczbą obrazów jednocześnie wyliczanych (takich, które aktywnie są tworzone lub aktualizowane) obrazów wsadowych i obrazów czasu rzeczywistego? Załóż, że system został skonfigurowany tak aby natychmiast po zakończeniu wyliczania obrazu wsadowego N rozpoczynało się wyliczanie kolejnego obrazu wsadowego N+1. Wybierz jedną odpowiedź:",
+    "question": "Funkcje straty dla typowych modeli neuronowych z dużą liczbą parametrów mają zazwyczaj. Wybierz jedną odpowiedź:",
     "answers": [
       {
-        "text": "Nie ma żadnej korelacji.",
+        "text": "więcej lokalnych ekstremów niż punktów siodłowych",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "Istnieje korelacja - w danym momencie liczba wyliczanych obrazów czasu rzeczywistego jest dwa razy większa niż liczba wyliczanych obrazów wsadowych",
+        "text": "więcej minimów globalnych niż minimów lokalnych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "więcej punktów siodłowych niż lokalnych ekstremów",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "Istnieje korelacja - w danym momencie liczba wyliczanych obrazów wsadowych jest taka sama jak liczba wyliczanych obrazów czasu rzeczywistego",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Istnieje korelacja - w danym momencie liczba wyliczanych obrazów wsadowych jest dwa razy większa niż liczba wyliczanych obrazów czasu rzeczywistego",
+        "text": "więcej minimów lokalnych niż maksimów lokalnych",
         "color": "none",
         "isCorrect": false
       }
@@ -13666,67 +13686,82 @@
   },
   {
     "id": 1047,
-    "question": "Co zajmie więcej pamięci w węźle nazw?",
+    "question": "Selekcje zmiennych w modelu regresji liniowej można dokonać poprzez: Wybierz wszystkie poprawne:",
     "answers": [
       {
-        "text": "10 plików o wielkości 1MB",
+        "text": "Obliczając przedział ufności predykcji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Procedure krokowego wyboru kontrolowanego przez obliczenie statystyki F",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "Jeden plik wielkości 1GB",
+        "text": "Wykorzystanie wskaźnika Lorentza do oceny każdej zmiennej niezależnej",
         "color": "none",
         "isCorrect": false
+      },
+      {
+        "text": "Na podstawie analizy wartości lokalnego testu t w diagnostyce modelu (zbyt wysoka p value)",
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
   {
     "id": 1048,
-    "question": "W systemie klasy Big Data opracowanym zgodnie z architekturą Lambda zapytania użytkowników oparte są na aktywnych (dostępnych dla zapytań) obrazach wsadowych (ang. batch view) oraz obrazach czasu rzeczywistego (ang. speed view). Czy jest jakaś korelacja pomiędzy liczbą obrazów jednocześnie aktywnych (takich, które dostępne dla zapytań użytkowników) obrazów wsadowych i obrazów czasu rzeczywistego? Wybierz jedną odpowiedź:",
+    "question": "Czy algorytm k-NN z euklidesową miarą odległości może być użyty bezpośrednio do klasyfikacji danych, gdzie osoby opisane są przez 3 atrybuty liczbowe (rozmiar buta, waga, roczne zarobki) i 1 decyzyjny, wskazujący klasę? Wybierz jedną odpowiedź:",
     "answers": [
       {
-        "text": "Istnieje korelacja - w danym momencie liczba aktywnych obrazów czasu rzeczywistego jest dwa razy większa niż liczba aktywnych obrazów wsadowych",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Nie ma żadnej korelacji.",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Istnieje korelacja - w danym momencie liczba aktywnych obrazów wsadowych jest dwa razy większa niż liczba aktywnych obrazów czasu rzeczywistego",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Istnieje korelacja - w danym momencie liczba aktywnych obrazów wsadowych jest taka sama jak liczba aktywnych obrazów czasu rzeczywistego",
+        "text": "nie, należy dokonać normalizacji zakresu atrybutów",
         "color": "green",
         "isCorrect": true
+      },
+      {
+        "text": "tak, jest to typowy problem",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nie, gdyż liczba atrybutów jest zbyt mała",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nie, gdyż należy użyć odległości miejskiej",
+        "color": "none",
+        "isCorrect": false
       }
     ]
   },
   {
     "id": 1049,
-    "question": "Węzeł nazw przechowuje metadane dotyczące plików i bloków. Co nie należy do metadanych (nie jest przechowywane przez węzeł nazw)?",
+    "question": "Reguła delta dla unitu nieliniowego o wektorze parametrów w, funkcji aktywacji f, aktywacji e, który w odpowiedzi na wektor wejść x popełnił błąd delta, ma następującą postać. Wybierz jedną odpowiedź:",
     "answers": [
       {
-        "text": "Uprawnienia dotyczące pliku",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Nazwa pliku",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Zawartość pliku (bloków należących do pliku)",
+        "text": "w <- w - eta delta x df/de",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "Nazwa katalogu, w którym plik się znajduje",
+        "text": "w <- w + eta delta f(e) df/de",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w <- w + eta delta x df/de",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w <- w - eta f(x) delta/de",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w <- w - eta delta x",
         "color": "none",
         "isCorrect": false
       }
@@ -13734,25 +13769,20 @@
   },
   {
     "id": 1050,
-    "question": "Węzły nazw HDFS są newralgicznym elementem klastra Hadoop. Ich awaria może prowadzić do utraty danych. Aby zapobiec utracie wszystkich plików lub plików z całej przestrzeni nazw (np. pojedynczego katalogu) można: Wybierz jedną odpowiedź:",
+    "question": "Eksperymentalnego doboru wartości k w algorytmie k-NN NIE można wykonać wykorzystując:",
     "answers": [
       {
-        "text": "zmniejszyć liczbę węzłów danych",
+        "text": "kroswalidację",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "wykorzystać mechanizm federacji węzłów naz",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "wykorzystać konfigurację z pomocniczym węzłem nazw",
+        "text": "zbiór testowy",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "zwiększyć liczbę węzłów danych",
+        "text": "zbiór walidacyjny",
         "color": "none",
         "isCorrect": false
       }
@@ -13760,51 +13790,51 @@
   },
   {
     "id": 1051,
-    "question": "Która z wymienionych cech nie byłaby zaletą narzędzia użytego do przechowywania głównego zbioru danych (ang. master dataset) w systemie Big Data opartym o architekturę Lambda. Wybierz jedną odpowiedź:",
+    "question": "W przypadku uczenia nienadzorowanego (np. grupowanie) do selekcji atrybutów NIE można użyć:",
     "answers": [
       {
-        "text": "Łatwość w dokonywaniu modyfikowania raz zapisanych danych - mutowalność",
+        "text": "usuwania atrybutów skorelowanych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "usuwania atrybutów z niską wariancją",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tworzenia nowych atrybutów (np. metodą PCA)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "usuwania atrybutów z niską wartością information gain",
         "color": "green",
         "isCorrect": true
-      },
-      {
-        "text": "Zdolność do partycjonowania pionowego",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Niemutowalność danych polegająca na braku możliwości zmiany wprowadzonych danych",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Obsługa przetwarzania równoległego",
-        "color": "none",
-        "isCorrect": false
       }
     ]
   },
   {
     "id": 1052,
-    "question": "Z1. W systemie klasy Big Data opracowanym zgodnie z architekturą Lambda zapytania użytkowników wykorzystują obrazy wsadowe (ang. batch view) oraz obrazy czasu rzeczywistego (ang. speed view). Jaka jest rola obrazów czasu rzeczywistego? Wybierz jedną odpowiedź:",
+    "question": "Zespół klasyfikatorów bagging (niech liczba składowych klasyfikatorów będzie T). Wybierz wszystkie poprawne:",
     "answers": [
       {
-        "text": "Są obrazami, które są alternatywą dla obrazów wsadowych, przechowując nowe dane. Jeśli użytkownik potrzebuje informacje najnowsze wykonuje zapytania tylko na obrazach czasu rzeczywistego. W przeciwnym przypadku korzysta tylko z obrazów wsadowych.",
+        "text": "jest oparty na losowym wyborze przykładów",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "agreguje predykcje klasyfikatorów składowych przez głosowanie",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "buduje się rozwiązanie metra-klasyfikatora",
         "color": "none",
         "isCorrect": false
       },
       {
-        "text": "Obrazy czasu rzeczywistego to „kolejne paczki danych” jakie w regularnych odstępach czasu są wykorzystywane do przyrostowej aktualizacji obrazów wsadowych.",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Są zapasowymi obrazami, które w każdej chwili mogą zostać użyte, gdy obraz wsadowy nie jest dostępny.",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "Stanowią uzupełnienie obrazów wsadowych, zawierające dane jakie pojawiły się od momentu rozpoczęcia obliczania obrazu wsadowego i które w związku z tym nie są przez obraz wsadowy uwzględniane. Dzięki użyciu obu obrazów przez zapytania, użytkownik otrzymuje informacje aktualne, a nie historyczne.",
+        "text": "wykorzystuje losowanie bootstrapowe przykładów do T prób uczących",
         "color": "green",
         "isCorrect": true
       }
@@ -13812,25 +13842,113 @@
   },
   {
     "id": 1053,
-    "question": "Z3. Twierdzenie CAP dotyczy trzech własności: Odporności na partycjonowanie (Partition Tolerance) Dostępności (Availability) Spójności (Consistency) Rozumienie dwóch pierwszych własności jest dość oczywiste. Co rozumiemy przez trzecią z nich? Czym jest spójność w twierdzeniu CAP? Wybierz jedną odpowiedź:",
+    "question": "Bramka zapominająca w standardowej architekturze LSTM sieci rekurencyjnej:",
     "answers": [
       {
-        "text": "zgodność danych ze światem rzeczywistym",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "spełnienie ograniczeń integralnościowych",
-        "color": "none",
-        "isCorrect": false
-      },
-      {
-        "text": "dostęp zawsze do najświeższych danych, takich które były zapisane jako ostatnie",
+        "text": "jest siecią neuronową z funkcją aktywacji będącą f. sigmoidalną, której celem jest selektywne wybranie elementów, które pozostaną w pamięci",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "identyczność danych w każdej partycji zawierającej te same dane",
+        "text": "jest siecią neuronową z funkcją aktywacji będącą tangensem hiperbolicznym, której celem jest selektywne wybranie elementów, które pozostaną w pamięci",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jest siecią neuronową z funkcją aktywacji będącą tangensem hiperbolicznym, której celem jest selektywne wybranie elementów, które zostaną dodane do pamięci",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jest siecią neuronową z funkcją aktywacji będącą f. sigmoidalną, której celem jest selektywne wybranie elementów, które zostaną dodane do pamięci",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nie jest siecią neuronową, a tylko pewną operacją matematyczną dokonywaną na wejściu sieci rekurencyjnej",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1054,
+    "question": "Algorytm k-means:",
+    "answers": [
+      {
+        "text": "wymaga znanej z góry liczby skupisk (grup)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "ustala ostateczną liczbę grup w toku działania opierając się na ustalonej wartości progu podobieństwa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jest algorytmem uczenia nadzorowanego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jest algorytmem klasyfikacji",
+        "color": "white",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1055,
+    "question": "W standardowej architekturze LSTM rekurencyjnej sieci neuronowej:",
+    "answers": [
+      {
+        "text": "pamięć jest najpierw filtrowana przez operację mnożenia po elementach wektora liczb z przedziału [-1, 1] a potem modyfikowana poprzez operację dodawania wektora z elementami z przedziału [-1,1]",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pamięć jest najpierw filtrowana przez operację mnożenia po elementach wektora liczb z przedziału [0, 1] a potem modyfikowana poprzez operację dodawania wektora z elementami z przedziału [0,1]",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pamięć jest najpierw filtrowana przez operację dodawania wektora liczb z przedziału [0, 1] a potem modyfikowana poprzez operację mnożenia po elementach wektora z elementami z przedziału [0,1]",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pamięć jest najpierw filtrowana przez operację mnożenia po elementach wektora liczb z przedziału [0, 1] a potem modyfikowana poprzez operację dodawania wektora z elementami z przedziału [-1,1]",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "pamięć jest najpierw filtrowana przez operację dodawania wektora liczb z przedziału [-1, 1] a potem modyfikowana poprzez dodawania wektora z elementami z przedziału [0,1]",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 1056,
+    "question": "Bramkowanie (gating) sygnałów, stosowany m.in. w architekturach rekurencyjnych to:",
+    "answers": [
+      {
+        "text": "iloczyn skalarny (scalar product) wektora sygnału i wektora sygnału bramkującego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "iloczyn wektorowy (cross product) wektora sygnału i wektora sygnału bramkującego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "iloczyn elementowy (elementwise product) wektora sygna i wektora sygnału bramkującego",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "iloczyn zewnętrzny (outer product) wektora sygnału i wektora sygnału bramkującego",
         "color": "none",
         "isCorrect": false
       }
