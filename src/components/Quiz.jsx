@@ -130,11 +130,11 @@ export default function Quiz({ onBack, isSmartLearning = false, startId = 0, end
     return (
       <div className="min-h-screen flex items-center justify-center p-4">
         <div className="card max-w-lg w-full p-8 text-center space-y-6">
-          <h2 className="text-3xl font-bold text-gray-900">Koniec Nauki!</h2>
-          <div className="text-5xl font-black text-blue-600">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Koniec Nauki!</h2>
+          <div className="text-5xl font-black text-blue-600 dark:text-blue-400">
             {correctCount} zaliczonych
           </div>
-          <p className="text-gray-500">Wszystkie pytania zostały przerobione!</p>
+          <p className="text-gray-500 dark:text-gray-400">Wszystkie pytania zostały przerobione!</p>
           <div className="flex gap-4 justify-center pt-4">
             <button onClick={onBack} className="btn-secondary">Wróć do Menu</button>
             <button onClick={() => window.location.reload()} className="btn-primary">Spróbuj Ponownie</button>
@@ -150,7 +150,7 @@ export default function Quiz({ onBack, isSmartLearning = false, startId = 0, end
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-2xl">
         <div className="flex justify-between items-center mb-6">
-          <button onClick={onBack} className="text-gray-500 hover:text-gray-900 font-medium flex items-center gap-2">
+          <button onClick={onBack} className="text-gray-500 hover:text-gray-900 dark:hover:text-white font-medium flex items-center gap-2">
             ← Menu
           </button>
           
@@ -168,10 +168,10 @@ export default function Quiz({ onBack, isSmartLearning = false, startId = 0, end
         </div>
 
         <div className="card p-6 md:p-8">
-          <h2 className="text-xl md:text-2xl font-bold text-gray-800 mb-2 leading-relaxed">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-800 dark:text-white mb-2 leading-relaxed">
             {currentQuestion.question}
           </h2>
-          <p className="text-sm text-gray-400 mb-6 italic">
+          <p className="text-sm text-gray-400 dark:text-gray-500 mb-6 italic">
             Zaznacz wszystkie poprawne odpowiedzi
           </p>
 
@@ -206,7 +206,7 @@ export default function Quiz({ onBack, isSmartLearning = false, startId = 0, end
                  if (isSelected) {
                     btnClass += "bg-blue-50 border-blue-500 ring-2 ring-blue-200 text-blue-900";
                  } else {
-                    btnClass += "bg-white border-gray-100 hover:border-blue-400 hover:shadow-md text-gray-700";
+                    btnClass += "bg-white dark:bg-gray-700 border-gray-100 dark:border-gray-600 hover:border-blue-400 hover:shadow-md text-gray-700 dark:text-gray-200 dark:hover:border-blue-500";
                  }
               }
 
@@ -220,8 +220,8 @@ export default function Quiz({ onBack, isSmartLearning = false, startId = 0, end
                   <div className="flex items-start gap-3">
                     <div className={`mt-0.5 flex-shrink-0 w-6 h-6 rounded md:rounded-md border-2 flex items-center justify-center text-xs transition-colors
                       ${isConfirmed ? 
-                        (ans.isCorrect ? 'border-green-600 bg-green-600 text-white' : 'border-gray-400 bg-transparent text-gray-600') 
-                        : (isSelected ? 'border-blue-500 bg-blue-500 text-white' : 'border-gray-300 bg-white')
+                        (ans.isCorrect ? 'border-green-600 bg-green-600 text-white' : 'border-gray-400 bg-transparent text-gray-600 dark:text-gray-400') 
+                        : (isSelected ? 'border-blue-500 bg-blue-500 text-white' : 'border-gray-300 dark:border-gray-500 bg-white dark:bg-gray-600')
                       }`}>
                       
                       {/* Icons logic */}

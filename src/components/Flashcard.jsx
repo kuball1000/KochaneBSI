@@ -54,7 +54,7 @@ export default function Flashcard({ onBack }) {
     <div className="min-h-screen flex flex-col items-center justify-center p-4">
        <div className="w-full max-w-2xl">
          <div className="flex justify-between items-center mb-6">
-           <button onClick={onBack} className="text-gray-500 hover:text-gray-900 font-medium flex items-center gap-2">
+           <button onClick={onBack} className="text-gray-500 hover:text-gray-900 dark:hover:text-white font-medium flex items-center gap-2">
              ← Menu
            </button>
            <span className="bg-green-100 text-green-700 font-bold px-4 py-1 rounded-full text-sm">
@@ -70,9 +70,9 @@ export default function Flashcard({ onBack }) {
             <div className={`relative w-full h-full text-center transition-transform duration-500 transform-style-3d ${isFlipped ? 'rotate-y-180' : ''}`}>
                 
                 {/* Front Side */}
-                <div className="absolute w-full h-full backface-hidden card flex flex-col items-center justify-center p-8 bg-white">
-                    <h3 className="text-gray-400 uppercase tracking-widest text-xs font-bold mb-4">Pytanie</h3>
-                    <p className="text-xl md:text-2xl font-bold text-gray-800 leading-relaxed">
+                <div className="absolute w-full h-full backface-hidden card flex flex-col items-center justify-center p-8 bg-white dark:bg-gray-800">
+                    <h3 className="text-gray-400 dark:text-gray-500 uppercase tracking-widest text-xs font-bold mb-4">Pytanie</h3>
+                    <p className="text-xl md:text-2xl font-bold text-gray-800 dark:text-white leading-relaxed">
                         {currentQuestion.question}
                     </p>
                     <div className="mt-8 flex flex-col items-center gap-2">
@@ -80,7 +80,7 @@ export default function Flashcard({ onBack }) {
                             (Kliknij kartę aby odwrócić)
                         </span>
                         <button 
-                            className="mt-2 text-blue-600 hover:text-blue-800 text-sm font-semibold underline decoration-2 decoration-blue-200 hover:decoration-blue-600 transition-all"
+                            className="mt-2 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 text-sm font-semibold underline decoration-2 decoration-blue-200 hover:decoration-blue-600 transition-all"
                             onClick={(e) => {
                                 e.stopPropagation();
                                 setIsFlipped(!isFlipped);
@@ -92,11 +92,11 @@ export default function Flashcard({ onBack }) {
                 </div>
 
                 {/* Back Side */}
-                <div className="absolute w-full h-full backface-hidden card rotate-y-180 bg-gradient-to-br from-green-50 to-white flex flex-col items-center justify-center p-8 border-green-200">
-                    <h3 className="text-green-600 uppercase tracking-widest text-xs font-bold mb-4">Poprawna Odpowiedź</h3>
+                <div className="absolute w-full h-full backface-hidden card rotate-y-180 bg-gradient-to-br from-green-50 to-white dark:from-gray-900 dark:to-gray-800 flex flex-col items-center justify-center p-8 border-green-200 dark:border-green-900">
+                    <h3 className="text-green-600 dark:text-green-400 uppercase tracking-widest text-xs font-bold mb-4">Poprawna Odpowiedź</h3>
                     <div className="space-y-4 w-full">
                          {currentQuestion.answers.filter(a => a.isCorrect).map((ans, idx) => (
-                             <div key={idx} className="p-4 bg-green-100 rounded-xl text-green-800 font-bold shadow-sm">
+                             <div key={idx} className="p-4 bg-green-100 dark:bg-green-900/30 rounded-xl text-green-800 dark:text-green-300 font-bold shadow-sm">
                                  {ans.text}
                              </div>
                          ))}
