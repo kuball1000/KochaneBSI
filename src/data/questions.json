@@ -14625,6 +14625,58 @@
     ]
   },
   {
+    "id": 1082,
+    "question": "Klasyfikowanie nowego przykładu z wykorzystaniem nieuporządkowanego zbioru reguł (np. otrzymanego algorytmem PRISM albo LEM2) polega na:",
+    "answers": [
+      {
+        "text": "Uporządkowaniu reguł wg miary suport i wybór pierwszej dopasowanej",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Skonstruowaniu zespołu klasyfikującego (ang. ensemble) na podstawie reguł",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Losowego wyboru jednej z dopasowanych reguł",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Wykorzystania strategii rozstrzygania konfliktów przy dopasowaniu przykładu do wielu reguł",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 1083,
+    "question": "W jakich sytuacjach w algorytmach indukcji drzew decyzyjnych C4.5 stosuje się kryterium oceny atrybutów gain ratio zamiast info_gain:",
+    "answers": [
+      {
+        "text": "jeśli rozważa się klasyfikację wieloklasową",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jeśli zbiór przykładów jest bardzo liczny",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jeśli w zbiorze atrybutów występują duże różnice w dziedzinie przyjmowanych wartości",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "dla wsparcia redukcji rozmiarów drzewa",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
     "id": 2000,
     "question": "Szukając w Internecie odpowiedzi na pytanie: \"jaki jest związek pomiędzy twierdzeniem CAP a platformą Hadoop?\", ograniczmy to do HDFS, można znaleźć taką odpowiedź: Talking about Hadoop, it supports the Availability and Partition Tolerance property. The Consistency property is not supported because onlynamenode has the information of where the replicas are placed. This information is not available with each and every node of the cluster. Czy jest to zgodne z prawdą? Czy faktycznie HDFS spełnia dwie własności: odporności na partycjonowanie (Partition Tolerance) oraz dostępności (Availability), a nie spełnia własności spójności (Consistency) w rozumieniu twierdzenia CAP? Wybierz jedną odpowiedź:",
     "answers": [
