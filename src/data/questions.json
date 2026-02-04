@@ -15046,5 +15046,1417 @@
         "isCorrect": true
       }
     ]
+  },
+  {
+    "id": 3000,
+    "question": "Które z algorytmów są wewnętrznymi protokołami wyboru trasy (używane do wymiany informacji o trasach w pojedynczym systemie autonomicznym)?",
+    "answers": [
+      {
+        "text": "OSPF",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "RIP",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "CBCP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "EGP",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3001,
+    "question": "Zaznacz elementy wchodzące w skład modelu związków encji:",
+    "answers": [
+      {
+        "text": "atrybut",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "klucz obcy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "encja",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "związek",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "klucz podstawowy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dziedzina atrybutu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "identyfikator",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3002,
+    "question": "Jak dokonywany jest podział sieci na podsieci?",
+    "answers": [
+      {
+        "text": "przez administratora",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "dynamicznie z wykorzystaniem protokołu DHCP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "automatycznie w ruterze",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "automatycznie w przełączniku",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3003,
+    "question": "W systemie pamięci wirtualnej błąd strony jest następstwem:",
+    "answers": [
+      {
+        "text": "braku adresowanej strony w ramce pamięci fizycznej",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "awarii jednostki zarządzania pamięcią",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wady w oprogramowaniu systemowym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pomyłki programisty podczas przygotowywania programu aplikacyjnego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3004,
+    "question": "Realizacja przyrostowa oprogramowania polega na:",
+    "answers": [
+      {
+        "text": "sekwencyjnej, jednoprzebiegowej realizacji następujących faz: Określanie wymagań, Projektowanie, Implementacja, Testowanie, Utrzymanie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "budowie prototypu, który służy do weryfikacji wykonalności technicznej systemu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "szybkiej implementacji pierwszej wersji pełnego systemu, a następnie szybkim nanoszeniu niezbędnych poprawek",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "iteracyjnej realizacji i wdrażaniu kolejnych fragmentów (przyrostów) oprogramowania",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3005,
+    "question": "Warunki poprawności, stosowane np. w wyroczni oceniającej są:",
+    "answers": [
+      {
+        "text": "konieczne i wystarczające tzn. muszą być zawsze spełnione dla poprawnego wykonania i niespełnione dla błędnego wykonania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "konieczne, niewystarczające tzn. muszą być zawsze spełnione dla poprawnego wykonania",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "niekonieczne i niewystarczające - tzn. wskazują jedynie w przybliżeniu czy wykonanie jest poprawne czy nie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "niekonieczne i wystarczające tzn. muszą być zawsze niespełnione dla błędnego wykonania",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3006,
+    "question": "Ze względu na sposób dostępu do informacji mamy klika klas pamięci. Do której klasy należą pamięci dyskowe?",
+    "answers": [
+      {
+        "text": "pamięć z dostępem bezpośrednim (swobodnym)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pamięć z dostępem sekwencyjnym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pamięć z dostępem asocjacyjnym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pamięć z dostępem cyklicznym",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3007,
+    "question": "Co to jest słowo kluczowe języka programowania?",
+    "answers": [
+      {
+        "text": "dyrektywa języka mająca różne znaczenie w zależności od kontekstu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zastrzeżona, integralna część języka, która nie może być zdefiniowana przez programistę",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "identyfikator służący do oznaczania programu, modułu, biblioteki łączonej dynamicznie, pakietu, procedury lub funkcji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "literał logiczny True lub False",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3008,
+    "question": "Zaletą prototypowania papierowego jest:",
+    "answers": [
+      {
+        "text": "możliwość użycia papieru",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "możliwość pracy zdalnej",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "możliwość etycznej pracy z dziećmi i osobami starszymi",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "możliwość aktywnego uczestnictwa w projektowaniu wszystkich interesariuszy",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3009,
+    "question": "Które z poniższych wymagań nie jest wymaganiem pozafunkcjonalnym:",
+    "answers": [
+      {
+        "text": "system powinien umożliwiać dostęp do danych pracowników tylko upoważnionym osobom",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jeśli operacja przetworzenia wniosku przez system trwa dłużej niż 3 sekundy, system powinien wyświetlić na ekranie pasek postępu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "system powinien umożliwiać zamykanie śluzy wejściowej do laboratorium",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "informacje o błędach powinny być wyświetlane na czerwonym tle",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3010,
+    "question": "Który z poniższych interfejsów cyfrowych charakteryzuje się m.in. odpornością na zakłócenia elektromagnetyczne, możliwością podłączenia do 32 nadajników i odbiorników, zasięgiem do 1.2 km?",
+    "answers": [
+      {
+        "text": "USB",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "FireWire IEEE 1394",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "RS-485",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "RS-232",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3011,
+    "question": "Sieć bayesowska:",
+    "answers": [
+      {
+        "text": "podaje jawnie warunkowy rozkład prawdopodobieństwa zmiennych zależnych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "podaje jawnie całkowity rozkład prawdopodobieństwa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jest reprezentowana jako acykliczny graf skierowany, którego łuki łączą zmienne niezależne",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pozwala wyznaczyć całkowity rozkład prawdopodobieństwa",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3012,
+    "question": "Jeśli 12-elementowy zbiór zostanie podzielony, w dowolny sposób, na 3 niepuste rozłączne podzbiory, to z zasady szufladkowej Dirichleta wynika, że:",
+    "answers": [
+      {
+        "text": "co najwyżej jeden podzbiór zawiera 4 elementy lub więcej",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dokładnie jeden podzbiór zawiera 4 elementy lub więcej",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "co najmniej jeden podzbiór zawiera 4 elementy lub więcej",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "dokładnie jeden podzbiór zawiera 4 elementy",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3013,
+    "question": "Chcesz przy pomocy języka SQL odczytać z relacji T wszystkie unikalne wartości atrybutu B. Użyjesz do tego celu polecenia:",
+    "answers": [
+      {
+        "text": "SELECT unique B FROM T",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "SELECT B FROM T WHERE B is unique",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "SELECT DISTINCT B FROM T",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "SELECT B FROM T WHERE B is unique:",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3014,
+    "question": "Warunki konieczne wystąpienia zakleszczenia to:",
+    "answers": [
+      {
+        "text": "brak zasobów współdzielonych (wspólnych dla kilku procesów)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zachowywanie zasobu (przetrzymywanie podczas oczekiwania)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "brak możliwości wywłaszczania",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "brak zasobów odzyskiwalnych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wzajemne wykluczanie (wyłączność) w dostępie do jednostek zasobów",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "dostępność co najmniej dwóch typów zasobów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zasoby jednostkowe (każdy zasób ma jedną jednostkę)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "istnienie cyklu oczekiwań",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3015,
+    "question": "Kontrola dostępu do zasobów jest mechanizmem przeznaczonym do ochrony:",
+    "answers": [
+      {
+        "text": "tylko integralności",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "tylko poufności",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "żadnej z pozostałych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "poufności i integralności",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3016,
+    "question": "Bufor głębokości w grafice komputerowej:",
+    "answers": [
+      {
+        "text": "to drugi bufor w podwójnym buforowaniu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "służy do rozwiązywania problemu niewidocznych powierzchni",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "to bufor zawierający pionowe przesunięcie tekseli względem powierzchni teksturowanego wielokąta",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "to inna nazwa algorytmu malarza",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "służy zapobieganiu problemom typu z-fighting",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3017,
+    "question": "Kodowanie nadmiarowe polega na:",
+    "answers": [
+      {
+        "text": "wielokrotnym przedstawianiu tej samej informacji w ten sam sposób (intensyfikacja)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "przedstawianiu tej samej informacji za pomocą różnych sposobów równocześnie",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "stosowaniu wielu kanałów opozycji barwnej równocześnie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "kompresji informacji w sposób nadmiarowy i tym samym nieoptymalny",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3018,
+    "question": "Które z wymienionych sposobów sortowania n elementów będzie miało złożoność O(n log n) w najgorszym przypadku?",
+    "answers": [
+      {
+        "text": "sortowanie bąbelkowe",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sortowanie przez kopcowanie",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "sortowanie przez proste wstawianie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sortowanie szybkie",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3019,
+    "question": "Co to jest serwlet Java?",
+    "answers": [
+      {
+        "text": "serwer WWW napisany w języku Java",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "funkcja JavaScript znajdująca się po stronie serwera WWW",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "aplikacja umieszczona po stronie przeglądarki WWW, generująca dokumenty WWW w odpowiedzi na żądanie serwera WWW",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "aplikacja umieszczona po stronie serwera WWW, generująca dokumenty WWW w odpowiedzi na żądanie przeglądarki WWW",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3020,
+    "question": "Algorytm sortowania topologicznego acyklicznego grafu skierowanego wykorzystuje algorytm:",
+    "answers": [
+      {
+        "text": "poszukiwania minimalnego drzewa rozpinającego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sortowania przez kopcowanie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "przeszukiwania grafu wszerz (BFS)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "przeszukiwania grafu w głąb (DFS)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3021,
+    "question": "Przykładem realizacji mechanizmu uwierzytelniania z udziałem zaufanej trzeciej strony jest:",
+    "answers": [
+      {
+        "text": "urząd CA",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "protokół Diffiego-Hellmania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "system PKI",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "protokół Kerberos",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3022,
+    "question": "Relacją częściowego porządku nazywamy relację, która jest:",
+    "answers": [
+      {
+        "text": "zwrotna i spójna",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zwrotna, antysymetryczna i przechodnia",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zwrotna, symetryczna i przechodnia",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zwrotna i przechodnia",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3023,
+    "question": "Dysponujemy trzema wartościami a, b i c wyrażonymi na skali porządkowej. Zaznacz, które z poniższych operacji na tego typu wartościach są poprawne:",
+    "answers": [
+      {
+        "text": "sprawdzenie czy a < c",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "sprawdzenie czy wartość a jest różna od b",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "podzielenie wartości a przez c",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sprawdzenie czy a + b < c",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sprawdzenie czy a = b",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3024,
+    "question": "Mechanizm SSO (single sign-on):",
+    "answers": [
+      {
+        "text": "pozwala jednolicie chronić podpisem cyfrowym poufność całej komunikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pozwala jednolicie chronić podpisem cyfrowym integralność całej komunikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ogranicza ryzyko przechwycenia danych uwierzytelniających",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "służy ochronie niezaprzeczalności danych składowanych w repozytorium",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3025,
+    "question": "Critical value of one-tailed statistical inference test for a single population mean is (Wartość krytyczna jednostronnego testu wnioskowania statystycznego dla średniej w pojedynczej populacji to):",
+    "answers": [
+      {
+        "text": "a standardized value of the test statistic (ustandaryzowana wartość statystyki testowej)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers is correct (żadna z pozostałych odpowiedzi nie jest poprawna)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "the test-statistic value corresponding to the level of significance alpha (wartość statystyki testowej odpowiadająca poziomowi istotności alfa)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "a border value of the so-called critical region (wartość graniczna tak zwanego obszaru krytycznego)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3026,
+    "question": "Select the functions of a database management system (DBMS) (Wybierz funkcje systemu zarządzania bazą danych (DBMS)):",
+    "answers": [
+      {
+        "text": "facilities for recovering the database should it become damaged (mechanizmy odtwarzania bazy danych w przypadku jej uszkodzenia)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "effective storage and processing of large volumes of data (efektywne przechowywanie i przetwarzanie dużych wolumenów danych)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "support for the database language (obsługa języka bazy danych)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "support for authorization of access and update of data (obsługa autoryzacji dostępu i aktualizacji danych)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3027,
+    "question": "The sequence of operations in the CPU that corresponds to one memory cycle, I/O cycle, or an equivalent internal operation is (Sekwencja operacji w procesorze, która odpowiada jednemu cyklowi pamięci, cyklowi wejścia/wyjścia lub równoważnej operacji wewnętrznej to):",
+    "answers": [
+      {
+        "text": "instruction cycle (cykl rozkazowy)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "CPU clock cycle (cykl zegara procesora)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "DMA cycle (cykl DMA)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "machine (processor) cycle (cykl maszynowy (procesora))",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3028,
+    "question": "Select the functions of a database management system (DBMS) (Wybierz funkcje systemu zarządzania bazą danych (DBMS)):",
+    "answers": [
+      {
+        "text": "support for the database language (wsparcie dla języka bazy danych)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "facilities for recovering the database should it become damaged (narzędzia do odzyskiwania bazy danych w przypadku jej uszkodzenia)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "support for authorization of access and update of data (wsparcie dla autoryzacji dostępu i aktualizacji danych)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "effective storage and processing of large volumes of data (efektywne przechowywanie i przetwarzanie dużych ilości danych)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3029,
+    "question": "Of the four algorithms with the following computational complexities, the most efficient is the one with the complexity of (Z czterech algorytmów o następujących złożonościach obliczeniowych, najbardziej efektywny jest ten o złożoności):",
+    "answers": [
+      {
+        "text": "linear time (liniowej)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "exponential time (wykładniczej)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "logarithmic time (logarytmicznej)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "quadratic time (kwadratowej)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3030,
+    "question": "What is the meaning of polymorphism in object-oriented programming? (Co oznacza polimorfizm w programowaniu obiektowym?):",
+    "answers": [
+      {
+        "text": "It is the possibility of creating nested loop instructions (Jest to możliwość tworzenia instrukcji pętli zagnieżdżonych)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "It is an association between data structures and program code into a cohesive unit called object (Jest to powiązanie struktur danych i kodu programu w spójną jednostkę zwaną obiektem)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "It is the possibility of defining subtypes of existing objects that inherit properties and methods from their parents (Jest to możliwość definiowania podtypów istniejących obiektów, które dziedziczą właściwości i metody po swoich rodzicach)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "It is creating methods in subclasses with the same names as in their parents that might implement different behavior (Jest to tworzenie w podklasach metod o tych samych nazwach co u rodziców, które mogą implementować inne zachowanie)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3031,
+    "question": "Semaphores are used to (Semafory są używane do):",
+    "answers": [
+      {
+        "text": "preempt processes (wywłaszczania procesów)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "prioritize processes (priorytetyzacji procesów)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "serialize processes (serializacji procesów)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "synchronize processes (synchronizacji procesów)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3032,
+    "question": "HTTP cookies are (Ciasteczka HTTP to):",
+    "answers": [
+      {
+        "text": "login and password of the web application user (login i hasło użytkownika aplikacji internetowej)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "variables that the web server saves on the side of client browsers (zmienne, które serwer WWW zapisuje po stronie przeglądarek klientów)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "variables used for communication between the web server and CGI applications (zmienne używane do komunikacji między serwerem WWW a aplikacjami CGI)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "variables stored in the web server environment (zmienne przechowywane w środowisku serwera WWW)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3033,
+    "question": "In a virtual memory system a page fault is the consequence of (W systemie pamięci wirtualnej błąd strony jest konsekwencją):",
+    "answers": [
+      {
+        "text": "a defect in the system software (defektu w oprogramowaniu systemowym)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "a programmer's mistake during the application coding (błędu programisty podczas kodowania aplikacji)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "memory management unit failure (awarii jednostki zarządzania pamięcią)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "absence of the addressed page in physical memory frame (braku adresowanej strony w ramce pamięci fizycznej)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3034,
+    "question": "What is a programming-language keyword? (Co to jest słowo kluczowe języka programowania?):",
+    "answers": [
+      {
+        "text": "a language directive that has different meanings depending on the context (dyrektywa językowa, która ma różne znaczenia w zależności od kontekstu)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "a reserved, integral part of a language that cannot be defined by the programmer (zarezerwowana, integralna część języka, która nie może być zdefiniowana przez programistę)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "a Boolean literal True or False (literał logiczny True lub False)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "an identifier used to mark a program, module, dynamically linked library, package, procedure or function (identyfikator używany do oznaczania programu, modułu, biblioteki DLL, pakietu, procedury lub funkcji)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3035,
+    "question": "To which class does disk storage belong? (Do której klasy należy pamięć dyskowa?):",
+    "answers": [
+      {
+        "text": "associative memory (pamięć asocjacyjna)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sequential access memory (pamięć o dostępie sekwencyjnym)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "random-access memory (pamięć o dostępie swobodnym)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "cyclic access memory (pamięć o dostępie cyklicznym)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3036,
+    "question": "UML class diagrams present (Diagramy klas UML przedstawiają):",
+    "answers": [
+      {
+        "text": "a detailed design of system database (szczegółowy projekt systemowej bazy danych)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "static model describing types of objects and relationships between them (model statyczny opisujący typy obiektów i relacje między nimi)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "a visual model of the main system algorithms (wizualny model głównych algorytmów systemu)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dynamic system behavior triggered by internal and external events (dynamiczne zachowanie systemu wyzwalane przez zdarzenia wewnętrzne i zewnętrzne)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3037,
+    "question": "Double buffering in the context of computer graphics (Podwójne buforowanie w kontekście grafiki komputerowej):",
+    "answers": [
+      {
+        "text": "aims to hide the drawing process from the user (ma na celu ukrycie procesu rysowania przed użytkownikiem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "is allocating more memory to texture images in order to increase their resolution (polega na przydzielaniu większej ilości pamięci obrazom tekstur w celu zwiększenia ich rozdzielczości)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "is an older version of triple buffering (jest starszą wersją potrójnego buforowania)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "is about using a color buffer and a depth buffer when drawing (polega na używaniu bufora koloru i bufora głębokości podczas rysowania)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "aims to speed up the process of drawing a picture (ma na celu przyspieszenie procesu rysowania obrazu)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3038,
+    "question": "The SSO (single sign-on) mechanism (Mechanizm SSO (pojedyncze logowanie)):",
+    "answers": [
+      {
+        "text": "allows for uniform digital signature protection of the confidentiality of the entire communication (pozwala na jednolitą ochronę poufności całej komunikacji za pomocą podpisu cyfrowego)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "reduces the risk of interception of authentication data (zmniejsza ryzyko przechwycenia danych uwierzytelniających)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "serves to protect the non-repudiation of data stored in the repository (służy do ochrony niezaprzeczalności danych przechowywanych w repozytorium)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "allows digital signatures to uniformly protect integrity of all communication (pozwala podpisom cyfrowym na jednolitą ochronę integralności całej komunikacji)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3039,
+    "question": "Specify the 255.248.0.0 subnet mask that would be used in the routing prefix expressed with compliance to CIDR (Określ maskę podsieci 255.248.0.0 w notacji CIDR):",
+    "answers": [
+      {
+        "text": "/13",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "/12",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "/14",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "/11",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3040,
+    "question": "The sequence of operations in the CPU that corresponds to one memory cycle, I/O cycle, or an equivalent internal operation is (Sekwencja operacji w CPU odpowiadająca jednemu cyklowi pamięci, cyklowi I/O lub równoważnej operacji wewnętrznej to):",
+    "answers": [
+      {
+        "text": "instruction cycle (cykl rozkazowy)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "DMA cycle (cykl DMA)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "machine (processor) cycle (cykl maszynowy (procesora))",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "CPU clock cycle (cykl zegara CPU)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3041,
+    "question": "Give the result of the following program (Podaj wynik następującego programu):\nclass A\n{\nprotected: int a1;\npublic: A()\n{\n    a1 = 0;\n}\nvirtual void a2()\n{\n    a1 += 2;\n}\nint a3()\n{\n    this->a2();\n    return a1;\n}\n};\nclass B : public A\n{\npublic: void a2()\n{\n    a1 += 3;\n}\n};\nint main ()\n{\n    B b = B();\n    printf(\"wynik= %i\\n\", b.a3());\n}",
+    "answers": [
+      {
+        "text": "3",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3042,
+    "question": "The variance can never be (Wariancja nigdy nie może być):",
+    "answers": [
+      {
+        "text": "less than the standard deviation (mniejsza niż odchylenie standardowe)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "negative (ujemna)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "equal to zero (równa zero)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "positive (dodatnia)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3043,
+    "question": "What is the purpose of the HTTPS network protocol? (Jaki jest cel protokołu sieciowego HTTPS?):",
+    "answers": [
+      {
+        "text": "authorization of access to web servers with user name and password (autoryzacja dostępu do serwerów WWW za pomocą nazwy użytkownika i hasła)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "ensuring the confidentiality of HTTP transmission (zapewnienie poufności transmisji HTTP)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "increasing the speed of downloading web documents (zwiększenie prędkości pobierania dokumentów WWW)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "enabling caching of web documents on the side of the web browser (umożliwienie buforowania dokumentów WWW po stronie przeglądarki)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3044,
+    "question": "Critical value of one-tailed statistical inference test for a single population mean is (Wartość krytyczna jednostronnego testu wnioskowania statystycznego dla średniej populacji to):",
+    "answers": [
+      {
+        "text": "a standardized value of the test statistic (ustandaryzowana wartość statystyki testowej)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "the test-statistic value corresponding to the level of significance alpha (wartość statystyki testowej odpowiadająca poziomowi istotności alfa)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "none of the other answers is correct (żadna z pozostałych odpowiedzi nie jest poprawna)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "a border value of the so-called critical region (wartość graniczna tak zwanego obszaru krytycznego)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3045,
+    "question": "The advantage of paper prototyping is (Zaletą prototypowania papierowego jest):",
+    "answers": [
+      {
+        "text": "the possibility of remote work (możliwość pracy zdalnej)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "the opportunity for all stakeholders to actively participate in the design (możliwość aktywnego uczestnictwa wszystkich interesariuszy w projektowaniu)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "the possibility of ethical work with children and elderly people (możliwość etycznej pracy z dziećmi i osobami starszymi)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "the possibility of using paper (możliwość użycia papieru)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3047,
+    "question": "Given the following C++ definitions... Give the result: (Biorąc pod uwagę definicje C++... Podaj wynik:) class A\n{\nprotected: int a1;\npublic: A(int x)\n{\n    a1 = x;\n}\nint a2()\n{\n    return a1 + 1;\n}\nvirtual int a3()\n{\n    return a1 + 2;\n}\n};\n\nclass B : public A\n{\npublic: B(int x):A(x)\n{\n};\nint a2()\n{\n    return a1 + 4;\n}\nint a3()\n{\n    return a1 + 7;\n}\n};\n\nint main()\n{\n    A* pa = new B(1);\n    int n;\n    n = pa->a2();\n    n += pa->a3();\n    printf(\"wynik %i\\n\", n);\n}",
+    "answers": [
+      {
+        "text": "4",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "10",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "5",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "11",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3048,
+    "question": "Non-repudiation is a property that confirms that (Niezaprzeczalność to właściwość, która potwierdza, że):",
+    "answers": [
+      {
+        "text": "the recipient of the message actually received it (odbiorca wiadomości faktycznie ją otrzymał)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "the sender of the message is actually who he claims to be (nadawca wiadomości jest rzeczywiście tym, za kogo się podaje)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "the recipient of the message did not falsify its content (odbiorca wiadomości nie sfałszował jej treści)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "the sender of the message actually sent it (nadawca wiadomości faktycznie ją wysłał)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3049,
+    "question": "Which of the following, is not a non-functional requirement (Które z poniższych nie jest wymaganiem niefunkcjonalnym):",
+    "answers": [
+      {
+        "text": "the error information shall be displayed on a red background (informacja o błędzie powinna być wyświetlana na czerwonym tle)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "the system shall enable closing the laboratory entrance lock (system powinien umożliwiać zamykanie blokady wejścia do laboratorium)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "the system should only allow authorized persons to access personnel data (system powinien pozwalać tylko upoważnionym osobom na dostęp do danych personelu)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "if it takes more than 3 seconds to generate a monthly report, the system should display a progress bar (jeśli generowanie raportu trwa ponad 3s, system powinien pokazać pasek postępu)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3050,
+    "question": "Which of the following views is not part of P. Kruchten's 4+1 architectural view model (Który z poniższych widoków nie jest częścią modelu 4+1 Kruchtena):",
+    "answers": [
+      {
+        "text": "Component view (Widok komponentów)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Physical view (Widok fizyczny)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Use case view (Widok przypadków użycia)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Development view (Widok programistyczny)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 3051,
+    "question": "Having a set of 5 letters (A,B,C,D,E) one can create (Mając zestaw 5 liter (A,B,C,D,E) można utworzyć):",
+    "answers": [
+      {
+        "text": "more than 36 different subsets of letters (więcej niż 36 różnych podzbiorów liter)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "130 different sequences consisting of 3 (maybe repeating) letters (130 różnych sekwencji składających się z 3 liter (możliwe powtórzenia))",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "60 different sequences consisting of 3 non-repeating letters (60 różnych sekwencji składających się z 3 niepowtarzających się liter)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "10 different subsets each consisting of 2 letters (10 różnych podzbiorów, każdy składający się z 2 liter)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 3052,
+    "question": "Select a correct order of the layers in the ISO/OSI model (Wybierz poprawną kolejność warstw w modelu ISO/OSI):",
+    "answers": [
+      {
+        "text": "physical, data link, network, transport, session, presentation, application",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "physical, data link, transport, network, presentation, session, application",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "physical, data link, network, transport, presentation, session, application",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "physical, transport, data link, network, presentation, session, application",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "physical, network, data link, transport, session, presentation, application",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
   }
 ]
