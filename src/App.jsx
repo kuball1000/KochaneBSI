@@ -44,6 +44,15 @@ function App() {
         <Quiz onBack={() => setMode('menu')} isSmartLearning={true} />
       )}
 
+      {mode === 'Magisterka' && (
+        <Quiz 
+          onBack={() => setMode('menu')} 
+          isSmartLearning={true} 
+          startId={3000} 
+          endId={3999}
+        />
+      )}
+
       {mode === 'sequential' && (
         <Quiz 
           onBack={() => setMode('menu')} 
