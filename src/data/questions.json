@@ -15540,8 +15540,8 @@
       },
       {
         "text": "przedstawianiu tej samej informacji za pomocą różnych sposobów równocześnie",
-        "color": "yellow",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "stosowaniu wielu kanałów opozycji barwnej równocześnie",
@@ -15550,8 +15550,8 @@
       },
       {
         "text": "kompresji informacji w sposób nadmiarowy i tym samym nieoptymalny",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       }
     ]
   },
@@ -15639,8 +15639,8 @@
     "answers": [
       {
         "text": "urząd CA",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       },
       {
         "text": "protokół Diffiego-Hellmania",
@@ -15649,13 +15649,13 @@
       },
       {
         "text": "system PKI",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "protokół Kerberos",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
