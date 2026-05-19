@@ -86,8 +86,8 @@ export default function Menu({ onSelectMode }) {
              <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
               <svg className="w-16 h-16 text-red-600 dark:text-red-500" fill="currentColor" viewBox="0 0 20 20"><path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" /></svg>
             </div>
-            <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors">Sieci pająka (1000+)</h3>
-            <p className="text-gray-500 mt-1">Tryb sekwencyjny od pytania 1000.</p>
+            <h3 className="text-xl font-bold text-gray-900 dark:text-white group-hover:text-red-600 dark:group-hover:text-red-400 transition-colors">Tomek BSR (4000+)</h3>
+            <p className="text-gray-500 mt-1">Tryb sekwencyjny od pytania 4000.</p>
           </button>
 
           <div className="group relative p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-lg hover:shadow-2xl dark:shadow-none dark:hover:shadow-lg dark:hover:shadow-orange-900/20 transition-all duration-300 border border-gray-100 dark:border-gray-700 hover:border-orange-500 text-left">
