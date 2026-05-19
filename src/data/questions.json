@@ -16458,5 +16458,3053 @@
         "isCorrect": false
       }
     ]
+  },
+  {
+    "id": 4000,
+    "question": "1. Proszę wskazać wszystkie te zasoby, które należą do tego samego źródła pochodzenia Web Origin (w kontekście Same Origin Policy), co którykolwiek z pozostałych:",
+    "answers": [
+      {
+        "text": "a) https://login.victim.com/, którego document.domain = “login.victim.com”",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) http://victim.com/, którego document.domain = “victim.com”",
+        "color": "blue",
+        "isCorrect": false
+      },
+      {
+        "text": "c) http://blog.victim.com/, którego document.domain = “blog.victim.com”",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) http://cdn.victim.com/, którego document.domain = “victim.com” Aby można było uznać że zasoby muszą mieć to samo pochodzenie, muszą mieć taki sam protokół, domenę i port. Ponieważ document.domain w zasobach 2 i 4 są ustawione na victim.com to zasoby uznawane są za mające takie samo pochodzenie (rozpatrujemy adresy *.victim.com)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4001,
+    "question": "2. HTTP Public Key Pinning",
+    "answers": [
+      {
+        "text": "a) w przypadku wykorzystania skrótu tylko jednego klucza powoduje podatność serwera na atak DoS",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) wyklucza użycie w jakiejkolwiek przyszłości komunikacji niezaszyfrowanej z danym serwisem",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) chroni dodatkowym kodem PIN klucze prywatne wykorzystywane do uwierzytelniania metodą HTTP Digest",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) rozwiązuje problem przeterminowanych certyfikatów ustawiając w przeglądarce sztywny limit czasu przechowywania certyfikatu klucza publicznego danego serwera Mechanizm ten ma na celu zabezpieczenie komunikacji HTTP poprzez udostępnianie klientowi klucza publicznego strony. Dzięki tym kluczom przeglądarka może w przyszłych połączeniach weryfikować tożsamość serwera i automatycznie odrzucić połączenie które tych kluczy nie zawiera. Jeżeli mamy tylko 1 klucz i zostanie on odkryty a my wymienimy go na inny, klienci będą automatycznie odrzucane połączenie do strony która legitymuje się nieznanym kluczem",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4002,
+    "question": "3. Środowisko Docker pozwala",
+    "answers": [
+      {
+        "text": "a) związać z uruchamianym kontenerem wybrany profil AppArmor",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b) współdzielić między gospodarzem a kontenerem wybrany fragment systemu plików",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) propagować do kontenera ruch TCP i/lub UDP przychodzący na wybrane porty gospodarza",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "d) przydzielić kontenerowi wybrane systemowe uprawnienia administracyjne (capabilities) Docker - mechanizm udostępniający wirtualne kontenery, pozwalające uruchomić ściśle określone środowisko dla naszych aplikacji. 1 - tak istnieje taka możliwość, przy użyciu komendy  docker run --security-opt apparmor=profile_name ... 2 - również istnieje taka opcja docker run -v /path/on/host:/path/in/container ... 3 - tak, nawet na labach przekierowaliśmy ruch HTTP do kontenera docker run -p host_port:container_port ... 4 - istnieje mechanizm umożliwiający takie działanie docker run --cap-add=NET_ADMIN ... docker run --cap-drop=MKNOD ...",
+        "color": "blue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4003,
+    "question": "4. Środowisko Docker oferuje mechanizm potwierdzania autentyczności obrazów podpisywanych cyfrowo:",
+    "answers": [
+      {
+        "text": "a) wszystkich obrazów z Docker Repository",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) tylko z wykorzystaniem własnego lokalnego urzędu certyfikującego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) poprzez usługę Docker Notary",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) nie oferuje takiej funkcjonalności Prawda",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4004,
+    "question": "5. Do wywołania polecenia chroot potrzebne będą:",
+    "answers": [
+      {
+        "text": "a) ustawienie flagi SUID",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) utworzenie specjalnego systemu plików",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) przynależność do grupy chroot",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) uprawnienia superużytkownika (root) Tak - jest to duży problem tego środowiska - przydzielamy ogromne uprawniania do procesu wirtualizacji.",
+        "color": "blue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4005,
+    "question": "6. Które z poniższych przypadków mogą potencjalnie skutkować bezpośnonenim zagrożeniem dla uwierzytelniania w usłudze www:",
+    "answers": [
+      {
+        "text": "a) użycie HTTP Basic Authentication",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) podatność SQLi w formularzu logowania",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "c) javascript obfuscation",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) pozyskanie ciasteczek danej domeny 1 - technologia tak stara że włamać się może każdy 2 - czyli SQL Injection (“OR 1=1”) 3 - zadaniem tego mechanizmu jest ukrycie/uniemożliwienie odczytania kodu JS i zrozumienia do czego służy. Nie tworzy on luk w bezpieczeństwie. 4 - tak, jest to zagrożenie kiedy w ciasteczkach przechowywane są dane sesji użytkownika (czyli autoryzacja żeby nie musiał się logować przy każdym wejściu na stronę) np. parę kont na YT zostało przejętych w ten sposób",
+        "color": "blue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4006,
+    "question": "7. W celu dostosowania aplikacji do pracy z PAM konieczne jest:",
+    "answers": [
+      {
+        "text": "a) skorzystanie z metod udostępnianych przez biblioteki PAM",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b) skonfigurowanie polityki PAM dotyczącej danej aplikacji",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "a) samodzielna implementacja metod uwierzytelniania w aplikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) posiadanie zaufanej trzeciej strony PAM - Pluggable Authentication Module - Moduł uwierzytelniający, umożliwia aplikacjom proste uwierzytelnienie użytkownika i zarządzenia sesją 1 - Tak aplikacja powinna wywoływać konkretne funkcje biblioteki PAM 2 - Tak, należy skonfigurować politykę PAM 3 - używając PAM wystarczy że skorzystamy z bibliotek udostępnianych przez środowisko 3 - to w Kerberos, tutaj działamy lokalnie na maszynie",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4007,
+    "question": "8. W przypadku kontenerów środowiska Docker:",
+    "answers": [
+      {
+        "text": "c) użytkownik root w kontenerze jest zawsze root-em w systemie gospodarza",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) użytkownik root w systemie gospodarza jest zawsze rootem w kontenerze",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "e) wszystkie kontenery uruchomione na tym samym gospodarzu zawsze widzą się nawzajem przez wewnętrzną sieć Docker",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "f) aplikacja uruchomiona w kontenerze może działać w ramach dowolnego konta użytkownika (nie tylko root) 1 - Nieprawda 2 - Raczej nie, choć tu wykłócam się z czatem 3 - Nie, tylko naraziłoby to bezpieczeństwo 4- Tak, to był problem chroot który doker rozwiązuje",
+        "color": "blue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4008,
+    "question": "9. Polityka AppArmora pozwala dla konkretnej aplikacji zdefiniować:",
+    "answers": [
+      {
+        "text": "a) zezwolenia na uruchamianie innych wybranych aplikacji w ramach tego samego profilu",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b) zezwolenia na uruchamianie innych wybranych aplikacji w ramach innego profilu",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "c) prawa dostępu aplikacji do poszczególnych zasobów",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "d) wybrane systemowe uprawnienia administracyjne (capabilities) przydzielane procesowi aplikacyjnemu Apparmor - mechanizm kontroli dostępu do plików i zasobów systemu 1 - Tak, np. przez dziedziczenie 2 - Tak, zasada Profile AppArmor pozwala uruchomić z wykorzystaniem innego profilu 3 - Tak, taki jest sens AppArmor 4 - Tak",
+        "color": "blue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4009,
+    "question": "10.DNSsec chroni przed:",
+    "answers": [
+      {
+        "text": "a) brakiem niezawodności bezpołączeniowego protokołu UDP stosowanego w DNS",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) naruszeniem autentyczności i integralności odpowiedzi DNS",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "c) atakami DoS na serwery root DNS",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) podsłuchiwaniem zapytań DNS Zadaniem DNSSec jest zapewnienie autentyczności i integralności odpowiedzi DNS 1 - Nie takie jest jego zadanie 2 - Tak, z definicji 3 - Zabezpiecza on komunikację nie serwer 4 - Mechanizm nie zapewnia poufności transmisji",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4010,
+    "question": "11.Poprawnie działający mechanizm Same Origin Policy:",
+    "answers": [
+      {
+        "text": "a) uniemożliwia atak SQLi dokonywany przez użytkownika",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) chroni aplikacją internetową przed atakiem Cross-Site Request Forgery",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) może być sterowany przez pewne pola nagłówka protokołu HTTP",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "d) uniemożliwia kradzież ciasteczek przez skrypty pochodzące z innej domeny 1 - Nie to jest jego zadaniem 2 - Nie - Krótko mówiąc, SOP uniemożliwia jedynie odczytanie danych, które zostały podane z innego źródła. Nie obejmuje przesyłania formularzy między domenami, które są wykorzystywane do przeprowadzenia ataku CSRF. 3 - Tak. np. przez pole Access Control Allow Origin 4 - Raczej tak, z podobnego powodu co pkt. 2",
+        "color": "yellow",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4011,
+    "question": "12.Kerberos:",
+    "answers": [
+      {
+        "text": "a) dane uwierzytelniające użytkowników przechowuje w plikach /etc/passwd oraz /etc/shadow",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) jest implementacją koncepcji SSO",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) do działania wymaga utworzenia bazy kluczy",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "d) jest systemem uwierzytelniania z zaufaną trzecią stroną Kerberos składa się z 2 komponentów - authentication service którego zadaniem jest potwierdzenie tożsamości użytkownika oraz, ticket granting service który przydziela dostępu do określonych zasobów użytkownikowi o zweryfikowanej tożsamości. Całość zebrana jest w ramach Key Distribution Service który wydaje prawa dostępu do poszczególnych zasobów klientowi",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4012,
+    "question": "13.Reguły ModSecurity:",
+    "answers": [
+      {
+        "text": "a) mogą dynamicznie modyfikować reguły iptables",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) mogą przekierowywać żądania HTTP pod inne adresy",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) mogą być dopasowane do nadchodzących żądań HTTP na podstawie treści żądania",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) mogą być dopasowane do nadchodzących żądań HTTP na podstawie wartości pól nagłówka",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "e) mogą blokować odpowiedzi HTTP na podstawie wartości pól nagłówka",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "f) nie mogą uwzględniać stanu sesji lub innych relacji pomiędzy kolejnymi żądaniami, gdyż operują na pojedynczych żądaniach (HTTP jest protokołem bezstanowym) ModSecurity - narzędzie do filtrowania i monitorowania ruchu HTTP mające na celu ochronę aplikacji internetowych. 1 - Tutaj raczej bym nie zaznaczał, informację które znalazłem mówią że nie (aczkolwiek nic oficjalnego), czat mówi że tak, ale jemu nie zawsze warto ufać 6 - Modsecurity oferuje mechanizm collections, który potrafi przetrzymać dane między żądaniami, do np. liczenia ile z danego IP pytano się o SQL Reszta - poprawnie",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4013,
+    "question": "14.Snort pozwala na:",
+    "answers": [
+      {
+        "text": "a) dynamiczne tworzenie reguł",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) generowanie alertów",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) logowanie pakietów",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) dynamiczne wykorzystanie zapory sieciowej SNORT - system IDS (intrusion detection system) mający na celu wykrywania i logowanie naruszeń zasad które zostały dla niego zdefiniowane. 1 - W skrypcie ćwiczeniowym mowa o dynamicznym modyfikowaniu, do tworzenia nie ma pewności Reszta - zgodnie ze skryptem ćwiczeniowym +1, reguły przygotowuje się z wyprzedzeniem, reszta OK",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4014,
+    "question": "15.Mechanizm chroot nie będzie skuteczny w przypadku:",
+    "answers": [
+      {
+        "text": "a) separacji uprawnień poprzez zmianę katalogu głównego działającego programu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) uwięzienia procesu działającego na prawach superużytkownika (root)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) uruchamiania aplikacji 32-bit na procesorach 64-bit",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "d) testowania aplikacji przez ataki XSS 2 - tak, proces mający uprawnienia roota może być w stanie uciec ze środowiska chroot 4 - raczej nie, chroot zabezpiecza środowisko uruchomieniowe, a nie aplikację",
+        "color": "yellow",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4015,
+    "question": "16.Które z wymienionych mechanizmów objęte są ochroną Same Origin Policy:",
+    "answers": [
+      {
+        "text": "a) iFrames",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b) dostęp do ciasteczek Secure",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Ajax (np. XMLHttpRequest, FetchAPI)",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "d) dostęp do ciasteczek HTTPOnly Same Origin Policy (SOP) dotyczy przede wszystkim ograniczenia dostępu do zasobów w przeglądarce pomiędzy różnymi \"pochodzeniami\" (originami), czyli kombinacjami: protokół + domena + port. Elementy chronione SOP: ● JavaScript with <script src=\"…\"></script>. Error details for syntax errors are only available for same-origin scripts. ● CSS applied with <link rel=\"stylesheet\" href=\"…\">. Due to the relaxed syntax rules of CSS, cross-origin CSS requires a correct Content-Type header. Browsers block stylesheet loads if it is a cross-origin load where the MIME type is incorrect and the resource does not start with a valid CSS construct. ● Images displayed by <img>. ● Media played by <video> and <audio>. ● External resources embedded with <object> and <embed>. ● Fonts applied with @font-face. Some browsers allow cross-origin fonts, others require same-origin. ● Anything embedded by <iframe>. Sites can use the X-Frame-Options header to prevent cross-origin framing.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4016,
+    "question": "17.W przypadku środowiska AppArmor:",
+    "answers": [
+      {
+        "text": "a) root może obchodzić wszelkie ograniczenia nałożone przez profil na aplikację",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) każdą politykę można definiować \"od zera\" zwykłym edytorem tekstowym, bez potrzeby wykorzystywania dedykowanych narzędzi AppArmora",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "c) możliwe jest uruchomienie dowolnego istniejącego profilu w trybie uczenia się, w którym restrykcje zdefiniowane w tym profilu nie są egzekwowane",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "d) można uruchomić pojedynczy profil w trybie uczenia się, ale i tak wszystkie dotychczasowe restrykcje polityki AppArmora będą wymuszane  AppArmor to moduł bezpieczeństwa który pozwala ograniczać aplikacją dostępy do zasobów za pomocą wszelakich polityk zdefiniowanych przez użytkownika:",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4017,
+    "question": "18.Wskaż funkcje języka JavaScript, które potencjalnie pozwalają wykonać dowolny kod tego języka przekazany jako argument:",
+    "answers": [
+      {
+        "text": "a) prompt",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) eval",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "c) alert",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) setInterva",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "e) setTimeout",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "f) document.cookie",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4018,
+    "question": "19.Mechanizm PAM jest:",
+    "answers": [
+      {
+        "text": "a) scentralizowanym mechanizmem uwierzytelniania umożliwiającym rozdzielenie kodu aplikacji i polityki bezpieczeństwa",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b) międzyplatformowym (Linux/Windows) mechanizmem uwierzytelniania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) API dostępnym w systemach Linux, Solaris, BSD",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "d) międzyplatformowym (Linux/Windows) mechanizmem autoryzacji",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4019,
+    "question": "20.W bazie DNSsec, wpis DNSKEY służy do:",
+    "answers": [
+      {
+        "text": "a) klucza publicznego wykorzystywanego do podpisywania wybranych rekordów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) klucza publicznego wykorzystywanego do podpisywania wszystkich rekordów",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "c) przechowywania klucza szyfrującego odpowiedzi DNS",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) klucza według którego prowadzony jest proces rozwiązywania nazw domenowych Keys in DNSKEY records can be used for two different things and typically different DNSKEY records are used for each. First, there are key signing keys (KSK) which are used to sign other DNSKEY records containing zone signing keys (ZSK), which are used to sign other records. Since the ZSKs are under complete control and use by one particular DNS zone, they can be switched more easily and more often. As a result, ZSKs can be much shorter than KSKs and still offer the same level of protection while noneucing the size of the RRSIG/DNSKEY records.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4020,
+    "question": "21.Narzędzie nmap:",
+    "answers": [
+      {
+        "text": "a) pozwala wykonać rekonesans infrastruktury sieciowej przez skanowanie",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b) wykorzystuje skrypty i moduły pozwalający na przeprowadzenie dokładnego fingerprintingu usług sieciowych",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "c) jest transparentnym proxy HTTP pozwalającym na przechwytywanie i modyfikację zapytań HTTP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) pozwala na przechwytywanie ruchu HTTPS po zainstalowaniu odpowiedniego certyfikatu Nmap to zaawansowane narzędzie do skanowania sieci i rekonesansu, nie służy do przechwytywania ruchu HTTP/HTTPS ani nie działa jako proxy.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4021,
+    "question": "22.DNSSEC. ZSK to:",
+    "answers": [
+      {
+        "text": "a) Klucz przesyłany do nadrzędnego DNSa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Klucz do podpisywania wszystkich rekordów strefy",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) podpis cyfrowy pliku strefy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) podpis cyfrowy klucza KSK",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "e) klucz do podpisywania całego pliku strefy",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4022,
+    "question": "23.Rekord DNSKEY służy do:",
+    "answers": [
+      {
+        "text": "a) podpisane są nim rekordy typu RRSIG",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) przechowywania podpisu całej strefy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) przechowywania klucza publicznego",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) podpisane są nim wszystkie rekordy pliku strefy ← a do tego nie służą KSK i ZSK? /tak dnskey tylko przechowuje zsk i ksk, nic nie podpisuje",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "e) przechowywanie klucza prywatnego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4023,
+    "question": "24.DNSSEC. KSK to:",
+    "answers": [
+      {
+        "text": "a) klucz przesyłany do nadrzędnego DNS-a",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) klucz do podpisywania całego pliku strefy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) podpis cyfrowy klucza ZSK",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) podpis cyfrowy pliku strefy",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4024,
+    "question": "25. Rekord RRSIG służy do:",
+    "answers": [
+      {
+        "text": "a) przechowywanie klucza prywatnego, którym podpisana jest strefa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) przechowywania podpisu całej strefy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) przechowywania podpisu konkretnego rekordu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) przechowywania klucza publicznego oraz jego podpisu (przez wyższego DNS'a)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "e) przechowywania klucza publicznego, którym podpisana jest strefa RRSIG - Contains the DNSSEC signature for a record set. DNS resolvers verify the signature with a public key, stonone in a DNSKEY record.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4025,
+    "question": "26. TSIG to:",
+    "answers": [
+      {
+        "text": "a) Podpis cyfrowy każdego rekordu strefy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Podpis cyfrowy specjalnego rekordu RRSIG",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Klucz ZSK",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Cyfrowy podpis pliku strefy",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "e) Klucz KSK",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4026,
+    "question": "27. Radius to:",
+    "answers": [
+      {
+        "text": "a) scentralizowany system zarządzający pracą punktów dostępowych WIFI",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) rodzaj systemu operacyjnego dla urządzeń sieciowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) rozproszony system uwierzytelniania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) scentralizowany system implementujący model bezpieczeństwa AAA",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4027,
+    "question": "28.Radius wykorzystuje komunikację sieciową opartą o protokół",
+    "answers": [
+      {
+        "text": "a) TCP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) ESP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) UDP",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) ICMP",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4028,
+    "question": "29.Czy dowolne urządzenie może korzystać z serwera radius w celu realizacji modelu bezpieczeństwa AAA?",
+    "answers": [
+      {
+        "text": "a) nie, każde z urządzeń korzystających z serwera radius musi posiadać certyfikat cyfrowy podpisany przez zaufane CA",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) tak, wystarczy wskazać w konfiguracji adres IP serwera radius",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) tak, każde z urządzeń korzystających z serwera radius musi znać współdzieloną z serwerem radius tajną informację",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) nie, każde z urządzeń korzystających z serwera radius musi posiadać lokalne konto o nazwie radius aby móc połączyć się z serwerem radius",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4029,
+    "question": "30.Hasło użytkownika przesyłane w zapytaniu Access-Request protokołu Radius:",
+    "answers": [
+      {
+        "text": "a) nie podlega żadnej ochronie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) podlega ochronie z użyciem funkcji skrótu SHA512",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) podlega ochronie z użyciem algorytmu 3DES",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) podlega ochronie z użyciem funkcji skrótu MD5",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4030,
+    "question": "31.Skrót NAS oznacza:",
+    "answers": [
+      {
+        "text": "a) network access storage",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) network access server",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) network authorization service",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) network accounting service",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4031,
+    "question": "32.TACACS+ to:",
+    "answers": [
+      {
+        "text": "a) najnowsza wersja implementacji serwera radius",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) rozszerzenie funkcjonalne serwera radius aby możliwe było zarządzenie urządzeniami firmy Cisco",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) nierozwijana już implementacja serwera radius",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) alternatywne rozwiązanie implementujące model bezpieczeństwa AAA",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4032,
+    "question": "33.Rozwiązanie AppArmor to mechanizm dedykowany do zabezpieczania:",
+    "answers": [
+      {
+        "text": "a) całego systemu operacyjnego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) tylko programów działających w przestrzeni jądra systemowego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) tylko aplikacji sieciowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) tylko wybranych aplikacji",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4033,
+    "question": "34.Rozwiązanie AppArmor nie jest koncepcyjnie modelem zabezpieczeń:",
+    "answers": [
+      {
+        "text": "a) RSBAC // to jest framework a nie model zabezpieczeń. Alternatywa dla AppAmoura",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b) IBAC (Identification-Based Access Control)",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "c) MAC",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) DAC // IMO nie https://en.wikipedia.org/wiki/AppArmor (w sensie jak masz na myśli, że nie jest koncepcyjnym modelem zabezpieczeń DAC to +1)",
+        "color": "yellow",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4034,
+    "question": "35.Profil AppArmor to:",
+    "answers": [
+      {
+        "text": "a) wynik działania funkcji API AppArmor, która analizuje komunikację IPC",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) plik tekstowy zawierający uprawnienia dla zabezpieczanej aplikacji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) program wykonywalny, który analizuje wywołania funkcji systemowych zabezpieczanej aplikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) specjalne uprawnienie dla zabezpieczanej aplikacji",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4035,
+    "question": "36.Profil AppArmor",
+    "answers": [
+      {
+        "text": "a. automatycznie wygenerowany log zawierający wywołania systemowe monitorowanej aplikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. program analizujący wywołania funkcji systemowych monitorującej aplikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. część polityk AppArmor związana z konkretną aplikacją",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. plik tekstowy definiujący uprawnienia wybranej aplikacji",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4036,
+    "question": "37.Tryb działania AppArmor o nazwie \"complain\":",
+    "answers": [
+      {
+        "text": "a) wyłącza standardowy model kontroli dostępu w systemie operacyjnym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) powoduje brak wymuszania ograniczeń uprawnień zapisanych w profilu zabezpieczanej aplikacji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) wyłącza działanie mechanizmu AppArmor w systemie operacyjnym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) powoduje wypisywanie informacji diagnostycznych AppArmor na terminal użytkownika",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4037,
+    "question": "38.Tryb działania AppArmor o nazwie \"enforce\" powoduje:",
+    "answers": [
+      {
+        "text": "a) niemożność uruchomienia systemu operacyjnego bez podania hasła",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) wymuszanie profilu uprawnień dla wybranych aplikacji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) niemożność uruchomienia zabezpieczanej aplikacji bez podania hasła",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) całkowite blokowanie komunikacji sieciowej dla wybranych zabezpieczanych aplikacji bez względu na uprawnienia zapisane w profilach tych aplikacji",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4038,
+    "question": "39.Czy należy zawsze zmodyfikować aplikacje, które mają podlegać ochronie rozwiązaniem AppArmor:",
+    "answers": [
+      {
+        "text": "a) nie, administrator podczas instalacji każdej zabezpieczanej aplikacji ma możliwość dynamicznej modyfikacji aplikacji i przystosowania jej do współpracy z AppArmor",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) nie, nie zawsze trzeba przystosowywać aplikację do współpracy z AppArmor",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) nie, nigdy nie należy modyfikować zabezpieczanej aplikacji aby współpracowała z AppArmor",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) tak, zawsze trzeba przystosować zabezpieczaną aplikację do współpracy z AppArmor",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4039,
+    "question": "40.Change Hat:",
+    "answers": [
+      {
+        "text": "a) specjalne polecenie wydawane przez administratora systemu w celu zmiany profilu uprawnień dla zabezpieczanej aplikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) pozwala na dynamiczną zmianę uprawnień w trakcie działania zabezpieczonego programu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) specjalny typ uprawnień w AppArmor",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) to nazwa funkcji API rozwiązania AppArmor",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4040,
+    "question": "41.Czy RSBAC to:",
+    "answers": [
+      {
+        "text": "a) zestaw rozszerzający kontrolę uprawnień",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) poprawnie skonfigurowana polityka bezpieczeństwa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) zestaw łat na jądro systemu Linux",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) domyślne uprawnienia systemowe",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4041,
+    "question": "42.W RSBAC, czy każdy program może zmienić uprawnienia na inne niż te, na których został uruchomiony?",
+    "answers": [
+      {
+        "text": "a) zgodę wydaje oficer bezpieczeństwa modyfikując odpowiednio politykę bezpieczeństwa",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) bezwzględnie nie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) każdorazowo musi otrzymać zgodę oficera bezpieczeństwa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) tak",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4042,
+    "question": "43.W RSBAC, czy można zmienić uprawnienia do katalogu dla programu podczas jego działania?",
+    "answers": [
+      {
+        "text": "a) nie jest to określone",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) istnieją takie możliwości",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) nie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) jeśli program posiada taką możliwość (programista uwzględnił taką opcję)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4043,
+    "question": "44.Dlaczego do konfiguracji RSBAC'a wykorzystujemy użytkownika “secoff” o id=400 (lub innym)?",
+    "answers": [
+      {
+        "text": "a) jest to konto administratora tylko o innym id",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) aby haker po włamaniu musiał korzystać z polecenia su, aby zmienić politykę bezpieczeństwa",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) aby konto administratora było niepotrzebne",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) aby rozdzielić funkcje administratora systemu i osoby odpowiedzialnej za bezpieczeństwo",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4044,
+    "question": "45.W RSBAC, czy istnieje możliwość sprawdzenia dlaczego program nie ma uprawnień i jakich uprawnień jemu brakuje?",
+    "answers": [
+      {
+        "text": "a) tylko poprzez sprawdzenie wpisów w logach, które są przesłane na zaufany komputer",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) poprzez sprawdzenie wpisów w logach systemowych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) nie ma takiej możliwości",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) tylko poprzez sprawdzenie całej skonfigurowanej polityki bezpieczeństwa",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4045,
+    "question": "46.Usługa Active Directory to:",
+    "answers": [
+      {
+        "text": "a) usługa zbierania informacji o ruchu sieciowym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) usługa zarządzania zainstalowanym oprogramowaniem",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) usługa prezentacji logów systemowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) usługa katalogowa",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "e) usługa wymuszająca stosowania kryptografii asymetrycznej",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4046,
+    "question": "47.AD umożliwia:",
+    "answers": [
+      {
+        "text": "a) łatwe przejęcie komputera przez intruza",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) skomplikowane zarządzania dużą liczbą stanowisk komputerowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) pracę w heterogenicznym środowisku (chyba nie bo AD jest stworzone pod windowsa?)",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "d) łatwe zarządzania dużą liczbą stanowisk komputerowych",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4047,
+    "question": "48.GPO to:",
+    "answers": [
+      {
+        "text": "a) Grupy Polityk Obiektów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) Polityki Obiektów Grupowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) Obiekty Zasad Grup",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) Zasady Obiektów Grupowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "e) Grupy Zasad Obiektów",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4048,
+    "question": "49.Czy możliwe jest (przy pomocy zasad grup):",
+    "answers": [
+      {
+        "text": "a) Zablokowanie dostępu do aplikacji zainstalowanych przez użytkowników",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b)  Usunięcie elementu Menu Start",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Całkowite usunięcie Menu Start",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) Zablokowanie możliwość wylogowania się",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "e) Usunięcie oprogramowania zainstalowanego przez użytkownika",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4049,
+    "question": "50.Zasady grup umożliwiają:",
+    "answers": [
+      {
+        "text": "a) wymuszenie stosowania tunelu VPN w komunikacji z serwerem AD",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) wprowadzenia określonej konfiguracji komputera/pulpitu dla użytkownika/komputera",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) tworzenie tymczasowych użytkowników",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) wprowadzenia adresacji IP zgodnej z wymogami użytkownika",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "e) tworzenie automatycznych kopii zapasowych całego dysku twardego komputera",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4050,
+    "question": "51.Przy pomocy zasad grup można instalować oprogramowanie, jeśli:",
+    "answers": [
+      {
+        "text": "a) oprogramowanie ma plik instalacyjny (.msi)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) oprogramowanie posiada w instalatorze możliwość instalacji sieciowej",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) oprogramowanie ma plik instalacyjny (.com)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) oprogramowanie musi być instalowane lokalnego nośnika (np. CD, DVD)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "e) bez żadnych warunków",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4051,
+    "question": "52.Przy pomocy zasad grup można instalować oprogramowanie, jeśli:",
+    "answers": [
+      {
+        "text": "a) jest dostępne na udostępnionym katalogu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) użytkownik stanowiska nie wyraził sprzeciwu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) oprogramowanie ma plik instalacyjny (.com)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) oprogramowanie musi być instalowane lokalnego nośnika (np. CD, DVD)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "e) bez żadnych warunków",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4052,
+    "question": "53.Testowanie podatności aplikacji na atak XSS polegać może na:",
+    "answers": [
+      {
+        "text": "a) podstawieniu do zapytania zapisanego wcześniej ciasteczka sesyjnego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) próbie podstawienia arkusza styli, zawierającego kod JavaScript (CSS chyba nie wykonuje JS?)",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "c) próbie wstrzyknięcia kodu SQL",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) próbie wykonania zapisanego przez użytkownika kodu JavaScript",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4053,
+    "question": "54.Test penetracyjny należy wykonywać:",
+    "answers": [
+      {
+        "text": "a) rejestrując oraz raportując wyniki testów składowych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) zawsze w siedzibie zamawiającego test",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) wyłączenie z dostępem do kodu źródłowego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) zawsze zgodnie z określoną z góry metodologią",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4054,
+    "question": "55.Testy penetracyjne należy wykonywać, ponieważ:",
+    "answers": [
+      {
+        "text": "a) programiści często ukrywają tylne wejście do aplikacji (dla własnego użytku)",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "b) odkrywane są coraz nowsze metody ataku",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) Administratorzy systemów nie zabezpieczają w ogóle serwerów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) programiści często pracują pod presją czasu, w wyniku czego zaniedbują kwestię zabezpieczeń",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4055,
+    "question": "56.Testy penetracyjne należy wykonywać, ponieważ:",
+    "answers": [
+      {
+        "text": "a) każde oprogramowanie powinno zostać wszechstronnie przetestowane",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) odkrywane są coraz nowsze metody ataku",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) programiści często ukrywają tylne wejście do aplikacji (dla własnego użytku)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) błędy w aplikacji pojawiają się w trakcie użytkowania, niezależnie od jakości pracy programistów",
+        "color": "yellow",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4056,
+    "question": "57.Które określenie najlepiej opisuje test typu gray-box:",
+    "answers": [
+      {
+        "text": "a) tester posiada dokumentację oraz pewne informacje o architekturze systemu, ale nie zna kodu źródłowego",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) tester nie wie nic o systemie przed przystąpieniem do testu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) tester ma kontakt z programistami oraz pełny wgląd do kodu źródłowego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) tester widzi jedynie publiczny interfejs aplikacji",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4057,
+    "question": "58.Typowy atak SQL injection, który ma umożliwić wejście do systemu bez podawania hasła, to/Wskaż element ataku SQL injection, który może mieć na celu obejście uwierzytelniania:",
+    "answers": [
+      {
+        "text": "a) ' LIKE 'password'",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) ' OR 1=1",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) 1 AND sha1('password')",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d) ' AND 1=0",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4058,
+    "question": "59.Do błędów zabezpieczeń aplikacji internetowych zaliczamy:",
+    "answers": [
+      {
+        "text": "a) atak typu phishing",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b) możliwość wstrzyknięcia kodu SQL",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c) możliwość wykonania złośliwego kodu JavaScript",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) atak typu man-in-the-middle",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4059,
+    "question": "60.Do błędów zabezpieczeń aplikacji internetowych zaliczamy:",
+    "answers": [
+      {
+        "text": "a) możliwość wykonania złośliwego kodu JavaScript",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b) atak typu man-in-the-middle",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c) nieprawidłowe zarządzanie sesją użytkownika",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d) brute-force",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4060,
+    "question": "61.Reverse shell",
+    "answers": [
+      {
+        "text": "a. wymaga serwera nasłuchującego na hoście atakującego w celu odebrania połączenia z atakowanego systemu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. pozwala obejść reguły zapór sieciowych blokujące połączenia przychodzące",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4061,
+    "question": "62.Jakie restrykcje wprowadza flaga Secure w definicji ciasteczka WWW?",
+    "answers": [
+      {
+        "text": "a. dostęp do ciasteczka ma tylko oryginalna strona, która utworzyła ciasteczko",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. ciasteczko musiało zostać sprawdzone przez filtr SOP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. do ciasteczka nie można uzyskać dostępu w skryptach",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. ciasteczko będzie wysłane do serwera tylko w tunelu kryptograficznym",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4062,
+    "question": "63.Mechanizmem PAM można skonfigurować (wybierz jedną lub więcej):",
+    "answers": [
+      {
+        "text": "a. Ograniczenia czasowe dostępu do systemu operacyjnego",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. procedurę zmiany danych uwierzytelniających",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c. sposób uwierzytelniania aplikacji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. ograniczenie maksymalnej ilości procesów jakie może uruchomić użytkownik",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4063,
+    "question": "64.Nazwa domenowa komputera a nazwa domeny Kerberos",
+    "answers": [
+      {
+        "text": "a. to ten sam parametr",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. Musi być identyczna",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. musi być różna",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. nie musi, ale lepiej by była identyczna w przypadku wykorzystania klientów Windows",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4064,
+    "question": "65.Które z wymienionych elementów są zawsze (bezwzględnie) współdzielone pomiędzy aplikacjami uruchomionymi w kontenerach dockera i aplikacjami bezpośnonenio w systemie operacyjnym (Wybierz jedną lub więcej):",
+    "answers": [
+      {
+        "text": "a. system plików",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. przestrzeń identyfikatorów użytkowników ← słowo klucz to bezwzględnie, imo źle",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "c. przestrzeń identyfikatorów procesów",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. jądro systemu operacyjnego",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4065,
+    "question": "66.W konfiguracji systemu Snort zapis: alert tcp any any -> 150.254.23.0/24 28 (content:”00 01 86 a5”; msg:”open(“/etc/passwd”)”;)",
+    "answers": [
+      {
+        "text": "a. przedstawia regułę wyszukującą w pakiecie IP ciąg znaków: 00 01 86 a5",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. przedstawia regułę wyszukującą w segmencie TCP ciąg znaków: open(“/etc/passwd”)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. przedstawia regułę analizują ruch skierowany na port 24",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. definiuje preprocesor dla reguł logowania użytkowników",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4066,
+    "question": "67.Jakie metody uwierzytelniania oferuje protokół HTTP:",
+    "answers": [
+      {
+        "text": "a. uwierzytelnianie klienta poprzez username token (username+password)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. uwierzytelniania serwera poprzez certyfikat X.509",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. uwierzytelnianie klienta metodą digest (z użyciem funkcji skrótu)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. obustronne uwierzytelnianie metodą Diffiego-Hellmana",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4067,
+    "question": "68.Mechanizm TSIG w systemie DNSSEC wykorzystuje:",
+    "answers": [
+      {
+        "text": "a. współdzielony tajny klucz",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. protokół TLS do transferu stref",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. parę kluczy asymetrycznych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. funkcję mieszającą Diffiego-Hellmana",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4068,
+    "question": "69.Wskaż opisy dotyczące podatności XXE (External XML Entity):",
+    "answers": [
+      {
+        "text": "a. wynikają z niefrasobliwej obsługi przez parser XML encji odwołujących się np. do systemu plików",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. dotyczą ciasteczek XML 5 Global Storage Cookies",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. powstają w wyniku wstrzyknięcia skryptu javascript przestrzeni nazw dokumentu XML",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. występują zarówno w plikach XML, jak i XHTML Wcześniej w odpowiedzi c. było “powstają zarówno w plikach XML, jak i XHTML”, ale możliwe, że zmienił, bo ta odpowiedź była sporna, tak czy siak, c. chyba pozostaje złe?",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4069,
+    "question": "70.Wybierz, które z pułapek są związane z Kerberos",
+    "answers": [
+      {
+        "text": "a. przejęcie poświadczeń administratora Kerberosa",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. nielegalne powtórzenie (replay) TGT dla nieautoryzowanych usług (po przechwyceniu prawidłowego TGT z kanału komunikacji)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c. podszycie się pod usługę (zamiana prawdziwego procesu usługi na złośliwy)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. przejęcie uprawnień root na maszynie KDC Kerberosa (nielegalny dostęp do powłoki roota)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4070,
+    "question": "71.Które warunki powinno spełnić urządzenie sieciowe do użycia serwera Radius do AAA:",
+    "answers": [
+      {
+        "text": "a. urządzenie powinno podzielić się “sekretem” z serwerem",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. jest wystarczającym, by połączyć się z serwerem za pomocą jego adresu IP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. To urządzenie musi mieć lokalne konto o nazwie „radius” z hasłem znanym serwerowi",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. To urządzenie musi być zidentyfikowane certyfikatem podpisanym przez serwer",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4071,
+    "question": "72.Który mechanizm systemowy może zostać wykorzystany przez dockera do poprawienia pracy kontenerów:",
+    "answers": [
+      {
+        "text": "a. przestrzeń nazw użytkownika +1",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. chroot   -1",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "c. właściwości POSIX    -1",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "d. grupy kontrolne (control groups)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4072,
+    "question": "73.DNSKEY",
+    "answers": [
+      {
+        "text": "a. cyfrowy podpis strefy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. klucz prywatny domeny",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. klucz publiczny domeny",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. cyfrowy podpis klucza ZSK",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4073,
+    "question": "74.Które z elementów iFrame może zostać dezaktywowany poprzez atrybuty sandboxa",
+    "answers": [
+      {
+        "text": "a. rodzicielska ramka nawigacyjna",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. skrypty",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c. okna pop-up",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. formularze",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4074,
+    "question": "75.Implementacją sandboxa jest",
+    "answers": [
+      {
+        "text": "a. Kontenery Docker",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. Polityki PAM",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. Domeny Kerberos",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. Polityki AppArmor",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4075,
+    "question": "76.Które elementy aplikacji Web podlegają ochronie przez politykę SOP w przeglądarce:",
+    "answers": [
+      {
+        "text": "a. komunikację między obiektami poprzez XMLHttpRequest",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. dostęp do ciasteczek ustawionych w innych dokumentach niezależnie od ich atrybuty domain",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. dostęp do elementów DOM w innych dokumentach",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. wywołania skryptów, w zależności od ich pochodzenia Since HTML <script> elements are allowed to retrieve and execute content from other domains, a page can bypass the same-origin policy and receive JSON data from a different domain by loading a resource that returns a JSONP payload.",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4076,
+    "question": "77.Które z wymienionych elementów zawsze (bezwzględnie) współdzielone pomiędzy aplikacjami uruchomionymi w kontenerach dockera I aplikacjami bezpośnonenio w systemie operacyjnym:",
+    "answers": [
+      {
+        "text": "a. jądro systemu operacyjnego",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. system plików",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. przestrzeń Identyfikatorów użytkowników",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "d. przestrzeń Identyfikatorów procesów",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4077,
+    "question": "78.które z wymienionych ataków SQL mogą posłużyć do pominięcia autoryzacji:",
+    "answers": [
+      {
+        "text": "a. ‘ or 1=1",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. ‘ WHERE ‘password’ LIKE *",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. ‘ AND sha256(‘password’,NULL)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. ‘AND 1=1 (według klucza jest źle) ",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4078,
+    "question": "79.Jakie informacje o koncie głównym posiada serwer kerberos:",
+    "answers": [
+      {
+        "text": "a. tajny klucz symetryczny",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. Klucz publiczny",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. hasło",
+        "color": "yellow",
+        "isCorrect": false
+      },
+      {
+        "text": "d. hash całego rekordu konta głównego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4079,
+    "question": "80.Zapory aplikacji internetowych (Web Application Firewalls, WAF) są potrzebne oprócz innych technologii zapobiegania i wykrywania włamań PRZEDE WSZYSTKIM dlatego, że:",
+    "answers": [
+      {
+        "text": "a. rozpoznają protokoły aplikacji webowych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. usługi webowe wymagają unikalnych dowodów kryminalistycznych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. usługi webowe są podatne na ataki SQL",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. zapobiegają modyfikacji kodu źródłowego aplikacji",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4080,
+    "question": "81.Które z poniższych stwierdzeń dotyczących Pluggable Authentication Modules (PAM) są poprawne?",
+    "answers": [
+      {
+        "text": "a. są używane do implementacji mechanizmu Simple Authentication and Security Layer (SASL) w celu kontroli dostępu do lokalnego systemu plików",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. są używane do kontrolowania takich usług jak logowanie do konsoli i ssh",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c. zapewniają mechanizm szyfrowania danych na dowolnym połączeniu IP Socket",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. mogą pozwolić użytkownikom sieciowym logować się do lokalnego systemu operacyjnego",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4081,
+    "question": "82.Które z poniższych zagadnień rozwiązuje (adresuje) Kerberos?",
+    "answers": [
+      {
+        "text": "a. Audytowalność i integralność",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. Poufność i integralność",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c. Uwierzytelnianie i dostępność",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. Walidacja i integralność 2025 pytania",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4082,
+    "question": "83.Które polecenia będą poprawne dla ustawienia DNAT?",
+    "answers": [
+      {
+        "text": "a. iptables -t nat -A POSTROUTING -d 150.254.17.3-i eth0 -j DNAT --to",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4083,
+    "question": "192.168.1.1",
+    "answers": [
+      {
+        "text": "b. iptables -t nat -A PREROUTING -d 150.254.17.3 -i eth0 -j NAT --to",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4084,
+    "question": "192.168.1.1",
+    "answers": [
+      {
+        "text": "c. iptables -t nat -A PREROUTING -d 150.254.17.3 -i eth0 -j DNAT --to",
+        "color": "blue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4085,
+    "question": "192.168.1.1  +1",
+    "answers": [
+      {
+        "text": "d. iptables -t nat -A FORWARD -d 150.254.17.3 -i eth- -j DNAT --to 192.168.1.1",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4086,
+    "question": "84. Protokół TLS oferuje",
+    "answers": [
+      {
+        "text": "a. uwierzytelnianie obustronne uczestników komunikacji",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b. uwierzytelnianie SSO",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. negocjację parametrów kryptograficznych przed zestawieniem tunelu",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "d. szyfrowanie transmisji na poziomie warstwy sesji OSI // kontrowersyjne ale chyba tak",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4087,
+    "question": "85.Określenie \"reguły\" w systemie Snort oznacza:",
+    "answers": [
+      {
+        "text": "a. reguły zapory sieciowej, tworzone przez administratora",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. listy kontroli dostępu do zasobów sieciowych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. sposób zapisu sygnatur ataków sieciowych",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "d. zasady grupy narzucone przez kontroler domeny",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4088,
+    "question": "86. Czy serwer kluczy w systemie Kerberos ma dostęp do jawnej postaci haseł użytkowników?",
+    "answers": [
+      {
+        "text": "a. tak, ale są zaszyfrowane kluczem głównym administratora",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. nie, zamiast haseł przechowuje klucze publiczne użytkowników",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. nie, hasła są przechowywane w certyfikatach TGT",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. nie, przechowywane są klucze symetryczne wywodzone z haseł",
+        "color": "blue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4089,
+    "question": "87. Czy iptables umożliwia ograniczenie dostępu do pojedynczej usługi?",
+    "answers": [
+      {
+        "text": "a. tak, poprzez wyspecyfikowanie konkretnego portu",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b.  nie, jeśli w regule określimy konkretny protokół (wówczas reguła dotyczy wszystkich usług wykorzystujących ten protokół)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c.  nie, sieciowa zapora operuje na pakietach i nie rozróżnia poszczególnych usług",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d.  tak, jeśli w regule określimy konkretny protokół",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4090,
+    "question": "88. TSIG w systemie DNSSEC to:",
+    "answers": [
+      {
+        "text": "a. podpis cyfrowy klucza ZSK",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. podpis cyfrowy komunikacji między serwerami  (transaction signature)",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "c. klucz do podpisywania poszczególnych rekordów strefy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. podpis cyfrowy specjalnego rekordu RRSIG",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4091,
+    "question": "89. NAT Transversal (NAT-T):",
+    "answers": [
+      {
+        "text": "a. przesyła pakiety IPSec opakowane w pakiety UDP",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b. przesyła ruch TCP poprzez NAT wewnątrz połączenia VPN",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. przesyła ruch UDP poprzez NAT wewnątrz połączenia VPN",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. przesyła ruch IKE poprzez NAT wewnątrz połączenia VPN",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4092,
+    "question": "90. Jakie restrykcje wprowadza flaga HTTPonly w definicji ciasteczka WWW?",
+    "answers": [
+      {
+        "text": "a. wartości ciasteczka nie można odczytać w skryptach",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b. ciasteczka nie wolno przesyłać w sesji SSL/TLS",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. dostęp tylko do ciasteczka ma tylko oryginalna strona, która utworzyła ciasteczko",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. ciasteczko będzie wysyłane do serwera tylko w tunelu kryptograficznym Flaga HTTPOnly w definicji ciasteczka powoduje, że ciasteczko nie jest dostępne z poziomu JavaScript (np. przez document.cookie).",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4093,
+    "question": "91.Które konfiguracje protokołu IPsec są aktualnie obsługiwane w systemie Windows?",
+    "answers": [
+      {
+        "text": "a. szyfrowanie ESP i podpis AH",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. tylko AH, bez ESP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. tryb transportowy i tunelowy z ESP",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. szyfrowanie i podpis ESP, bez AH windows używa ESP, bez AH",
+        "color": "blue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4094,
+    "question": "92.Reguła ModSecurity mająca dopasować wartość parametrów żądania (ARGS), wymaga:",
+    "answers": [
+      {
+        "text": "a. wywołania w fazie 2 parsowania żądań, w przypadku żądania POST",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b. wywołania w fazie 1 parsowania żądań, w przypadku żądania GET (on też w",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4095,
+    "question": "2. fazie)",
+    "answers": [
+      {
+        "text": "c. zdekodowania całego REQUEST_URI przed uzyskaniem dostępu do wartości",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. parametrów włączenia preprocesora http_inspect do silnika IDS (to do snorta)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4096,
+    "question": "93.Tryb \"complain\" działania AppArmor:",
+    "answers": [
+      {
+        "text": "a.  powoduje wypisywanie informacji diagnostycznych na konsoli w przypadku zablokowania operacji naruszającej politykę AppArmor",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. włącza dodatkowe komunikaty w przypadku błędnego podania hasła podczas próby uruchomienia aplikacji zabezpieczonych przez politykę AppArmor",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. rejestruje w logu każdy przypadek naruszenia polityki AppArmor, ale dopuszcza do niego",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. nie wymusza ograniczeń aplikacji zdefiniowanych w polityce AppArmor",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4097,
+    "question": "94.Dlaczego w kerberos jest szyfrowanie symetryczne:",
+    "answers": [
+      {
+        "text": "a.  bo windows nie obsługuje asymetrycznego,",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b.  bo asymetryczny nie zapewnia integralności,",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. bo symetryczny zapewnia cośtam,",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d.  bo klucz jest budowany przez hasła użytkowników .",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4098,
+    "question": "95. Preprocesory w systemie Snort to:",
+    "answers": [
+      {
+        "text": "a. zewnętrzne analizatory sieciowe przekazujące do Snorta pakiety do analizy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. komponenty rozszerzające funkcjonalność Snorta, analizujące ruch zanim trafi do silnika reguł (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c. interpretery języków skryptowych pozwalających budować reguły w formie sekwencji komend danego języka skryptowego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. rozbudowane polecenia interpretera zadań wsadowych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4099,
+    "question": "96. Które polecenie będzie poprawne, dla ustalenia SNAT?",
+    "answers": [
+      {
+        "text": "a. iptables -t nat -A PREROUTING -o eth0 -j SNAT --to 150.254.17.2",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. iptables -t nat -A POSTROUTING -o eth0 -j NAT --to 150.254.17.2",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to 150.254.17.2 (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. iptables -t nat -A POSTROUTING -i eth0 -j NAT --to 150.254.17.2",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4100,
+    "question": "97. Jakie metody uwierzytelniania oferuje protokół HTTP:",
+    "answers": [
+      {
+        "text": "a. w HTTP/3 uwierzytelnianie serwera poprzez certyfikat X.509 (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. uwierzytelnianie klienta poprzez username token (username+password) (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c. uwierzytelnianie klienta metodą digest (z użyciem funkcji skrótu) (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. obustronne uwierzytelnianie metodą Diffiego-Hellmana",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4101,
+    "question": "98. Którymi elementami polityki SOP pozwala sterować CSP (Content-Sercurity-Policy) dla bieżącego dokumentu HTML:",
+    "answers": [
+      {
+        "text": "a. filtrem XSS dla formularzy",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. źródłem grafiki i multimediów (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c. pochodzeniem skryptów (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. zakresem obowiązywania ciasteczek",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4102,
+    "question": "99.System OpenVPN:",
+    "answers": [
+      {
+        "text": "a. wykorzystuje preshanone key do uwierzytelniania stron (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. wykorzystuje OpenSSH do szyfrowania komunikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. wykorzystuje certyfikaty X.509 do uwierzytelniania stron (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. wykorzystuje HTTP do tunelowania ruchu",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4103,
+    "question": "100. Reguła systemu Snort: alert tcp $EXTERNAL_Net any -> $SQL_SERVERS $ORACLE_PORTS (flow: established; content: \"DROP table\"; nocase;)",
+    "answers": [
+      {
+        "text": "a. raportuje wszystkie pakiety z zewnątrz do dowolnego adresu wewnętrznego przesyłane w ramach połączenia, które zapamiętane jest jako wcześniej zablokowane regułą DROP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. wychwytuje potencjalny atak SQLi umożliwiający destrukcję danych (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c. blokuje próbę nawiązania połączenia z zewnątrz do dowolnego adresu wewnętrznego i loguje zdarzenie w bazie SQL w tabeli DROP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. dotyczy tylko pakietów przesyłanych w kierunku do bazy danych, prawdopodobnie Oracle, a już nie z powrotem (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4104,
+    "question": "101. Jeśli w systemie zostanie wykonana komenda: iptables -A INPUT -p tcp --dport ssh -j DROP -s 222.22.22.0/24 to (wyłącznie na jej podstawie) można stwierdzić iż:",
+    "answers": [
+      {
+        "text": "a. tylko połączenia SSH z sieci 222.22.22.0/24 będą dopuszczone",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. cała komunikacja SSH niezależnie od adresu źródłowego będzie odrzucana",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. z każdego zdalnego komputera można będzie się zalogować w tym systemie przez SSH",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. połączenia z SSH z sieci 222.22.22.0/24 będa odrzucane (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4105,
+    "question": "102. Wskaż prawdziwe stwierdzenia dotyczące uwięzienia aplikacji przy pomocy mechanizmu chroot",
+    "answers": [
+      {
+        "text": "a. polecenie chroot pozwala określić konto użytkownika, w ramach którego działać będzie uwięziona aplikacja",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. dla aplikacji dostępne są dowiązania symboliczne wskazujące na pliki znajdujące się poza piaskownicą",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. pliki konfiguracyjne (np. /etc/passwd) skopiowane do piaskownicy muszą być identyczne z oryginalnymi (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. dla aplikacji dostępne są dowiązania twarde wskazujące na pliki znajdujące się poza piaskownicą (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4106,
+    "question": "103. Czym się różnią klauzule DROP i REJECT w akcjach reguły iptables?",
+    "answers": [
+      {
+        "text": "a. obie odrzucają pakiety, ale DROP zawsze robi to \"po cichu\" (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. obie odrzucają pakiety, ale REJECT dotyczy tylko łańcucha FORWARD",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. obie odrzucają pakiety, ale DROP powoduje przerwanie przeglądania reguł, a REJECT nie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. REJECT odrzuca pakiety warunkowo, a DROP bezwarunkowo",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4107,
+    "question": "104. Protokół IKE służy do:",
+    "answers": [
+      {
+        "text": "a. uwierzytelniania stron zestawianego tunelu VPN (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. transmisji zaszyfrowanych pakietów IP w zestawionych tunelach VPN typu host-2-host",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. transmisji zaszyfrowanych pakietów IP w zestawionych tunelach VPN typu net-2-net",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. generowania kluczy sesji w zestawionych tunelach VPN (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4108,
+    "question": "105. Jakie informacje o koncie użytkownika przechowuje serwer Kerberos?",
+    "answers": [
+      {
+        "text": "a. hasło użytkownika",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. tajny klucz symetryczny użytkownika (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "c. pełne informacje katalogowe o koncie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. klucz publiczny użytkownika",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4109,
+    "question": "106. Do których elementów modelu DOM ma dostęp skrypt javascript w przeglądarce internetowej?",
+    "answers": [
+      {
+        "text": "a. do wszystkich DOM we wszystkich otwartych oknach/kartach (zgodne z kluczem)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. tylko do obiektów bieżącej ramki (iFrame) jeśli ramka jest uruchomiona w piaskownicy (sandbox)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. do wszystkich, do których pozwala polityka SOP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. do wszystkich, ale tylko w bieżącym dokumencie",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4110,
+    "question": "107. Co to takiego jest Docker rootless?",
+    "answers": [
+      {
+        "text": "a. to definicja obrazu dockerowego z użyciem dyrektywy USER (w pliku Dockerfile)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. to tryb uruchomienia kontenera jako nie-root poprzez opcję --user",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. to tryb uruchomienia kontenera z aktywnym mapowaniem userns-remap",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. to wariant Dockera, który pozwala instalować i uruchamiać zarówno demona Dockera, jak i poszczególne kontenery jako zwykły użytkownik (nie root)",
+        "color": "blue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4111,
+    "question": "108. Perfect Forward Secrecy (PFS): (jednokrotnego wyboru)",
+    "answers": [
+      {
+        "text": "a. to opcja wymuszająca stosowanie metody Diffiego-Hellmana przy generowaniu każdego kolejnego klucza sesji w tunelu VPN",
+        "color": "blue",
+        "isCorrect": true
+      },
+      {
+        "text": "b. to metoda przesyłania ruchu sieciowego tajnym kanałem",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. to metoda przesyłania datragramów IP z wykorzystaniem steganografii w celu ukrycia ich prawdziwej zawartości",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. to super silne szyfrowanie datagramów IP z użyciem algorytmu AES oraz ceryfikatów SSL",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4112,
+    "question": "109. Wskaż prawdziwe stwierdzenia dotyczące uwięzienia aplikacji przy pomocy mechanizmu chroot:",
+    "answers": [
+      {
+        "text": "a. dla aplikacji dostępne są dowiązania twarde wskazujące na pliki znajdujące się poza piaskownicą",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "b. użytkownik root w piaskownicy nie jest identyczny z użytkownikiem root w systemie oryginalnym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. wymaga wcześniejszego umieszczenia w piaskownicy wszystkich potrzebnych plików konfiguracyjnych i bibliotek",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "d. dla aplikacji dostępne są dowiązania symboliczne wskazujące na pliki znajdujące się poza piaskownicą",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4113,
+    "question": "110. Na które zagrożenie podatny jest Kerberos?",
+    "answers": [
+      {
+        "text": "a. zastąpienie legalnej usługi aplikacyjnej w domenie realm fałszywą",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. atak typu replay na usługę aplikacyjną z przechwyconym biletem TGT",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. przejęcie konta administratora (root) na serwerze KDC",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. pozyskanie danych uwierzytelniających administratora (kadmin) KDC",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4114,
+    "question": "111. Mechanizmem PAM można skonfigurować (wybierz jedną lub więcej):",
+    "answers": [
+      {
+        "text": "a. ograniczenia czasowe dostępu do systemu operacyjnego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. klucze wstępne dla tunelu IPsec",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. sposób uwierzytelniania aplikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. ograniczenie wielkości pamięci jaką mogą wykorzystać procesory użytkownika",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4115,
+    "question": "112. Które z wymienionych mechanizmów umie wykorzystać Docker do podwyższania bezpieczeństwa kontenerów?",
+    "answers": [
+      {
+        "text": "a. POSIX capabilities",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. control groups",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. chroot",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. user namespace",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4116,
+    "question": "113. Które podatności wynikają z nieprawidłowe zabezpieczenia aplikacji internetowej na etapie tworzenia kodu? (pytanie bardzo podobne do 59.)",
+    "answers": [
+      {
+        "text": "a. możliwość wstrzyknięcia kodu SQL",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. atak typu phising",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. możliwość wstrzyknięcia kodu JavaScript",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. nieprawidłowe zarządzanie sesją użytkownika",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4117,
+    "question": "114. Serwer usługi aplikacyjnej w domenie Kerberos musi",
+    "answers": [
+      {
+        "text": "a. używać klucza znanego serwerowi TGS",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "b. być znany serwerowi KDC (zarejestrowany)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "c. być w domenie DNS o nazwie identycznej z nazwą realm",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "d. znać klucz właściwego serwera AS",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
   }
 ]

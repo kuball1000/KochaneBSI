@@ -78,6 +78,15 @@ function App() {
           endId={1999}
         />
       )}
+
+      {mode === 'Tomek-BSR' && (
+        <Quiz 
+          onBack={() => setMode('menu')} 
+          isSmartLearning={true} 
+          startId={4000} 
+          endId={4999}
+        />
+      )}
     </div>
   );
 }
