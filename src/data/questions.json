@@ -18656,38 +18656,20 @@
     "question": "83.Które polecenia będą poprawne dla ustawienia DNAT?",
     "answers": [
       {
-        "text": "a. iptables -t nat -A POSTROUTING -d 150.254.17.3-i eth0 -j DNAT --to",
+        "text": "a. iptables -t nat -A POSTROUTING -d 150.254.17.3-i eth0 -j DNAT --to 192.168.1.1",
         "color": "none",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 4083,
-    "question": "192.168.1.1",
-    "answers": [
+      },
       {
-        "text": "b. iptables -t nat -A PREROUTING -d 150.254.17.3 -i eth0 -j NAT --to",
+        "text": "b. iptables -t nat -A PREROUTING -d 150.254.17.3 -i eth0 -j NAT --to 192.168.1.1",
         "color": "none",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 4084,
-    "question": "192.168.1.1",
-    "answers": [
+      },
       {
-        "text": "c. iptables -t nat -A PREROUTING -d 150.254.17.3 -i eth0 -j DNAT --to",
+        "text": "c. iptables -t nat -A PREROUTING -d 150.254.17.3 -i eth0 -j DNAT --to 192.168.1.1",
         "color": "blue",
         "isCorrect": true
-      }
-    ]
-  },
-  {
-    "id": 4085,
-    "question": "192.168.1.1  +1",
-    "answers": [
+      },
       {
         "text": "d. iptables -t nat -A FORWARD -d 150.254.17.3 -i eth- -j DNAT --to 192.168.1.1",
         "color": "none",
@@ -18913,16 +18895,10 @@
         "isCorrect": true
       },
       {
-        "text": "b. wywołania w fazie 1 parsowania żądań, w przypadku żądania GET (on też w",
+        "text": "b. wywołania w fazie 1 parsowania żądań, w przypadku żądania GET (on też w 2. fazie)",
         "color": "none",
         "isCorrect": false
-      }
-    ]
-  },
-  {
-    "id": 4095,
-    "question": "2. fazie)",
-    "answers": [
+      },
       {
         "text": "c. zdekodowania całego REQUEST_URI przed uzyskaniem dostępu do wartości",
         "color": "none",
@@ -18997,7 +18973,7 @@
         "isCorrect": false
       },
       {
-        "text": "b. komponenty rozszerzające funkcjonalność Snorta, analizujące ruch zanim trafi do silnika reguł (zgodne z kluczem)",
+        "text": "b. komponenty rozszerzające funkcjonalność Snorta, analizujące ruch zanim trafi do silnika reguł none",
         "color": "green",
         "isCorrect": true
       },
@@ -19028,7 +19004,7 @@
         "isCorrect": false
       },
       {
-        "text": "c. iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to 150.254.17.2 (zgodne z kluczem)",
+        "text": "c. iptables -t nat -A POSTROUTING -o eth0 -j SNAT --to 150.254.17.2 none",
         "color": "green",
         "isCorrect": true
       },
@@ -19044,17 +19020,17 @@
     "question": "97. Jakie metody uwierzytelniania oferuje protokół HTTP:",
     "answers": [
       {
-        "text": "a. w HTTP/3 uwierzytelnianie serwera poprzez certyfikat X.509 (zgodne z kluczem)",
+        "text": "a. w HTTP/3 uwierzytelnianie serwera poprzez certyfikat X.509 none",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "b. uwierzytelnianie klienta poprzez username token (username+password) (zgodne z kluczem)",
+        "text": "b. uwierzytelnianie klienta poprzez username token (username+password) none",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "c. uwierzytelnianie klienta metodą digest (z użyciem funkcji skrótu) (zgodne z kluczem)",
+        "text": "c. uwierzytelnianie klienta metodą digest (z użyciem funkcji skrótu) none",
         "color": "green",
         "isCorrect": true
       },
@@ -19075,12 +19051,12 @@
         "isCorrect": false
       },
       {
-        "text": "b. źródłem grafiki i multimediów (zgodne z kluczem)",
+        "text": "b. źródłem grafiki i multimediów none",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "c. pochodzeniem skryptów (zgodne z kluczem)",
+        "text": "c. pochodzeniem skryptów none",
         "color": "green",
         "isCorrect": true
       },
@@ -19096,7 +19072,7 @@
     "question": "99.System OpenVPN:",
     "answers": [
       {
-        "text": "a. wykorzystuje preshanone key do uwierzytelniania stron (zgodne z kluczem)",
+        "text": "a. wykorzystuje preshanone key do uwierzytelniania stron none",
         "color": "green",
         "isCorrect": true
       },
@@ -19106,7 +19082,7 @@
         "isCorrect": false
       },
       {
-        "text": "c. wykorzystuje certyfikaty X.509 do uwierzytelniania stron (zgodne z kluczem)",
+        "text": "c. wykorzystuje certyfikaty X.509 do uwierzytelniania stron none",
         "color": "green",
         "isCorrect": true
       },
@@ -19127,7 +19103,7 @@
         "isCorrect": false
       },
       {
-        "text": "b. wychwytuje potencjalny atak SQLi umożliwiający destrukcję danych (zgodne z kluczem)",
+        "text": "b. wychwytuje potencjalny atak SQLi umożliwiający destrukcję danych none",
         "color": "green",
         "isCorrect": true
       },
@@ -19137,7 +19113,7 @@
         "isCorrect": false
       },
       {
-        "text": "d. dotyczy tylko pakietów przesyłanych w kierunku do bazy danych, prawdopodobnie Oracle, a już nie z powrotem (zgodne z kluczem)",
+        "text": "d. dotyczy tylko pakietów przesyłanych w kierunku do bazy danych, prawdopodobnie Oracle, a już nie z powrotem none",
         "color": "green",
         "isCorrect": true
       }
@@ -19163,7 +19139,7 @@
         "isCorrect": false
       },
       {
-        "text": "d. połączenia z SSH z sieci 222.22.22.0/24 będa odrzucane (zgodne z kluczem)",
+        "text": "d. połączenia z SSH z sieci 222.22.22.0/24 będa odrzucane none",
         "color": "green",
         "isCorrect": true
       }
@@ -19184,12 +19160,12 @@
         "isCorrect": false
       },
       {
-        "text": "c. pliki konfiguracyjne (np. /etc/passwd) skopiowane do piaskownicy muszą być identyczne z oryginalnymi (zgodne z kluczem)",
+        "text": "c. pliki konfiguracyjne (np. /etc/passwd) skopiowane do piaskownicy muszą być identyczne z oryginalnymi none",
         "color": "green",
         "isCorrect": true
       },
       {
-        "text": "d. dla aplikacji dostępne są dowiązania twarde wskazujące na pliki znajdujące się poza piaskownicą (zgodne z kluczem)",
+        "text": "d. dla aplikacji dostępne są dowiązania twarde wskazujące na pliki znajdujące się poza piaskownicą none",
         "color": "green",
         "isCorrect": true
       }
@@ -19200,7 +19176,7 @@
     "question": "103. Czym się różnią klauzule DROP i REJECT w akcjach reguły iptables?",
     "answers": [
       {
-        "text": "a. obie odrzucają pakiety, ale DROP zawsze robi to \"po cichu\" (zgodne z kluczem)",
+        "text": "a. obie odrzucają pakiety, ale DROP zawsze robi to \"po cichu\" none",
         "color": "green",
         "isCorrect": true
       },
@@ -19226,7 +19202,7 @@
     "question": "104. Protokół IKE służy do:",
     "answers": [
       {
-        "text": "a. uwierzytelniania stron zestawianego tunelu VPN (zgodne z kluczem)",
+        "text": "a. uwierzytelniania stron zestawianego tunelu VPN none",
         "color": "green",
         "isCorrect": true
       },
@@ -19241,7 +19217,7 @@
         "isCorrect": false
       },
       {
-        "text": "d. generowania kluczy sesji w zestawionych tunelach VPN (zgodne z kluczem)",
+        "text": "d. generowania kluczy sesji w zestawionych tunelach VPN none",
         "color": "green",
         "isCorrect": true
       }
@@ -19257,7 +19233,7 @@
         "isCorrect": false
       },
       {
-        "text": "b. tajny klucz symetryczny użytkownika (zgodne z kluczem)",
+        "text": "b. tajny klucz symetryczny użytkownika none",
         "color": "green",
         "isCorrect": true
       },
@@ -19278,7 +19254,7 @@
     "question": "106. Do których elementów modelu DOM ma dostęp skrypt javascript w przeglądarce internetowej?",
     "answers": [
       {
-        "text": "a. do wszystkich DOM we wszystkich otwartych oknach/kartach (zgodne z kluczem)",
+        "text": "a. do wszystkich DOM we wszystkich otwartych oknach/kartach none",
         "color": "green",
         "isCorrect": true
       },
@@ -19393,13 +19369,13 @@
       },
       {
         "text": "c. przejęcie konta administratora (root) na serwerze KDC",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "d. pozyskanie danych uwierzytelniających administratora (kadmin) KDC",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -19409,8 +19385,8 @@
     "answers": [
       {
         "text": "a. ograniczenia czasowe dostępu do systemu operacyjnego",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "b. klucze wstępne dla tunelu IPsec",
@@ -19419,13 +19395,13 @@
       },
       {
         "text": "c. sposób uwierzytelniania aplikacji",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "d. ograniczenie wielkości pamięci jaką mogą wykorzystać procesory użytkownika",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -19435,13 +19411,13 @@
     "answers": [
       {
         "text": "a. POSIX capabilities",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "b. control groups",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "c. chroot",
@@ -19450,8 +19426,8 @@
       },
       {
         "text": "d. user namespace",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -19461,8 +19437,8 @@
     "answers": [
       {
         "text": "a. możliwość wstrzyknięcia kodu SQL",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "b. atak typu phising",
@@ -19471,13 +19447,13 @@
       },
       {
         "text": "c. możliwość wstrzyknięcia kodu JavaScript",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "d. nieprawidłowe zarządzanie sesją użytkownika",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       }
     ]
   },
@@ -19487,13 +19463,13 @@
     "answers": [
       {
         "text": "a. używać klucza znanego serwerowi TGS",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "b. być znany serwerowi KDC (zarejestrowany)",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "c. być w domenie DNS o nazwie identycznej z nazwą realm",
