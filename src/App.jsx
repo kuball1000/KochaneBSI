@@ -84,6 +84,15 @@ function App() {
           onBack={() => setMode('menu')} 
           isSmartLearning={true} 
           startId={4000} 
+          endId={4499}
+        />
+      )}
+
+      {mode === 'Hurtownie-zaliczenie' && (
+        <Quiz 
+          onBack={() => setMode('menu')} 
+          isSmartLearning={true} 
+          startId={4500} 
           endId={4999}
         />
       )}

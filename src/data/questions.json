@@ -19482,5 +19482,563 @@
         "isCorrect": false
       }
     ]
+  },
+  {
+    "id": 4500,
+    "question": "Operational data store / staging area / data stage / operacyjna składnica danych:",
+    "answers": [
+      {
+        "text": "umożliwia przechowywanie pośrednich wyników przetwarzania ETL",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "umożliwia zaimplementowanie data lineage",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zapewnia zmniejszenie obciążenia źródeł danych procesami ETL",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "jest odświeżana w trybie synchronicznym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dostęp do tzw. kostek OLAP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dostęp do danych zagregowanych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "przechowywanie tzw. cold data",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4501,
+    "question": "Zalety architektury ELT są następujące:",
+    "answers": [
+      {
+        "text": "jednolite środowisko składowania i przetwarzania danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "brak konieczności konwertowania typów danych pomiędzy bazą danych a procesami przetwarzającymi dane",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "niższe koszty licencji oprogramowania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "łatwość zarządzania procesami przetwarzania danych dla dużych instalacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "łatwe utrzymanie architektury dla dużych instalacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "można ją także stosować w architekturach integracji wirtualnej",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4502,
+    "question": "Zaznacz aktywności, które są komponentami procesu ETL:",
+    "answers": [
+      {
+        "text": "korekcja błędów literowych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "normalizowanie wartości",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "deduplikowanie rekordów",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "analiza dziennego przyrostu wolumenu danych w źródle",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "analiza liczby transakcji realizowanej w źródle w ciągu doby",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "profilowanie danych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4503,
+    "question": "Algorytm Canopy Clustering buduje klastry:",
+    "answers": [
+      {
+        "text": "nierozłączne",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "rozłączne",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "gdzie ten sam rekord może znaleźć się w nie więcej niż dwóch klastrach",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "każdy rekord znajdzie się w dokładnie jednym klastrze",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4504,
+    "question": "Metadane ETL opisują:",
+    "answers": [
+      {
+        "text": "wyniki profilowania źródeł danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zależności kolejnościowe zadań w procesie ETL",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "charakterystyki wydajnościowe procesów ETL",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "uprawnienia użytkowników hurtowni danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "charakterystyki wydajnościowe zapytań analitycznych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "charakterystyki obciążenia źródeł danych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4505,
+    "question": "Data mart (tematyczna HD):",
+    "answers": [
+      {
+        "text": "zawiera dane wyłącznie zagregowane",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "jest najczęściej implementowana w technologii MOLAP",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "w modelu ROLAP jest implementowana za pomocą perspektyw zmaterializowanych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zawiera dane wyłącznie elementarne",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawiera dane zagregowane i elementarne",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jest implementowana w warstwie operational data store",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "jest budowana na bieżąco w aplikacji analitycznej",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "może zastąpić operational data store",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4506,
+    "question": "Najbardziej efektywną techniką wykrywania zmian w zawartości źródeł danych jest:",
+    "answers": [
+      {
+        "text": "analiza zawartości dziennika transakcyjnego (redo log)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "porównanie 2 migawek źródła danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "rejestrowanie zmian w aplikacji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wyzwalacz DML na tabeli",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "analiza zawartości logu zaimplementowanego przez administratora bd",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4507,
+    "question": "Profilowanie źródła danych polega m.in. na:",
+    "answers": [
+      {
+        "text": "analizie charakterystyk danych składowanych w źródle",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "budowaniu profilu przyrostu wolumenu danych w czasie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "definiowaniu profili wydajnościowych źródła danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "budowaniu profili dostępu do źródeł danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "budowaniu profili wykorzystania danych przez użytkowników",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4508,
+    "question": "Architektura ETL:",
+    "answers": [
+      {
+        "text": "może być bardziej wydajna od ELT",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "jest zawsze bardziej wydajna od ELT",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawsze wymaga stosowania data stage",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "realizuje zadanie profilowania danych, czego nie można zrealizować w ELT",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawsze wymaga stosowania mniejszej liczby komponentów niż ELT",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nie realizuje profilowania danych, bo jest to możliwe wyłącznie w architekturze ELT",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4509,
+    "question": "Oprogramowanie Complex Event Processing:",
+    "answers": [
+      {
+        "text": "służy do wykrywania predefiniowanych zdarzeń w strumieniach danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "działa na tym samym serwerze co hurtownia danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "służy do wykrywania wartości odstających w procesach czyszczenia danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "służy do wykrywania wzorców w procesie profilowania danych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4510,
+    "question": "W systemie mediacyjnym:",
+    "answers": [
+      {
+        "text": "Dane są składowane w tzw. ODS",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Dane są przechowywane w źródłach",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Dane są składowane w warstwie pośredniej pomiędzy HD i źródłami danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Dane są przechowywane w warstwie mediatora",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4511,
+    "question": "Cel stosowania ODS jest następujący:",
+    "answers": [
+      {
+        "text": "Przyspieszenie wykonywania zapytań analitycznych w HD",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Odseparowanie ETL od przetwarzania OLTP w źródłach danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Zwiększenie efektywności ETL",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Zapewnienie mechanizmów odtwarzania HD po awarii",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4512,
+    "question": "Najbardziej efektywną techniką wykrywania zmian w zawartości źródeł danych jest:",
+    "answers": [
+      {
+        "text": "snapshot log",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "log sniffing",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "porównanie 2 migawek źródła",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "monitorowanie aplikacji",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4513,
+    "question": "Dane są dwa ciągi znaków \"12345\" i \"54321\". Wartość dystansu Levensteina dla nich wynosi (dozwolone operacje to wstaw lub usuń):",
+    "answers": [
+      {
+        "text": "5",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "8",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "10",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "6",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4514,
+    "question": "Profilowanie źródeł polega na:",
+    "answers": [
+      {
+        "text": "modyfikowaniu struktury źródła danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "analizie danych składowanych w źródle",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "definiowaniu profili dostępu użytkowników do źródła",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "budowaniu mapy odwzorowań danych źródło-HD",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "analizie struktury źródeł",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4515,
+    "question": "Lineage umożliwia:",
+    "answers": [
+      {
+        "text": "określenie odwzorowania pomiędzy danymi w HD a danymi w źródłach",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "śledzenie zmian w strukturze HD",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "śledzenie zmian w zawartości HD",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "określenie odwzorowania pomiędzy tabelami a perspektywami zmaterializowanymi",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 4516,
+    "question": "Tematyczna hurtownia danych (data mart):",
+    "answers": [
+      {
+        "text": "musi być zawsze budowana w systemie HD",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawiera dane elementarne opisujące fragment analizowanej rzeczywistości",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawiera dane zagregowane opisujące fragment analizowanej rzeczywistości",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zawiera dane zagregowane na wyższym poziomie niż centralna HD",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 4517,
+    "question": "Podać postać skompresowanego ciągu klasycznym algorytmem run-length: aaabcdefefffffgggggggggggggaa",
+    "answers": [
+      {
+        "text": "3a1b1c1d1e5f12g2a",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "3a1b1c1d2ef5g12a2",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "3ab1c1d1e1f5g12a2",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "aaabcdefefffffgggggggggggggaa",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
   }
 ]
