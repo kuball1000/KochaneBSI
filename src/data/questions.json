@@ -19540,8 +19540,8 @@
       },
       {
         "text": "niższe koszty licencji oprogramowania",
-        "color": "none",
-        "isCorrect": false
+        "color": "green",
+        "isCorrect": true
       },
       {
         "text": "łatwość zarządzania procesami przetwarzania danych dla dużych instalacji",
