@@ -19628,8 +19628,8 @@
     "answers": [
       {
         "text": "wyniki profilowania źródeł danych",
-        "color": "green",
-        "isCorrect": true
+        "color": "none",
+        "isCorrect": false
       },
       {
         "text": "zależności kolejnościowe zadań w procesie ETL",
