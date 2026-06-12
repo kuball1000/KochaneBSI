@@ -20040,5 +20040,1383 @@
         "isCorrect": false
       }
     ]
+  },
+  {
+    "id": 5000,
+    "question": "Do czego są wykorzystywane przestrzenie wycofania?",
+    "answers": [
+      {
+        "text": "do zagwarantowania spójności odczytu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "do wykonania 2 fazy odtworzenia bazy danych polegającej na wycofaniu wszystkich operacji zrealizowanych przez {em}niezatwierdzone{\\em} transakcje (ROLLBACK)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "do wycofywania transakcji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "do wykonania 1 fazy odtworzenia bazy danych polegającej na powtórzeniu {em}wszystkich{\\em} zrealizowanych operacji w bazie danych (ROLLFORWARD)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5001,
+    "question": "Baza danych posiada dwie grupy dziennika powtórzeń, po jednym elemencie w każdej z nich. Jakie działanie może podjąć DBA w celu zwiększenia niezawodności działania bazy danych?",
+    "answers": [
+      {
+        "text": "Dodanie dodatkowych elementów do grup i umieszczenie ich na oddzielnym dysku",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Utworzenie nowej grupy elementów i umieszczenie jej na oddzielnym dysku",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Powiększenie rozmiaru elementów w grupach",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Nie ma możliwości wykonania jakichkolwiek działań",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5002,
+    "question": "Które z podanych zdarzeń inicjują wykonanie punktu kontrolnego:",
+    "answers": [
+      {
+        "text": "przełączenie dziennika powtórzeń",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zatwierdzenie transakcji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zamknięcie bazy danych w trybie NORMAL",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wykonanie polecenia ALTER SYSTEM CHECKPOINT",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5003,
+    "question": "Repozytorium RMANa może się znajdować w:",
+    "answers": [
+      {
+        "text": "RMAN może pracować bez repozytorium",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "pliku kontrolnym produkcyjnej bazy danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "słowniku danych produkcyjnej bazy danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "katalogu odtwarzania",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5004,
+    "question": "Jaki proces odtwarza automatycznie instancję bazy danych po awarii instancji?",
+    "answers": [
+      {
+        "text": "proces punktu kontrolnego (CKPT)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "archiwizator (ARCH)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "monitor procesów (PMON)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "monitor systemu (SMON)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5005,
+    "question": "Jeżeli brakuje statystyk to przed optymalizowaniem zapytania system:",
+    "answers": [
+      {
+        "text": "zbierze statystyki w zależności od wartości parametru inicjalizacyjnego OPTIMIZER_DYNAMIC_SAMPLING",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zawsze wykorzysta optymalizator regułowy, który nie potrzebuje statystyk",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawsze zbierze brakujące statystyki",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawsze przyjmie wartości domyślne statystyk",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5006,
+    "question": "Która z wymienionych faz polecenia UPDATE wykonywana jest przez proces usługowy jako pierwsza?",
+    "answers": [
+      {
+        "text": "zapis do segmentu wycofania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zapis do bufora dziennika powtórzeń",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "modyfikacja danych w buforze danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "założenie blokad",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5007,
+    "question": "Typowymi przyczynami problemów wydajnościowych są:",
+    "answers": [
+      {
+        "text": "brak aktualnych statystyk",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "błędne zarządzanie połączeniami w architekturze aplikacji wielowarstwowych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "niewspółdzielenie kursorów",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "niepełne przeniesienie struktury bazy danych ze środowiska rozwojowego do produkcyjnego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5008,
+    "question": "W trakcie jakiej fazy wykonywania polecenia SQL jest wykonywana optymalizacja planu?",
+    "answers": [
+      {
+        "text": "wykonanie (EXECUTE)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "analiza składniowa (PARSE)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "nie jest wykonywana, gdy gotowy plan wykonania polecenia znajduje się w SGA",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "pobranie wyników (FETCH)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5009,
+    "question": "Jaka jest minimalna liczba grup bieżącego dziennika powtórzeń?",
+    "answers": [
+      {
+        "text": "2",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "3",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "0 - jest to struktura opcjonalna, wymagana jedynie w trybie ARCHIVELOG",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5010,
+    "question": "W jakiej fazie uruchamiania systemu następuje odczytanie pliku kontrolnego?",
+    "answers": [
+      {
+        "text": "w trakcie uruchamiania systemu operacyjnego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w fazie NOMOUNT",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w fazie OPEN",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w fazie MOUNT",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5011,
+    "question": "Punkt kontrolny jest realizowany przez:",
+    "answers": [
+      {
+        "text": "proces punktu kontrolnego (CKPT)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "sekretarza bazy danych (DBWR)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "archiwizator (ARCH)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sekretarza dziennika powtórzeń (LGWR)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5012,
+    "question": "Które zdania dotyczące kopii bezpieczeństwa wykonanej za pomocą RMANa są prawdziwe?",
+    "answers": [
+      {
+        "text": "zestawy kopii to binarna kopia plików bazy danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zestawy kopii to zbiór plików we wewnętrznym formacie RMANa zawierający bloki danych bazy danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "kopia obrazu to zbiór plików we wewnętrznym formacie RMANa zawierający bloki danych bazy danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "kopia obrazu to binarna kopia plików bazy danych",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5013,
+    "question": "Automatyczne zarządzanie przestrzenią wycofania:",
+    "answers": [
+      {
+        "text": "Ułatwia oszacowanie wielkości przestrzeni dyskowej przeznaczonej na dane wycofania",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Zwalnia administratora z zarządzania segmentami wycofania",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Umożliwia zagwarantowanie okresu UNDO_RETENTION",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Umożliwia określenie okresu przechowywania danych wycofania (UNDO_RETENTION)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5014,
+    "question": "Konfiguracja klienta środowiska komunikacyjnego SQLNET znajduje się plikach:",
+    "answers": [
+      {
+        "text": "listener.ora",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sqlnet.ora",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "tnsnames.ora",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "initSID.ora",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5015,
+    "question": "W jakich przypadkach wymagane jest niepełne odtworzenie bazy danych po awarii?",
+    "answers": [
+      {
+        "text": "utrata wszystkich kopii aktywnego pliku dziennika powtórzeń",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "utrata pliku przestrzeni tabel TEMP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "utrata pliku z parametrami",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "utrata pliku przestrzeni tabel SYSTEM",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5016,
+    "question": "Która z wymienionych logicznych struktur bazy danych musi być dostępna, aby można było wystartować instancję bazy danych (STARTUP NOMOUNT)?",
+    "answers": [
+      {
+        "text": "Bieżące pliki dziennika powtórzeń",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Przestrzeń tabel SYSTEM",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Plik z parametrami",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Plik kontrolny",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5017,
+    "question": "Najprostrzym mechanizmem do odzyskania zawartości usuniętej tabeli (DROP TABLE) jest:",
+    "answers": [
+      {
+        "text": "retrospekcja transakcji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "retrospekcja bazy danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "odtwarzanie niepełnego do punktu w czasie",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "retrospekcja usunięcia tabeli",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5018,
+    "question": "Ktore ze zdań opisujących globalne tabele tymczasowe jest prawdziwe:",
+    "answers": [
+      {
+        "text": "Dane w tabeli tymczasowej są widoczne tylko dla sesji, która je wstawiała",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Utrzymują dane podczas trwania transakcji lub sesji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Można dla nich definiować indeksy, wyzwalacze i perspektywy (z wyjątkiem łączących tabele tymczasowe i trwałe)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Posiadają trwałą definicję w słowniku",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5019,
+    "question": "Mechanizm retrospekcji bazy danych opiera się o następujące struktury:",
+    "answers": [
+      {
+        "text": "bieżące pliki dziennika powtórzeń",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zarchiwizowane pliki dziennika powtórzeń",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "dziennik retrospekcji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "przestrzeń wycofania",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5020,
+    "question": "Archiwizacja plików dziennika powtórzeń umożliwia:",
+    "answers": [
+      {
+        "text": "wykonanie gorącego backupu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "odtworzenie bazy danych do momentu w czasie",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wykonanie przyrostowego backupu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wycofanie zatwierdzonych transakcji",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5021,
+    "question": "Pomyślne zakończenie wykonania polecenia COMMIT jest uzależnione od operacji realizowanej przez:",
+    "answers": [
+      {
+        "text": "sekretarza bazy danych (DBWR)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sekretarza dziennika powtórzeń (LGWR)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "proces punktu kontrolnego (CKPT)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "archiwizator (ARCH)",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5022,
+    "question": "Zadaniem SZBD jest:",
+    "answers": [
+      {
+        "text": "Zarządzanie zasobami sprzętowymi systemu komputerowego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Autoryzowanie uprawnień użytkownika",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Udostępnianie danych zgodnie z ustalonym interfejsem (np. SQL)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Synchronizowanie współbieżnego dostępu użytkowników do danych",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5023,
+    "question": "Jaki rodzaj indeksu może być przydatny do wsparcia zapytań odwołujących się do atrybutu z małą dziedziną wartośći?",
+    "answers": [
+      {
+        "text": "z odwróconym kluczem",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "skonkatenowany",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "B+drzewo",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "bitmapowy",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5024,
+    "question": "Własności metryk:",
+    "answers": [
+      {
+        "text": "reprezentują informację o przyroście statystki wydajnościowej w zdefiniowanej jednostce czasu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "składowanie statystyk wydajnościowych bazy danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "przechowywane w Automatic Workload Repository",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "dają możliwość składowania migawek w Automatic Workload Repository w czasie dłuższym niż wynika z czasu utrzymania",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5025,
+    "question": "Przeorganizowanie tabeli za pomocą polecenia ALTER TABLE ... SHRINK SPACE:",
+    "answers": [
+      {
+        "text": "Umożliwia przeniesienia tabeli do innej przestrzeni tabel",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Blokuje tabelę podczas przorganizowania w trybie współdzielonym",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Utrzymuje indeksy zdefiniowane na przeorganizowywanej tabeli",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Wymaga dodatkowej przestrzeni dyskowej na nowy segment przeorganizowywanej tabeli",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5026,
+    "question": "W jakich przypadkach wymagane jest niepełne odtworzenie bazy danych po awarii?",
+    "answers": [
+      {
+        "text": "utrata pliku przestrzeni tabel SYSTEM",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "utrata pliku z parametrami",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "utrata pliku przestrzeni tabel TEMP",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "utrata wszystkich kopii aktywnego pliku dziennika powtórzeń",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5027,
+    "question": "W trakcie jakiej fazy wykonywania polecenia SQL jest wykonywana optymalizacja planu?",
+    "answers": [
+      {
+        "text": "wiązanie zmiennych (BIND)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "analiza składniowa (PARSE)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "pobranie wyników (FETCH)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "nie jest wykonywana, gdy gotowy plan wykonania polecenia znajduje się w SGA",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5028,
+    "question": "Ktore zdania dotyczące kopii bezpieczeństwa wykonanej za pomocą RMANa są prawdziwe?",
+    "answers": [
+      {
+        "text": "zestawy kopii to zbiór plików we wewnętrznym formacie RMANa zawierający bloki danych bazy danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "kopia obrazu to binarna kopia plików bazy danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "kopia obrazu to zbiór plików we wewnętrznym formacie RMANa zawierający bloki danych bazy danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zestawy kopii to binarna kopia plików bazy danych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5029,
+    "question": "Za pomyślne zakończenie operacji COMMIT odpowiada:",
+    "answers": [
+      {
+        "text": "sekretarz bazy danych (DBWR)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "archiwizator (ARCH)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "proces punktu kontrolnego (CKPT)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sekretarz dziennika powtórzeń (LGWR)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5030,
+    "question": "Do czego są wykorzystywane przestrzenie wycofania?",
+    "answers": [
+      {
+        "text": "do wykonywania retrospekcji bazy danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "do zagwarantowania spójności odczytu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "do wycofywania transakcji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "do wykonania 1 fazy odtworzenia bazy danych polegającej na wznowieniu wszystkich operacji od ostatniego punktu kontrolnego do momentu wystąpienia awarii",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5031,
+    "question": "Automatic Workload Repository",
+    "answers": [
+      {
+        "text": "służy do składowania statystyk wydajnościowych bazy danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "stanowi źródło informacji dla Automatic Database Diagnostic Monitor",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "daje możliwość ręcznego zebrania statystyk wydajnościowych bazy danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "analizuje wydajność bazy danych, generując informację o problemach wydajnościowych, oraz przyczynach i sposobach ich usunięcia",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5032,
+    "question": "Jaka jest minimalna liczba grup bieżącego dziennika powtórzeń?",
+    "answers": [
+      {
+        "text": "3",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "0 - jest to struktura opcjonalna, wymagana jedynie w trybie ARCHIVELOG",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5033,
+    "question": "Która z wymienionych logicznych struktur bazy danych musi być dostępna, aby można było wystartować instancję bazy danych (STARTUP NOMOUNT)?",
+    "answers": [
+      {
+        "text": "Plik kontrolny",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Przestrzeń tabel SYSTEM",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Bieżące pliki dziennika powtórzeń",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Plik z parametrami",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5034,
+    "question": "Które z podanych zdarzeń inicjują wykonanie punktu kontrolnego:",
+    "answers": [
+      {
+        "text": "zatwierdzenie transakcji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zamknięcie bazy danych w trybie NORMAL",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "wykonanie polecenia ALTER SYSTEM CHECKPOINT",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zamknięcie bazy danych w trybie ABORT",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5035,
+    "question": "Przeorganizowanie tabeli za pomocą polecenia ALTER TABLE ... MOVE:",
+    "answers": [
+      {
+        "text": "Blokuje tabelę na cały czas przorganizowania w trybie współdzielonym",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Utrzymuje indeksy zdefiniowane na przeorganizowywanej tabeli",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Wymaga dodatkowej przestrzeni dyskowej na nowy segment przeorganizowywanej tabeli",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Umożliwia przeniesienia tabeli do innej przestrzeni tabel",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5036,
+    "question": "Archiwizacja plików dziennika powtórzeń:",
+    "answers": [
+      {
+        "text": "umożliwia wykonanie gorącego backupu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "umożliwia wykonanie przyrostowego backupu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "wymagana jest do włączenia mechanizmu retrospekcji bazy danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "umożliwia pełne odtworzenie bazy danych",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5037,
+    "question": "Konfiguracja klienta środowiska komunikacyjnego SQLNET znajduje się plikach:",
+    "answers": [
+      {
+        "text": "tnsnames.ora",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "initSID.ora",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "listener.ora",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "sqlnet.ora",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5038,
+    "question": "Najprostszym mechanizmem do odzyskania zawartości usuniętej tabeli (DROP TABLE) jest:",
+    "answers": [
+      {
+        "text": "retrospekcja bazy danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "retrospekcja usunięcia tabeli",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "retrospekcja transakcji",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "odtwarzanie niepełnego do punktu w czasie",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5039,
+    "question": "Jaki proces odtwarza automatycznie instancję bazy danych po jej awarii?",
+    "answers": [
+      {
+        "text": "monitor procesów (PMON)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "proces punktu kontrolnego (CKPT)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "archiwizator (ARCH)",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "monitor systemu (SMON)",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5040,
+    "question": "Automatyczne zarządzanie przestrzenią wycofania:",
+    "answers": [
+      {
+        "text": "Umożliwia wykonywanie retrospekcji usunięcia tabeli",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Ułatwia oszacowanie wielkości przestrzeni dyskowej przeznaczonej na dane wycofania",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Umożliwia określenie okresu przechowywania danych wycofania (UNDO_RETENTION)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Zwalnia administratora z zarządzania segmentami wycofania",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5041,
+    "question": "Mechanizm retrospekcji bazy danych opiera się o następujące struktury:",
+    "answers": [
+      {
+        "text": "bieżące pliki dziennika powtórzeń",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "przestrzeń wycofania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "dziennik retrospekcji",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zarchiwizowane pliki dziennika powtórzeń",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5042,
+    "question": "Która z wymienionych faz polecenia UPDATE wykonywana jest przez proces usługowy jako pierwsza?",
+    "answers": [
+      {
+        "text": "zapis do segmentu wycofania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "założenie blokad",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zapis do bufora dziennika powtórzeń",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "modyfikacja danych w buforze danych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5043,
+    "question": "Przeorganizowanie indeksu za pomocą polecenia ALTER INDEX... REBUILD ONLINE:",
+    "answers": [
+      {
+        "text": "Blokuje operacje na indeksie na czas wykonywanego przeorganizowania",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Daje możliwość zmniejszenia wysokości indeksu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Umożliwia zmniejszenie liczby bloków na poszczególnych poziomach drzewa indeksu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Umożliwia przeniesienia indeksu do innej przestrzeni tabel",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5044,
+    "question": "Repozytorium RMANa może się znajdować w:",
+    "answers": [
+      {
+        "text": "pliku kontrolnym produkcyjnej bazy danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "RMAN może pracować bez repozytorium",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "katalogu odtwarzania",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "słowniku danych produkcyjnej bazy danych",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5045,
+    "question": "Jeżeli brakuje statystyk opisująch dane użytkownika to przed optymalizowaniem zapytania system:",
+    "answers": [
+      {
+        "text": "zbierze statystyki w zależności od wartości parametru inicjalizacyjnego OPTIMIZER_DYNAMIC_SAMPLING",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "zawsze przyjmie wartości domyślne statystyk",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawsze zbierze brakujące statystyki",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "zawsze wykorzysta optymalizator regułowy, który nie potrzebuje statystyk",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5046,
+    "question": "W jakiej fazie uruchamiania systemu następuje odczytanie pliku kontrolnego?",
+    "answers": [
+      {
+        "text": "w fazie MOUNT",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "w fazie OPEN",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w fazie NOMOUNT",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "w trakcie uruchamiania systemu operacyjnego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5047,
+    "question": "Baza danych posiada dwie grupy dziennika powtórzeń, po jednym elemencie w każdej z nich. Jakie działanie może podjąć DBA w celu zwiększenia niezawodności działania bazy danych?",
+    "answers": [
+      {
+        "text": "Nie ma możliwości wykonania jakichkolwiek działań",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Powiększenie rozmiaru elementów w grupach",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Dodanie dodatkowych elementów do grup i umieszczenie ich na oddzielnym dysku",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Utworzenie nowej grupy elementów i umieszczenie jej na oddzielnym dysku",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5048,
+    "question": "Automatic Database Diagnostic Monitor",
+    "answers": [
+      {
+        "text": "służy do składowania statystyk wydajnościowych bazy danych",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "proponuje uruchomienie innych narzędzi doradczych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "analizuje wydajność bazy danych, generując informację o problemach wydajnościowych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "podaje przyczyny problemów wydajnościowych i sposoby ich usunięcia",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5049,
+    "question": "Zadaniem SZBD jest:",
+    "answers": [
+      {
+        "text": "Zarządzanie zasobami sprzętowymi systemu komputerowego",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Udostępnianie danych zgodnie z ustalonym interfejsem (np. SQL)",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Synchronizowanie współbieżnego dostępu użytkowników do danych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Optymalizacja poleceń użytkowników",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5050,
+    "question": "Jaki rodzaj indeksu może być przydatny do wsparcia zapytań odwołujących się do atrybutu z małą dziedziną wartośći?",
+    "answers": [
+      {
+        "text": "skonkatenowany",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "z odwróconym kluczem",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "B+drzewo",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "bitmapowy",
+        "color": "green",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "id": 5051,
+    "question": "Typowymi przyczynami problemów wydajnościowych są:",
+    "answers": [
+      {
+        "text": "niewspółdzielenie kursorów",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "brak aktualnych statystyk",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "błędne zarządzanie połączeniami w architekturze aplikacji wielowarstwowych",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "niepełne przeniesienie struktury bazy danych ze środowiska rozwojowego do produkcyjnego",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 5052,
+    "question": "Przeorganizowanie indeksu za pomocą polecenia ALTER INDEX... COALESCE:",
+    "answers": [
+      {
+        "text": "Umożliwia przeniesienia indeksu do innej przestrzeni tabel",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Umożliwia zmniejszenie liczby bloków na poszczególnych poziomach drzewa indeksu",
+        "color": "green",
+        "isCorrect": true
+      },
+      {
+        "text": "Daje możliwość zmniejszenia wysokości indeksu",
+        "color": "none",
+        "isCorrect": false
+      },
+      {
+        "text": "Wymaga dodatkowej przestrzeni dyskowej na nowy segment przeorganizowywanej tabeli",
+        "color": "none",
+        "isCorrect": false
+      }
+    ]
   }
 ]

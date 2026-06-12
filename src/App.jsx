@@ -96,6 +96,15 @@ function App() {
           endId={4999}
         />
       )}
+
+      {mode === 'ASBD-zaliczenie' && (
+        <Quiz 
+          onBack={() => setMode('menu')} 
+          isSmartLearning={true} 
+          startId={5000} 
+          endId={5499}
+        />
+      )}
     </div>
   );
 }
